@@ -1,0 +1,122 @@
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 08 Dec 2013 11:58:46 PM AKST
+
+BeginCmp
+TimeStamp = /529EC2A5;
+Reference = C1;
+ValeurCmp = 10uF 35V;
+IdModule  = c_tant_D;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC21B;
+Reference = C2;
+ValeurCmp = 100nF 50V;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC20C;
+Reference = C3;
+ValeurCmp = 2.2uF;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC1FD;
+Reference = C4;
+ValeurCmp = 10nF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC1DF;
+Reference = C5;
+ValeurCmp = 20nF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC1EE;
+Reference = C6;
+ValeurCmp = 20nF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC25A;
+Reference = C7;
+ValeurCmp = 20nF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC269;
+Reference = C8;
+ValeurCmp = 20nF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC278;
+Reference = C9;
+ValeurCmp = 100nF;
+IdModule  = c_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC296;
+Reference = C10;
+ValeurCmp = 2.2uF;
+IdModule  = c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC2B4;
+Reference = C11;
+ValeurCmp = 220uF;
+IdModule  = c_elec_10x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC89F;
+Reference = J1;
+ValeurCmp = SMA;
+IdModule  = sma;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC8AE;
+Reference = J2;
+ValeurCmp = SMA;
+IdModule  = sma;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC360;
+Reference = L1;
+ValeurCmp = #43 4T 22AWG;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC342;
+Reference = L2;
+ValeurCmp = #61 26T 22AWG;
+IdModule  = R7;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC194;
+Reference = Q1;
+ValeurCmp = MRFE6VS25L;
+IdModule  = NI360;
+EndCmp
+
+BeginCmp
+TimeStamp = /529EC351;
+Reference = R1;
+ValeurCmp = 1k 3W;
+IdModule  = R5;
+EndCmp
+
+EndListe
