@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Sun 08 Dec 2013 11:58:46 PM AKST
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue 10 Dec 2013 10:34:38 PM AKST
 
 BeginCmp
 TimeStamp = /529EC2A5;
@@ -95,14 +95,14 @@ BeginCmp
 TimeStamp = /529EC360;
 Reference = L1;
 ValeurCmp = #43 4T 22AWG;
-IdModule  = R7;
+IdModule  = toroid;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC342;
 Reference = L2;
 ValeurCmp = #61 26T 22AWG;
-IdModule  = R7;
+IdModule  = toroid;
 EndCmp
 
 BeginCmp

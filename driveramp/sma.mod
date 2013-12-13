@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  Sun 08 Dec 2013 10:29:31 PM AKST
+PCBNEW-LibModule-V1  Tue 10 Dec 2013 09:41:44 PM AKST
 # encoding utf-8
 Units mm
 $INDEX
 sma
+toroid
 $EndINDEX
 $MODULE sma
 Po 0 0 0 15 52A56E7A 00000000 ~~
@@ -48,4 +49,32 @@ Ne 0 ""
 Po 0 -4.4
 $EndPAD
 $EndMODULE sma
+$MODULE toroid
+Po 0 0 0 15 52A808DB 00000000 ~~
+Li toroid
+Sc 0
+AR 
+Op 0 0 0
+T0 -1.27 -3.81 1 1 0 0.15 N V 21 N "toroid"
+T1 -1.27 -5.08 1 1 0 0.15 N V 21 N "VAL**"
+DS 0 -2.54 -13.97 -2.54 0.15 21
+DS -13.97 -2.54 -13.97 2.54 0.15 21
+DS -13.97 2.54 13.97 2.54 0.15 21
+DS 13.97 2.54 13.97 -2.54 0.15 21
+DS 13.97 -2.54 0 -2.54 0.15 21
+$PAD
+Sh "2" C 2.4 2.4 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5 0
+$EndPAD
+$PAD
+Sh "1" C 2.4 2.4 0 0 0
+Dr 1.4 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5 0
+$EndPAD
+$EndMODULE toroid
 $EndLIBRARY
