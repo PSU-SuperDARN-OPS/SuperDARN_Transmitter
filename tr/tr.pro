@@ -1,4 +1,4 @@
-update=Thu Dec 12 10:18:27 2013
+update=Sun 15 Dec 2013 04:07:26 PM AKST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -86,3 +86,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=l6388e
 LibName32=/home/kleinjt/repos/SuperDARN_Transmitter/driveramp/sma
+LibName33=lt1631
