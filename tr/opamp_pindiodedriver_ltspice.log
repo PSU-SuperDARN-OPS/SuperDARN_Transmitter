@@ -1,0 +1,60 @@
+Circuit: * Z:\home\kleinjt\repos\SuperDARN_Transmitter\tr\opamp_pindiodedriver_ltspice.asc
+
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-005
+vernier = 0.5
+Gmin = 2.5711e-006
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 2.05372e-006
+vernier = 0.0833333
+Gmin = 1.7056e-006
+vernier = 0.111111
+vernier = 0.148148
+Gmin = 1.25114e-006
+vernier = 0.197531
+vernier = 0.263374
+Gmin = 7.66879e-007
+vernier = 0.351165
+Gmin = 3.58657e-007
+vernier = 0.46822
+vernier = 0.624294
+Gmin = 1.03345e-007
+vernier = 0.832392
+vernier = 1
+Gmin = 1.59179e-008
+Gmin = 1.70917e-009
+Gmin = 1.83521e-010
+Gmin = 1.97054e-011
+Gmin = 2.11585e-012
+Gmin = 2.27188e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Mon Dec 16 09:52:53 2013
+Total elapsed time: 6.458 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 566766
+traniter = 565853
+tranpoints = 259138
+accept = 187275
+rejected = 71863
+matrix size = 24
+fillins = 8
+solver = Normal
+Matrix Compiler1: 1.40 KB object code size  0.6/0.3/[0.3]
+Matrix Compiler2: off  [0.4]/0.6/0.7
+
+
