@@ -1,0 +1,79 @@
+PCBNEW-LibModule-V1  Mon Jan 27 13:35:45 2014
+# encoding utf-8
+Units mm
+$INDEX
+SO8PowerPAK
+$EndINDEX
+$MODULE SO8PowerPAK
+Po 0 0 0 15 52E6C90E 00000000 ~~
+Li SO8PowerPAK
+Sc 0
+AR 
+Op 0 0 0
+T0 0 -5.08 1 1 0 0.15 N V 21 N "SO8PowerPAK"
+T1 -2.54 -6.35 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 1.27 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.62 -1.91
+$EndPAD
+$PAD
+Sh "2" R 1.27 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.611 -0.635
+$EndPAD
+$PAD
+Sh "3" R 1.27 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.6211 0.635
+$EndPAD
+$PAD
+Sh "4" R 1.27 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -2.62 1.91
+$EndPAD
+$PAD
+Sh "5" R 1.27 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.62 1.91
+$EndPAD
+$PAD
+Sh "6" R 1.27 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.62 0.635
+$EndPAD
+$PAD
+Sh "7" R 1.27 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.62 -0.635
+$EndPAD
+$PAD
+Sh "8" R 1.27 0.61 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.62 -1.91
+$EndPAD
+$PAD
+Sh "9" R 3.81 3.81 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0.72 0
+$EndPAD
+$EndMODULE SO8PowerPAK
+$EndLIBRARY

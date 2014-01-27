@@ -1,6 +1,6 @@
-update=Mon 16 Dec 2013 11:16:20 AM AKST
+update=Mon Jan 27 13:27:14 2014
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -44,6 +44,11 @@ LibName20=melf-1072
 LibDir=../driveramp
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=../tr
@@ -86,8 +91,7 @@ LibName30=valves
 LibName31=l6388e
 LibName32=/home/kleinjt/repos/SuperDARN_Transmitter/driveramp/sma
 LibName33=lt1631
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName34=lt3757
+LibName35=mos_n_ppak
+LibName36=tr-cache
+LibName37=transfo_multi

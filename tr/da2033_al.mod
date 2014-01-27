@@ -1,0 +1,100 @@
+PCBNEW-LibModule-V1  Mon Jan 27 14:51:03 2014
+# encoding utf-8
+Units mm
+$INDEX
+DA2033-AL
+$EndINDEX
+$MODULE DA2033-AL
+Po 0 0 0 15 52E6F0D9 00000000 ~~
+Li DA2033-AL
+Sc 0
+AR 
+Op 0 0 0
+T0 -1.5 -10.4 1 1 0 0.15 N V 21 N "DA2033-AL"
+T1 -3.75 -8.9 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "1" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.15 -6.34
+$EndPAD
+$PAD
+Sh "2" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.15 -3.81
+$EndPAD
+$PAD
+Sh "3" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.15 -1.27
+$EndPAD
+$PAD
+Sh "4" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.15 1.27
+$EndPAD
+$PAD
+Sh "5" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.15 3.81
+$EndPAD
+$PAD
+Sh "6" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -11.15 6.35
+$EndPAD
+$PAD
+Sh "7" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.15 6.35
+$EndPAD
+$PAD
+Sh "8" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.15 3.81
+$EndPAD
+$PAD
+Sh "9" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.15 1.27
+$EndPAD
+$PAD
+Sh "10" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.15 -1.27
+$EndPAD
+$PAD
+Sh "11" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.15 -3.81
+$EndPAD
+$PAD
+Sh "12" R 3.3 1.8 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 11.15 -6.35
+$EndPAD
+$EndMODULE DA2033-AL
+$EndLIBRARY
