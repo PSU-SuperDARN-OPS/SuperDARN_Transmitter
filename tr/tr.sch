@@ -39,7 +39,7 @@ $Descr B 17000 11000
 encoding utf-8
 Sheet 1 1
 Title "High Power TX/RX Switch"
-Date "16 dec 2013"
+Date "17 dec 2013"
 Rev "0"
 Comp "Geophysical Institute, University of Alaska, Fairbanks"
 Comment1 "Jon Klein"
@@ -1804,4 +1804,16 @@ F 3 "" H 14000 3250 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	14000 3250 14000 3450
+Text Label 7600 7300 0    60   ~ 0
+hv_vdd
+Text Label 7600 7850 0    60   ~ 0
+hvs
+Text Label 7600 8400 0    60   ~ 0
+hvout
+Text Label 7600 8950 0    60   ~ 0
+hvd
+Text Label 8700 8400 0    60   ~ 0
+hvbias
+Text Label 8900 5650 0    60   ~ 0
+hvdiode
 $EndSCHEMATC
