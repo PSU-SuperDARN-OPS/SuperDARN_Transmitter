@@ -1,6 +1,6 @@
-update=Mon Jan 27 13:27:14 2014
+update=Mon Jan 27 15:47:08 2014
 version=1
-last_client=eeschema
+last_client=cvpcb
 [pcbnew]
 version=1
 LastNetListRead=
@@ -41,14 +41,12 @@ LibName17=sma
 LibName18=to252
 LibName19=l_3x3
 LibName20=melf-1072
+LibName21=da2033_al
+LibName22=powerpakso8
+LibName23=msop10ep
 LibDir=../driveramp
 [general]
 version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [eeschema]
 version=1
 LibDir=../tr
@@ -95,3 +93,8 @@ LibName34=lt3757
 LibName35=mos_n_ppak
 LibName36=tr-cache
 LibName37=transfo_multi
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
