@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Mon Jan 27 15:57:42 2014
+Cmp-Mod V01 Created by CvPcb (2013-may-18)-stable date = Tue Jan 28 14:24:46 2014
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -256,7 +256,7 @@ BeginCmp
 TimeStamp = /52ABB859;
 Reference = D1;
 ValeurCmp = ES2A;
-IdModule  = SMB;
+IdModule  = SMB_DO2144AA;
 EndCmp
 
 BeginCmp
@@ -291,42 +291,49 @@ BeginCmp
 TimeStamp = /52ABBCD4;
 Reference = D6;
 ValeurCmp = ES2A;
-IdModule  = SMB;
+IdModule  = SMB_DO2144AA;
 EndCmp
 
 BeginCmp
 TimeStamp = /52AA1B5A;
 Reference = D7;
 ValeurCmp = ES2A;
-IdModule  = SMB;
+IdModule  = SMB_DO2144AA;
 EndCmp
 
 BeginCmp
 TimeStamp = /52AA1B61;
 Reference = D8;
 ValeurCmp = ES2A;
-IdModule  = SMB;
+IdModule  = SMB_DO2144AA;
 EndCmp
 
 BeginCmp
 TimeStamp = /52AE80F4;
 Reference = D9;
 ValeurCmp = ES2A;
-IdModule  = SMB;
+IdModule  = SMB_DO2144AA;
 EndCmp
 
 BeginCmp
 TimeStamp = /52AE7D8E;
 Reference = D10;
 ValeurCmp = ES2A;
-IdModule  = SMB;
+IdModule  = SMB_DO2144AA;
 EndCmp
 
 BeginCmp
-TimeStamp = /52E6FC0F;
+TimeStamp = /52E83B09;
 Reference = D11;
-ValeurCmp = GSD2004S;
-IdModule  = SOT-23;
+ValeurCmp = ES2G-E3/52T;
+IdModule  = SMB_DO2144AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /52E83AE8;
+Reference = D12;
+ValeurCmp = ES2G-E3/52T;
+IdModule  = SMB_DO2144AA;
 EndCmp
 
 BeginCmp

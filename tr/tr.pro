@@ -1,4 +1,4 @@
-update=Mon Jan 27 15:47:08 2014
+update=Tue Jan 28 13:51:26 2014
 version=1
 last_client=cvpcb
 [pcbnew]
@@ -44,6 +44,7 @@ LibName20=melf-1072
 LibName21=da2033_al
 LibName22=powerpakso8
 LibName23=msop10ep
+LibName24=smb_diode
 LibDir=../driveramp
 [general]
 version=1
