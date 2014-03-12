@@ -43,7 +43,7 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title "High Power TX/RX Switch"
-Date "6 feb 2014"
+Date "12 mar 2014"
 Rev "0"
 Comp "Geophysical Institute, University of Alaska, Fairbanks"
 Comment1 "Jon Klein"
