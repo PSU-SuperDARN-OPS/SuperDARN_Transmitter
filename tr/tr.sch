@@ -37,7 +37,7 @@ LIBS:mos_n_ppak
 LIBS:tr-cache
 LIBS:transfo_multi
 LIBS:tr-cache
-EELAYER 27 0
+EELAYER 24 0
 EELAYER END
 $Descr C 22000 17000
 encoding utf-8
@@ -644,8 +644,6 @@ Text Label 17250 10550 0    60   ~ 0
 RX
 Text Label 17250 10750 0    60   ~ 0
 TX
-Text Notes 10650 1850 0    60   ~ 0
-22uH - SRN3015-220MCT-ND	
 $Comp
 L C C15
 U 1 1 52AE36E3
@@ -668,8 +666,6 @@ F 3 "~" H 7750 4750 60  0000 C CNN
 	1    7750 4750
 	1    0    0    -1  
 $EndComp
-Text Notes 10450 2000 0    60   ~ 0
-.022 uF 1210  C1210X223KFRACTU
 Text Notes 5700 5450 0    60   ~ 0
 40 mA on\n
 Text Notes 8150 5400 0    60   ~ 0
@@ -2433,4 +2429,8 @@ F 3 "~" H 8100 12750 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8300 12750 8350 12750
+Text Notes 16950 12800 0    60   ~ 0
+replace with 634U?\n
+Text Notes 3100 10550 0    60   ~ 0
+todo: optocouple inputs? isolate power supply? overdesign other aspects?
 $EndSCHEMATC
