@@ -456,8 +456,6 @@ F 3 "" H 4350 1750 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Connection ~ 8600 2950
-Wire Wire Line
-	4250 2100 4250 2800
 $Comp
 L GND #PWR012
 U 1 1 5346E0CB
@@ -484,4 +482,10 @@ F 3 "" H 8800 2300 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	8800 2200 8800 2300
+Wire Wire Line
+	5800 4250 5800 2800
+Connection ~ 5800 4250
+Wire Wire Line
+	4250 2100 4250 2800
+Connection ~ 4250 2800
 $EndSCHEMATC
