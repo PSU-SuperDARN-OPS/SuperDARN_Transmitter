@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-13 BZR 4745)-product date = Thu Apr 10 12:34:45 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-13 BZR 4745)-product date = Fri Apr 11 10:05:39 2014
 
 BeginCmp
 TimeStamp = /529EC2A5;
@@ -78,6 +78,13 @@ IdModule  = smd_capacitors:c_elec_10x10;
 EndCmp
 
 BeginCmp
+TimeStamp = /53482F30;
+Reference = CON1;
+ValeurCmp = BARREL_JACK;
+IdModule  = connect:BARREL_JACK;
+EndCmp
+
+BeginCmp
 TimeStamp = /529EC89F;
 Reference = J1;
 ValeurCmp = SMA;
@@ -92,6 +99,13 @@ IdModule  = sma:sma;
 EndCmp
 
 BeginCmp
+TimeStamp = /53483122;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = connect:SIL-3;
+EndCmp
+
+BeginCmp
 TimeStamp = /529EC360;
 Reference = L1;
 ValeurCmp = #43 4T 22AWG .01mH;
@@ -103,13 +117,6 @@ TimeStamp = /529EC342;
 Reference = L2;
 ValeurCmp = #61 26T 22AWG, .04mH;
 IdModule  = sma:toroid;
-EndCmp
-
-BeginCmp
-TimeStamp = /5346DFB1;
-Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = connect:SIL-2;
 EndCmp
 
 BeginCmp
@@ -131,6 +138,13 @@ TimeStamp = /529EC351;
 Reference = R1;
 ValeurCmp = 1k 3W;
 IdModule  = discret:R5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53482FFB;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = connect:SIL-3;
 EndCmp
 
 EndListe
