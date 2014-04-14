@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-13 BZR 4745)-product date = Thu Apr 10 14:57:07 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-13 BZR 4745)-product date = Fri Apr 11 11:14:40 2014
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -176,10 +176,66 @@ IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
+TimeStamp = /5348203C;
+Reference = C26;
+ValeurCmp = 100pF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52E72AF3;
 Reference = C27;
 ValeurCmp = 47uF;
 IdModule  = smd_capacitors:c_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /53482031;
+Reference = C28;
+ValeurCmp = 100pF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5348200C;
+Reference = C29;
+ValeurCmp = 100pF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53482026;
+Reference = C30;
+ValeurCmp = 100pF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53482AB4;
+Reference = C31;
+ValeurCmp = 10nF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53482ABA;
+Reference = C32;
+ValeurCmp = 2.2uF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5348424F;
+Reference = C33;
+ValeurCmp = 4700pF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5348439C;
+Reference = C34;
+ValeurCmp = 4700pF;
+IdModule  = smd_capacitors:c_1206;
 EndCmp
 
 BeginCmp

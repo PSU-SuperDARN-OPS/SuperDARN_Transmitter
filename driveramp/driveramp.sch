@@ -547,4 +547,6 @@ Wire Wire Line
 	4200 1700 4200 1800
 Wire Wire Line
 	4200 1800 4450 1800
+Text Notes 1750 3600 0    60   ~ 0
+HMC475ST89 for preamp?\n
 $EndSCHEMATC
