@@ -1,4 +1,4 @@
-update=Mon May 19 12:59:44 2014
+update=Tue May 20 09:28:53 2014
 version=1
 last_client=eeschema
 [cvpcb]
@@ -98,3 +98,4 @@ LibName38=/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc475
 LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mga-61563
 LibName40=/home/kleinjt/repos/SuperDARN_Transmitter/lib/ba08cc0wfp
 LibName41=/home/kleinjt/repos/SuperDARN_Transmitter/lib/75182
+LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/ltc2914
