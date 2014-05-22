@@ -1,4 +1,4 @@
-update=Thu Apr 10 14:38:26 2014
+update=Thu May 22 10:37:15 2014
 version=1
 last_client=eeschema
 [pcbnew]
@@ -103,3 +103,4 @@ LibName35=mos_n_ppak
 LibName36=tr-cache
 LibName37=transfo_multi
 LibName38=rxx-b
+LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7545x
