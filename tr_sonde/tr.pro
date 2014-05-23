@@ -1,4 +1,4 @@
-update=Thu May 22 10:37:15 2014
+update=Thu May 22 13:47:05 2014
 version=1
 last_client=eeschema
 [pcbnew]
@@ -104,3 +104,4 @@ LibName36=tr-cache
 LibName37=transfo_multi
 LibName38=rxx-b
 LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7545x
+LibName40=xxsaxxxx

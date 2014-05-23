@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu May 22 11:12:44 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu May 22 15:48:58 2014
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -190,10 +190,31 @@ IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
+TimeStamp = /537E78E6;
+Reference = C28;
+ValeurCmp = 100pF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E830E;
+Reference = C29;
+ValeurCmp = 100nF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E9216;
+Reference = C30;
+ValeurCmp = 2.2uF;
+IdModule  = Capacitors_SMD:c_2225;
+EndCmp
+
+BeginCmp
 TimeStamp = /5348424F;
 Reference = C33;
 ValeurCmp = 4700pF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:c_1206;
 EndCmp
 
 BeginCmp
@@ -264,6 +285,13 @@ TimeStamp = /534C742F;
 Reference = D9;
 ValeurCmp = SMBJ250CACT-ND ;
 IdModule  = smb_diode:SMB_DO2144AA;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E9B17;
+Reference = F1;
+ValeurCmp = FUSE;
+IdModule  = Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering;
 EndCmp
 
 BeginCmp
@@ -340,7 +368,7 @@ BeginCmp
 TimeStamp = /537E4A29;
 Reference = L7;
 ValeurCmp = 10uH;
-IdModule  = smd_capacitors:c_1210;
+IdModule  = Inductors:SELF-WE-TPC_M;
 EndCmp
 
 BeginCmp
@@ -365,9 +393,23 @@ IdModule  = to252:TO252-3;
 EndCmp
 
 BeginCmp
+TimeStamp = /537E82FA;
+Reference = R1;
+ValeurCmp = 20k;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /52ABBB39;
 Reference = R2;
 ValeurCmp = 1k;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E80D5;
+Reference = R3;
+ValeurCmp = DNP;
 IdModule  = smd_capacitors:c_0805;
 EndCmp
 
@@ -498,13 +540,6 @@ IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /534732E3;
-Reference = RV1;
-ValeurCmp = 5K;
-IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
-EndCmp
-
-BeginCmp
 TimeStamp = /52AA02B1;
 Reference = U1;
 ValeurCmp = L6388E;
@@ -519,17 +554,24 @@ IdModule  = SOIC_Packages:SOIC-8_N;
 EndCmp
 
 BeginCmp
-TimeStamp = /5347238C;
+TimeStamp = /537E72D4;
 Reference = U3;
-ValeurCmp = R12-100B;
-IdModule  = dip_sockets:DIP-24__600;
+ValeurCmp = 12SA400;
+IdModule  = PICOPSU:xxSAxxxx;
 EndCmp
 
 BeginCmp
 TimeStamp = /537E6345;
 Reference = U4;
-ValeurCmp = LM7805CT;
+ValeurCmp = OKI-78SR-5/1.5-W36H-C;
 IdModule  = Transistors_TO-220:TO-220_Neutral123_Horizontal_LargePads;
+EndCmp
+
+BeginCmp
+TimeStamp = /537E7A3B;
+Reference = U5;
+ValeurCmp = 74AHC1G04;
+IdModule  = SMD_Packages:SOT23-5;
 EndCmp
 
 EndListe
