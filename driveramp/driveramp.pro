@@ -1,6 +1,6 @@
-update=Sun 08 Dec 2013 11:51:39 PM AKST
+update=Tue May  6 11:35:05 2014
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -40,8 +40,18 @@ LibName16=valves
 LibName17=sma
 LibName18=ni360
 LibDir=../driveramp
+[general]
+version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
 LibDir=../driveramp
 NetFmtName=
 RptD_X=0
@@ -80,10 +90,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=sma
-[general]
-version=1
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms

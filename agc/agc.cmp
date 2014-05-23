@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed May 21 15:01:05 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri May 23 14:48:32 2014
 
 BeginCmp
 TimeStamp = /537A6740;
@@ -106,24 +106,10 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537C35CA;
-Reference = C16;
-ValeurCmp = 1nF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /537A6456;
 Reference = C17;
 ValeurCmp = 10nF;
 IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537C2DCA;
-Reference = C18;
-ValeurCmp = CAPAPOL;
-IdModule  = SMD_Packages:SM1206POL;
 EndCmp
 
 BeginCmp
@@ -137,20 +123,6 @@ BeginCmp
 TimeStamp = /537A56E7;
 Reference = C20;
 ValeurCmp = 1.2pF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537C5644;
-Reference = C21;
-ValeurCmp = 1nF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537C564F;
-Reference = C22;
-ValeurCmp = 1nF;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
@@ -281,13 +253,6 @@ IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /537CFBA0;
-Reference = F1;
-ValeurCmp = FUSE;
-IdModule  = Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /537A3D54;
 Reference = J1;
 ValeurCmp = SMA_DAC;
@@ -354,6 +319,13 @@ BeginCmp
 TimeStamp = /537D0E14;
 Reference = K6;
 ValeurCmp = TR;
+IdModule  = Connect:SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /537FD579;
+Reference = K7;
+ValeurCmp = HVMON;
 IdModule  = Connect:SIL-3;
 EndCmp
 
@@ -540,20 +512,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537C3E01;
-Reference = R18;
-ValeurCmp = 5k;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537C705F;
-Reference = R19;
-ValeurCmp = 5k;
-IdModule  = SMD_Packages:SM1210;
-EndCmp
-
-BeginCmp
 TimeStamp = /537A5186;
 Reference = R20;
 ValeurCmp = 2k2;
@@ -687,20 +645,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537BB012;
-Reference = R39;
-ValeurCmp = 44k2;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537BA0A8;
-Reference = R40;
-ValeurCmp = 1k;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /537BADCB;
 Reference = R41;
 ValeurCmp = 4k53;
@@ -799,13 +743,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537C4DF2;
-Reference = RV1;
-ValeurCmp = POT;
-IdModule  = Potentiometers:Potentiometer_Bourns_3296W_3-8Zoll_Inline_ScrewUp;
-EndCmp
-
-BeginCmp
 TimeStamp = /537A79BD;
 Reference = U1;
 ValeurCmp = BA08CC0WFP;
@@ -841,20 +778,6 @@ IdModule  = SMD_Packages:SOT23_6;
 EndCmp
 
 BeginCmp
-TimeStamp = /537C003D;
-Reference = U6;
-ValeurCmp = R15-150B;
-IdModule  = Sockets_DIP:DIP-24__600;
-EndCmp
-
-BeginCmp
-TimeStamp = /537C224F;
-Reference = U7;
-ValeurCmp = R15-150B;
-IdModule  = Sockets_DIP:DIP-24__600;
-EndCmp
-
-BeginCmp
 TimeStamp = /537A6B04;
 Reference = U8;
 ValeurCmp = MGA-61563;
@@ -883,9 +806,9 @@ IdModule  = SOIC_Packages:SOIC-14_Narrow;
 EndCmp
 
 BeginCmp
-TimeStamp = /537D2D34;
+TimeStamp = /537D425C;
 Reference = U12;
-ValeurCmp = 7805;
+ValeurCmp = LM7805CT;
 IdModule  = Discret:TO220_VERT;
 EndCmp
 
