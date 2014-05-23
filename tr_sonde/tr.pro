@@ -1,4 +1,4 @@
-update=Thu May 22 13:47:05 2014
+update=Fri May 23 14:20:15 2014
 version=1
 last_client=eeschema
 [pcbnew]
@@ -59,7 +59,7 @@ PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
 LibDir=../tr
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -105,3 +105,4 @@ LibName37=transfo_multi
 LibName38=rxx-b
 LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7545x
 LibName40=xxsaxxxx
+LibName41=npn_e1
