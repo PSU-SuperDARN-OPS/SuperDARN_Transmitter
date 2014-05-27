@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri May 23 14:48:32 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue May 27 12:52:21 2014
 
 BeginCmp
 TimeStamp = /537A6740;
@@ -382,13 +382,6 @@ BeginCmp
 TimeStamp = /537CA8CA;
 Reference = P4;
 ValeurCmp = REF_FAULT;
-IdModule  = Connect:SIL-4;
-EndCmp
-
-BeginCmp
-TimeStamp = /537CEE95;
-Reference = P5;
-ValeurCmp = HV;
 IdModule  = Connect:SIL-4;
 EndCmp
 
@@ -809,7 +802,7 @@ BeginCmp
 TimeStamp = /537D425C;
 Reference = U12;
 ValeurCmp = LM7805CT;
-IdModule  = Discret:TO220_VERT;
+IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
 EndCmp
 
 EndListe

@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri May 23 14:16:30 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue May 27 11:42:04 2014
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -218,6 +218,13 @@ IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
+TimeStamp = /537FD96F;
+Reference = C32;
+ValeurCmp = 10nF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5348424F;
 Reference = C33;
 ValeurCmp = 4700pF;
@@ -229,6 +236,20 @@ TimeStamp = /5348439C;
 Reference = C34;
 ValeurCmp = 4700pF;
 IdModule  = smd_capacitors:c_1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5384F0E1;
+Reference = C35;
+ValeurCmp = 10nF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5384F0E7;
+Reference = C36;
+ValeurCmp = 2.2uF;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -351,6 +372,13 @@ IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
+TimeStamp = /5384E82B;
+Reference = K3;
+ValeurCmp = VINHDR;
+IdModule  = Connect:PINHEAD1-3;
+EndCmp
+
+BeginCmp
 TimeStamp = /52ABB853;
 Reference = L1;
 ValeurCmp = 22uH;
@@ -400,24 +428,31 @@ IdModule  = Inductors:SELF-WE-TPC_M;
 EndCmp
 
 BeginCmp
-TimeStamp = /537E47AF;
-Reference = P1;
-ValeurCmp = CONN_2;
-IdModule  = Connect:PINHEAD1-2;
+TimeStamp = /537FD964;
+Reference = L8;
+ValeurCmp = 22uH;
+IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /537FBBA7;
+TimeStamp = /5384ED23;
+Reference = L9;
+ValeurCmp = 10uH;
+IdModule  = Inductors:SELF-WE-TPC_M;
+EndCmp
+
+BeginCmp
+TimeStamp = /537FD2C2;
 Reference = Q1;
 ValeurCmp = MMBT2222A;
-IdModule  = SMD_Packages:SOT23EBC;
+IdModule  = Transistors_SMD:sot89;
 EndCmp
 
 BeginCmp
 TimeStamp = /537FBB95;
 Reference = Q2;
 ValeurCmp = PBSS4250X;
-IdModule  = Transistors_SMD:sot89;
+IdModule  = SMD_Packages:SOT23EBC;
 EndCmp
 
 BeginCmp
@@ -668,7 +703,7 @@ EndCmp
 BeginCmp
 TimeStamp = /537E72D4;
 Reference = U3;
-ValeurCmp = 12SA400;
+ValeurCmp = 5SA400;
 IdModule  = PICOPSU:xxSAxxxx;
 EndCmp
 
