@@ -1,6 +1,6 @@
-update=Wed May 28 09:52:53 2014
+update=Wed May 28 15:30:36 2014
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -40,8 +40,6 @@ LibName16=valves
 LibName17=sma
 LibName18=ni360
 LibDir=../driveramp
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -91,3 +89,5 @@ LibName29=contrib
 LibName30=valves
 LibName31=sma
 LibName32=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm2936bm
+[general]
+version=1
