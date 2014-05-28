@@ -1,4 +1,4 @@
-update=Tue May  6 11:35:05 2014
+update=Wed May 28 09:52:53 2014
 version=1
 last_client=eeschema
 [pcbnew]
@@ -90,3 +90,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=sma
+LibName32=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm2936bm

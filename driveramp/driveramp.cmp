@@ -1,87 +1,115 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-13 BZR 4745)-product date = Fri Apr 11 10:05:39 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed May 28 12:32:47 2014
 
 BeginCmp
 TimeStamp = /529EC2A5;
 Reference = C1;
 ValeurCmp = 10uF 35V;
-IdModule  = smd_capacitors:c_tant_D;
+IdModule  = Capacitors_SMD:c_2225;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC21B;
 Reference = C2;
 ValeurCmp = 100nF 50V;
-IdModule  = smd_capacitors:c_0603;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC20C;
 Reference = C3;
 ValeurCmp = 2.2uF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC1FD;
 Reference = C4;
 ValeurCmp = 10nF;
-IdModule  = smd_capacitors:c_0603;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC1DF;
 Reference = C5;
 ValeurCmp = 20nF;
-IdModule  = smd_capacitors:c_0603;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC1EE;
 Reference = C6;
 ValeurCmp = 20nF;
-IdModule  = smd_capacitors:c_0603;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC25A;
 Reference = C7;
 ValeurCmp = 20nF;
-IdModule  = smd_capacitors:c_0603;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC269;
 Reference = C8;
 ValeurCmp = 20nF;
-IdModule  = smd_capacitors:c_0603;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC278;
 Reference = C9;
 ValeurCmp = 100nF;
-IdModule  = smd_capacitors:c_0603;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC296;
 Reference = C10;
 ValeurCmp = 2.2uF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC2B4;
 Reference = C11;
-ValeurCmp = 220uF;
-IdModule  = smd_capacitors:c_elec_10x10;
+ValeurCmp = 56uF;
+IdModule  = Capacitors_SMD:c_elec_10x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53864391;
+Reference = C12;
+ValeurCmp = 100nF 50V;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5386518F;
+Reference = C13;
+ValeurCmp = 1uF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53865267;
+Reference = C14;
+ValeurCmp = 10nF;
+IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53482F30;
 Reference = CON1;
 ValeurCmp = BARREL_JACK;
-IdModule  = connect:BARREL_JACK;
+IdModule  = Connect:BARREL_JACK;
+EndCmp
+
+BeginCmp
+TimeStamp = /538634FC;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -99,31 +127,31 @@ IdModule  = sma:sma;
 EndCmp
 
 BeginCmp
-TimeStamp = /53483122;
-Reference = K1;
-ValeurCmp = CONN_3;
-IdModule  = connect:SIL-3;
-EndCmp
-
-BeginCmp
 TimeStamp = /529EC360;
 Reference = L1;
 ValeurCmp = #43 4T 22AWG .01mH;
-IdModule  = sma:toroid;
+IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC342;
 Reference = L2;
 ValeurCmp = #61 26T 22AWG, .04mH;
-IdModule  = sma:toroid;
+IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /538624CC;
+Reference = P1;
+ValeurCmp = FAULT;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5346DF9F;
 Reference = P2;
 ValeurCmp = CONN_2;
-IdModule  = connect:SIL-2;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
@@ -137,14 +165,42 @@ BeginCmp
 TimeStamp = /529EC351;
 Reference = R1;
 ValeurCmp = 1k 3W;
-IdModule  = discret:R5;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
 EndCmp
 
 BeginCmp
-TimeStamp = /53482FFB;
+TimeStamp = /538636A9;
+Reference = R2;
+ValeurCmp = 3k3;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /538644C0;
+Reference = R3;
+ValeurCmp = 470;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /538635B2;
 Reference = RV1;
-ValeurCmp = POT;
-IdModule  = connect:SIL-3;
+ValeurCmp = 1k;
+IdModule  = Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /538523F7;
+Reference = TH1;
+ValeurCmp = 330k;
+IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /53862283;
+Reference = U1;
+ValeurCmp = LM2936HVBMA-5.0;
+IdModule  = SOIC_Packages:SOIC-8_N;
 EndCmp
 
 EndListe
