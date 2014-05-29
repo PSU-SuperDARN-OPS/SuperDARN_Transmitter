@@ -172,7 +172,7 @@ L CAPAPOL C1
 U 1 1 529EC2A5
 P 5050 3200
 F 0 "C1" H 5100 3300 40  0000 L CNN
-F 1 "10uF 35V" H 5100 3100 40  0000 L CNN
+F 1 "22uF 35V" H 5100 3100 40  0000 L CNN
 F 2 "Capacitors_SMD:c_2225" H 5150 3050 30  0001 C CNN
 F 3 "~" H 5050 3200 300 0000 C CNN
 	1    5050 3200
@@ -282,7 +282,7 @@ L INDUCTOR L2
 U 1 1 529EC342
 P 7800 3400
 F 0 "L2" V 7750 3400 40  0000 C CNN
-F 1 "#61 26T 22AWG, .04mH" V 7900 3400 40  0000 C CNN
+F 1 "B64290L38X87, 8 turns, .04mH" V 7900 3400 40  0000 C CNN
 F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical" H 7800 3400 60  0001 C CNN
 F 3 "~" H 7800 3400 60  0000 C CNN
 	1    7800 3400
@@ -304,7 +304,7 @@ L INDUCTOR L1
 U 1 1 529EC360
 P 6350 2800
 F 0 "L1" V 6300 2800 40  0000 C CNN
-F 1 "#43 4T 22AWG .01mH" V 6450 2800 40  0000 C CNN
+F 1 "B64290L38X87, 3 turns, .01mH" V 6450 2800 40  0000 C CNN
 F 2 "Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical" H 6350 2800 60  0001 C CNN
 F 3 "~" H 6350 2800 60  0000 C CNN
 	1    6350 2800
@@ -379,17 +379,6 @@ F 3 "" H 9650 2300 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L BARREL_JACK CON1
-U 1 1 53482F30
-P 10250 2300
-F 0 "CON1" H 10250 2550 60  0000 C CNN
-F 1 "BARREL_JACK" H 10250 2100 60  0000 C CNN
-F 2 "Connect:BARREL_JACK" H 10250 2300 60  0001 C CNN
-F 3 "" H 10250 2300 60  0000 C CNN
-	1    10250 2300
-	-1   0    0    1   
-$EndComp
-$Comp
 L THERMISTOR TH1
 U 1 1 538523F7
 P 2600 3750
@@ -405,7 +394,7 @@ flip transistor "upside down", solder taps to top layer ground plane,\nbolt heat
 Text Notes 5150 4850 0    60   ~ 0
 gate voltage of about 2.5 VDC (2V to 3V)
 Text Notes 6150 1550 0    118  ~ 0
-class AB driver amplifier\nidsq of 25 mA at Vdd 50 V\npin 20 dBm, pout 21W
+class AB driver amplifier, 2 MHz to 20 MHz\nidsq of 25 mA at Vdd 50 V\npin 20 dBm, pout 21W
 Text Notes 1750 6350 0    60   ~ 0
 see http://application-notes.digchip.com/147/147-47845.pdf for description of bias network\nsee freescale AN1643\n
 $Comp
@@ -510,7 +499,7 @@ $EndComp
 Wire Wire Line
 	7300 4450 7300 4550
 Wire Wire Line
-	7000 4250 6300 4250
+	6300 4250 7000 4250
 Wire Wire Line
 	7300 3550 7300 4050
 Wire Wire Line
@@ -572,19 +561,8 @@ Wire Wire Line
 Connection ~ 4450 4200
 Connection ~ 9450 2950
 Wire Wire Line
-	9650 2200 9650 2300
-Wire Wire Line
 	6650 4250 6650 2800
 Connection ~ 6650 4250
-Wire Wire Line
-	9650 2250 9950 2250
-Wire Wire Line
-	9950 2200 9950 2300
-Connection ~ 9650 2250
-Connection ~ 9950 2250
-Wire Wire Line
-	9950 2400 9450 2400
-Connection ~ 9450 2400
 Wire Wire Line
 	2700 650  2700 1150
 Wire Wire Line
@@ -678,7 +656,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 3400 2850 3500
 Wire Wire Line
-	2600 4000 2600 4100
+	2600 4100 2600 4000
 Wire Wire Line
 	1250 4100 2850 4100
 Wire Wire Line
@@ -712,7 +690,7 @@ L C C13
 U 1 1 5386518F
 P 1550 3000
 F 0 "C13" H 1550 3100 40  0000 L CNN
-F 1 "1uF" H 1556 2915 40  0000 L CNN
+F 1 "2.2uF" H 1556 2915 40  0000 L CNN
 F 2 "Capacitors_SMD:c_0805" H 1588 2850 30  0001 C CNN
 F 3 "~" H 1550 3000 60  0000 C CNN
 	1    1550 3000
@@ -743,4 +721,8 @@ Wire Wire Line
 Connection ~ 1800 4100
 Text Notes 4850 5400 0    60   ~ 0
 HS300-ND heatsink, with 1/2-5-8810 thermal tape
+Text Notes 1600 5400 0    60   ~ 0
+silicon diode for -20mV/C temperature compensation\n
+Wire Wire Line
+	9650 2200 9650 2300
 $EndSCHEMATC
