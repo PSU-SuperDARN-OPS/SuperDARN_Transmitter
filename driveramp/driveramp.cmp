@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed May 28 12:32:47 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue 24 Jun 2014 04:04:34 PM AKDT
 
 BeginCmp
 TimeStamp = /529EC2A5;
 Reference = C1;
-ValeurCmp = 10uF 35V;
-IdModule  = Capacitors_SMD:c_2225;
+ValeurCmp = 22uF 35V;
+IdModule  = Capacitors_SMD:c_1210;
 EndCmp
 
 BeginCmp
@@ -29,14 +29,14 @@ IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /529EC1DF;
+TimeStamp = /53A9F0B8;
 Reference = C5;
 ValeurCmp = 20nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /529EC1EE;
+TimeStamp = /53A9CAB1;
 Reference = C6;
 ValeurCmp = 20nF;
 IdModule  = Capacitors_SMD:c_0805;
@@ -87,7 +87,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5386518F;
 Reference = C13;
-ValeurCmp = 1uF;
+ValeurCmp = 2.2uF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -99,10 +99,143 @@ IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53482F30;
-Reference = CON1;
-ValeurCmp = BARREL_JACK;
-IdModule  = Connect:BARREL_JACK;
+TimeStamp = /53A9CABC;
+Reference = C15;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9F3A5;
+Reference = C16;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9CC86;
+Reference = C17;
+ValeurCmp = ??;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A908D4;
+Reference = C18;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A8F189;
+Reference = C19;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9D31D;
+Reference = C20;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA0614;
+Reference = C21;
+ValeurCmp = ??;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9D50F;
+Reference = C22;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA0752;
+Reference = C23;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA0892;
+Reference = C24;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9F880;
+Reference = C25;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA0C4D;
+Reference = C26;
+ValeurCmp = ??;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9FA7B;
+Reference = C27;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9FA81;
+Reference = C28;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9FA87;
+Reference = C29;
+ValeurCmp = 2.2uF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9FA8D;
+Reference = C30;
+ValeurCmp = 56uF;
+IdModule  = Capacitors_SMD:c_elec_10x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA09DA;
+Reference = C31;
+ValeurCmp = DNP;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA03BF;
+Reference = C32;
+ValeurCmp = 20nF;
+IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9FA86;
+Reference = C33;
+ValeurCmp = 56uF;
+IdModule  = Capacitors_SMD:c_elec_10x10;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9F70A;
+Reference = C34;
+ValeurCmp = 56uF;
+IdModule  = Capacitors_SMD:c_elec_10x10;
 EndCmp
 
 BeginCmp
@@ -110,6 +243,20 @@ TimeStamp = /538634FC;
 Reference = D1;
 ValeurCmp = DIODE;
 IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A90AA4;
+Reference = D2;
+ValeurCmp = ZENERsmall;
+IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9D5CB;
+Reference = D3;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0603;
 EndCmp
 
 BeginCmp
@@ -127,16 +274,23 @@ IdModule  = sma:sma;
 EndCmp
 
 BeginCmp
-TimeStamp = /529EC360;
+TimeStamp = /53A9EEBF;
 Reference = L1;
-ValeurCmp = #43 4T 22AWG .01mH;
+ValeurCmp = INDUCTOR_SMALL;
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC342;
 Reference = L2;
-ValeurCmp = #61 26T 22AWG, .04mH;
+ValeurCmp = 10 turns Fair-Rite 5961001101 (801?);
+IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9F97D;
+Reference = L3;
+ValeurCmp = 10 turns Fair-Rite 5961001101 (801?);
 IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical;
 EndCmp
 
@@ -155,17 +309,10 @@ IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
-TimeStamp = /529EC194;
-Reference = Q1;
-ValeurCmp = MRFE6VS25L;
-IdModule  = ni360:NI360;
-EndCmp
-
-BeginCmp
 TimeStamp = /529EC351;
 Reference = R1;
 ValeurCmp = 1k 3W;
-IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM15mm;
+IdModule  = local:4122;
 EndCmp
 
 BeginCmp
@@ -183,10 +330,45 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /53A9D8F3;
+Reference = R4;
+ValeurCmp = 1k 3W;
+IdModule  = local:4122;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9D5DF;
+Reference = R5;
+ValeurCmp = 100k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53AA11BC;
+Reference = R6;
+ValeurCmp = 0;
+IdModule  = Resistors_ThroughHole:Resistor_Horizontal_RM25mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /538635B2;
 Reference = RV1;
 ValeurCmp = 1k;
 IdModule  = Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9A725;
+Reference = T1;
+ValeurCmp = MABA-011002;
+IdModule  = local:MABA-01002;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9A61F;
+Reference = T2;
+ValeurCmp = 2x Fair-Rite 2843006802, coax;
+IdModule  = local:2843006802;
 EndCmp
 
 BeginCmp
@@ -201,6 +383,13 @@ TimeStamp = /53862283;
 Reference = U1;
 ValeurCmp = LM2936HVBMA-5.0;
 IdModule  = SOIC_Packages:SOIC-8_N;
+EndCmp
+
+BeginCmp
+TimeStamp = /53A9C617;
+Reference = U2;
+ValeurCmp = MRFE6VP100H;
+IdModule  = local:NI780-4;
 EndCmp
 
 EndListe

@@ -1,6 +1,11 @@
-update=Tue 24 Jun 2014 10:36:20 AM AKDT
+update=Sun 11 May 2014 06:10:23 PM AKDT
 version=1
 last_client=eeschema
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
 LastNetListRead=
@@ -21,6 +26,7 @@ DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -37,14 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-LibName17=sma
-LibName18=ni360
-LibDir=../driveramp
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
 [eeschema]
@@ -52,7 +50,7 @@ version=1
 PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
-LibDir=../driveramp
+LibDir=../../../../kleinjt
 NetFmtName=
 RptD_X=0
 RptD_Y=100
@@ -89,6 +87,3 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=sma
-LibName32=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm2936bm
-LibName33=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mrfe6vp100h
