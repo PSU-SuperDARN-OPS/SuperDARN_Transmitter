@@ -430,7 +430,7 @@ L R R2
 U 1 1 538636A9
 P 2800 3150
 F 0 "R2" V 2880 3150 40  0000 C CNN
-F 1 "3k3" V 2807 3151 40  0000 C CNN
+F 1 "2k2" V 2807 3151 40  0000 C CNN
 F 2 "SMD_Packages:SM0805" V 2730 3150 30  0001 C CNN
 F 3 "" H 2800 3150 30  0000 C CNN
 	1    2800 3150
@@ -463,7 +463,7 @@ L R R3
 U 1 1 538644C0
 P 2900 4400
 F 0 "R3" V 2980 4400 40  0000 C CNN
-F 1 "470" V 2907 4401 40  0000 C CNN
+F 1 "1k" V 2907 4401 40  0000 C CNN
 F 2 "SMD_Packages:SM0805" V 2830 4400 30  0001 C CNN
 F 3 "" H 2900 4400 30  0000 C CNN
 	1    2900 4400
@@ -1368,4 +1368,6 @@ F 3 "~" H 5700 7750 60  0000 C CNN
 	1    5700 7750
 	0    1    1    0   
 $EndComp
+Text Notes 5950 5050 0    60   ~ 0
+mouser cart:\nhttp://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=78a24cbee4\n\nDigikey: \nWeb ID	  	106262028	   	Access ID	  	70481
 $EndSCHEMATC
