@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Jun 25 16:22:52 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Jun 26 16:46:05 2014
 
 BeginCmp
 TimeStamp = /537A6740;
@@ -302,17 +302,10 @@ IdModule  = sma:sma;
 EndCmp
 
 BeginCmp
-TimeStamp = /53AB950D;
-Reference = JP1;
-ValeurCmp = JUMPER3;
-IdModule  = Connect:bornier3;
-EndCmp
-
-BeginCmp
 TimeStamp = /53AB9031;
 Reference = JP2;
 ValeurCmp = JUMPER;
-IdModule  = Connect:bornier2;
+IdModule  = Connect:PINHEAD1-2;
 EndCmp
 
 BeginCmp
@@ -403,21 +396,21 @@ BeginCmp
 TimeStamp = /537A8F1A;
 Reference = P2;
 ValeurCmp = FWD_FAULT;
-IdModule  = Connect:bornier4;
+IdModule  = localconn:conn4;
 EndCmp
 
 BeginCmp
 TimeStamp = /537A8F08;
 Reference = P3;
 ValeurCmp = REF_FAULT;
-IdModule  = Connect:bornier4;
+IdModule  = localconn:conn4;
 EndCmp
 
 BeginCmp
 TimeStamp = /537CA8CA;
 Reference = P4;
 ValeurCmp = REF_FAULT;
-IdModule  = Connect:bornier4;
+IdModule  = localconn:conn4;
 EndCmp
 
 BeginCmp
@@ -430,7 +423,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53AB613F;
 Reference = P6;
-ValeurCmp = COUPLED_TEST;
+ValeurCmp = TP_VCC;
 IdModule  = Connect:PINTST;
 EndCmp
 
