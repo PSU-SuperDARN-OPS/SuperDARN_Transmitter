@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Jun 26 16:46:05 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue Jul  1 09:03:27 2014
 
 BeginCmp
 TimeStamp = /537A6740;
@@ -197,20 +197,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537CB0D2;
-Reference = C30;
-ValeurCmp = 100pF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537CBC53;
-Reference = C31;
-ValeurCmp = 10nF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /537CCEC5;
 Reference = C32;
 ValeurCmp = 10nF;
@@ -220,13 +206,6 @@ EndCmp
 BeginCmp
 TimeStamp = /537CCEBA;
 Reference = C33;
-ValeurCmp = 10nF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537D01A4;
-Reference = C34;
 ValeurCmp = 10nF;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
@@ -257,20 +236,6 @@ TimeStamp = /537A9478;
 Reference = D4;
 ValeurCmp = LED;
 IdModule  = LEDs:LED-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537C9F56;
-Reference = D5;
-ValeurCmp = ZENER;
-IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /537C9F44;
-Reference = D6;
-ValeurCmp = ZENER;
-IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
 EndCmp
 
 BeginCmp
@@ -771,20 +736,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537CEE07;
-Reference = R52;
-ValeurCmp = 300;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537CEE12;
-Reference = R53;
-ValeurCmp = 300;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /537D1911;
 Reference = R54;
 ValeurCmp = DNP;
@@ -834,6 +785,13 @@ IdModule  = SMD_Packages:SOT23-5;
 EndCmp
 
 BeginCmp
+TimeStamp = /53AE17C4;
+Reference = U7;
+ValeurCmp = ISL3281E;
+IdModule  = SMD_Packages:SOT23_6;
+EndCmp
+
+BeginCmp
 TimeStamp = /537A6B04;
 Reference = U8;
 ValeurCmp = MGA-61563;
@@ -852,13 +810,6 @@ TimeStamp = /537CCB3E;
 Reference = U10;
 ValeurCmp = 74AHC1G04;
 IdModule  = SMD_Packages:SOT23-5;
-EndCmp
-
-BeginCmp
-TimeStamp = /537C780B;
-Reference = U11;
-ValeurCmp = 75182;
-IdModule  = SOIC_Packages:SOIC-14_Narrow;
 EndCmp
 
 BeginCmp
