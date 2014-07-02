@@ -3088,4 +3088,6 @@ Wire Wire Line
 Wire Wire Line
 	8750 12750 10150 12750
 Connection ~ 8050 13000
+Text Notes 9050 4250 0    79   ~ 0
+use rf shield can over rx path?\nsee (952-1475-1-ND) clips\n
 $EndSCHEMATC

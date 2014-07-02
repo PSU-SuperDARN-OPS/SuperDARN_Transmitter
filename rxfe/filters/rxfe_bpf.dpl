@@ -1,0 +1,44 @@
+<Qucs Schematic 0.0.17>
+<Properties>
+  <View=-187,0,800,896,1.15762,24,0>
+  <Grid=10,10,0>
+  <DataSet=rxfe_bpf.dat>
+  <DataDisplay=rxfe_bpf.sch>
+  <OpenDisplay=1>
+  <Script=rxfe_bpf.m>
+  <RunScript=0>
+  <showFrame=0>
+  <FrameText0=Title>
+  <FrameText1=Drawn By:>
+  <FrameText2=Date:>
+  <FrameText3=Revision:>
+</Properties>
+<Symbol>
+</Symbol>
+<Components>
+</Components>
+<Wires>
+</Wires>
+<Diagrams>
+  <Rect 380 430 240 160 3 #c0c0c0 1 00 1 0 5e+07 2.6e+08 1 -60 20 5.44159 1 -1 1 1 315 0 225 "" "" "">
+	<"dBS11" #0000ff 0 3 0 0 0>
+  </Rect>
+  <Rect 100 430 240 160 3 #c0c0c0 1 00 1 0 0.2 1 1 -0.1 0.5 1.1 1 -0.1 0.5 1.1 315 0 225 "" "" "">
+	<"dBS21" #0000ff 0 3 0 0 0>
+	  <Mkr 1.78222e+07 47 -329 3 0 0>
+	  <Mkr 2.05466e+06 -222 -113 3 0 0>
+	  <Mkr 2.74054e+06 -227 -194 3 0 0>
+	  <Mkr 7.98875e+06 -223 -277 3 0 0>
+  </Rect>
+  <Rect 110 660 240 160 3 #c0c0c0 1 00 1 -1 0.5 1 1 -1 1 1 1 -1 1 1 315 0 225 "" "" "">
+	<"group_delay" #0000ff 0 3 0 0 0>
+	  <Mkr 1.00177e+07 -250 35 3 0 0>
+	  <Mkr 1.78222e+07 268 -132 3 0 0>
+	  <Mkr 8.32434e+06 -294 -96 3 0 0>
+  </Rect>
+  <Rect 380 230 240 160 3 #c0c0c0 1 00 1 8e+06 2e+06 1.8e+07 1 -1.2076 2 2 1 -1 1 1 315 0 225 "" "" "">
+	<"gain_phase" #0000ff 0 3 0 0 0>
+  </Rect>
+</Diagrams>
+<Paintings>
+</Paintings>
