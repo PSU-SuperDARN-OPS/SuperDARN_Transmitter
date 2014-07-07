@@ -1,4 +1,4 @@
-update=Wed Jul  2 15:30:00 2014
+update=Mon Jul  7 09:38:52 2014
 version=1
 last_client=eeschema
 [cvpcb]
@@ -51,7 +51,7 @@ PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
 LibDir=
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -103,3 +103,4 @@ LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7545x
 LibName44=/home/kleinjt/repos/SuperDARN_Transmitter/lib/74xx1g14
 LibName45=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sclf-25
 LibName46=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sky12347
+LibName47=/home/kleinjt/repos/SuperDARN_Transmitter/lib/smp1330-005lf
