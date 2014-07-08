@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Jul  7 15:19:31 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Jul  7 16:51:46 2014
 
 BeginCmp
 TimeStamp = /53BAE8F2;
@@ -218,6 +218,13 @@ IdModule  = sma:sma;
 EndCmp
 
 BeginCmp
+TimeStamp = /53BB51FC;
+Reference = J3;
+ValeurCmp = 4610X-AP1-103LF;
+IdModule  = Connect:SIL-10;
+EndCmp
+
+BeginCmp
 TimeStamp = /53B48EBB;
 Reference = L1;
 ValeurCmp = 3.9uH;
@@ -267,10 +274,10 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B869B3;
+TimeStamp = /53BB4E47;
 Reference = P1;
-ValeurCmp = CONN_10;
-IdModule  = Connect:VASCH5x2;
+ValeurCmp = CONN_10X2;
+IdModule  = Connect:VASCH10x2;
 EndCmp
 
 BeginCmp
@@ -375,6 +382,20 @@ BeginCmp
 TimeStamp = /53BAF8A1;
 Reference = R14;
 ValeurCmp = DNP;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB4B23;
+Reference = R21;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53BB4904;
+Reference = R22;
+ValeurCmp = 10k;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
