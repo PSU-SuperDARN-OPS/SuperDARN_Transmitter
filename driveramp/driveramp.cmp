@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue 24 Jun 2014 04:04:34 PM AKDT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed 16 Jul 2014 01:37:44 PM AKDT
 
 BeginCmp
 TimeStamp = /529EC2A5;
@@ -277,21 +277,21 @@ BeginCmp
 TimeStamp = /53A9EEBF;
 Reference = L1;
 ValeurCmp = INDUCTOR_SMALL;
-IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical;
+IdModule  = SMD_Packages:SM1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC342;
 Reference = L2;
 ValeurCmp = 10 turns Fair-Rite 5961001101 (801?);
-IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical;
+IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A9F97D;
 Reference = L3;
 ValeurCmp = 10 turns Fair-Rite 5961001101 (801?);
-IdModule  = Choke_Toroid_ThroughHole:Choke_Toroid_8x16mm_Vertical;
+IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L;
 EndCmp
 
 BeginCmp
@@ -354,7 +354,7 @@ BeginCmp
 TimeStamp = /538635B2;
 Reference = RV1;
 ValeurCmp = 1k;
-IdModule  = Potentiometers:Potentiometer_Bourns_3296Y_3-8Zoll_Angular_ScrewUp;
+IdModule  = local:POT_SMD;
 EndCmp
 
 BeginCmp
