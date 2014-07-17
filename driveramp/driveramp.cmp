@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed 16 Jul 2014 01:37:44 PM AKDT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed 16 Jul 2014 04:42:49 PM AKDT
 
 BeginCmp
 TimeStamp = /529EC2A5;
@@ -242,7 +242,7 @@ BeginCmp
 TimeStamp = /538634FC;
 Reference = D1;
 ValeurCmp = DIODE;
-IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
+IdModule  = local:DUAL_DIODE;
 EndCmp
 
 BeginCmp
@@ -298,14 +298,14 @@ BeginCmp
 TimeStamp = /538624CC;
 Reference = P1;
 ValeurCmp = FAULT;
-IdModule  = Connect:PINHEAD1-2;
+IdModule  = local:2-1445053-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5346DF9F;
 Reference = P2;
 ValeurCmp = CONN_2;
-IdModule  = Connect:PINHEAD1-2;
+IdModule  = local:2-1445053-2;
 EndCmp
 
 BeginCmp
@@ -375,7 +375,7 @@ BeginCmp
 TimeStamp = /538523F7;
 Reference = TH1;
 ValeurCmp = 330k;
-IdModule  = Resistors_ThroughHole:Resistor_Vertical_RM5mm;
+IdModule  = local:NTC_HSMOUNT;
 EndCmp
 
 BeginCmp

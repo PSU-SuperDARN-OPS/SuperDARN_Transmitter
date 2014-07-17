@@ -331,10 +331,10 @@ F 1 "330k" V 2550 4400 50  0000 C CNN
 F 2 "Resistors_ThroughHole:Resistor_Vertical_RM5mm" H 2650 4400 60  0001 C CNN
 F 3 "" H 2650 4400 60  0000 C CNN
 	1    2650 4400
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 Text Notes 6850 2500 0    118  ~ 0
-class AB driver amplifier, 2 MHz to 20 MHz\nidsq of 200 mA at Vdd 50 V
+class AB driver amplifier, 2 MHz to 20 MHz\nidsq of 400 mA at Vdd 50 V
 Text Notes 500  6550 0    60   ~ 0
 see http://application-notes.digchip.com/147/147-47845.pdf for description of bias network\nsee freescale AN1643\n
 $Comp
@@ -1372,4 +1372,8 @@ Text Notes 5950 5050 0    60   ~ 0
 mouser cart:\nhttp://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=78a24cbee4\n\nDigikey: \nWeb ID	  	106262028	   	Access ID	  	70481
 Text Notes 5950 1550 0    118  ~ 0
 see http://www.nxp.com/documents/report/R_10032.pdf
+Text Notes 7900 3100 0    60   ~ 0
+2-1445053-2
+Text Notes 3400 1950 0    60   ~ 0
+3-794636-2
 $EndSCHEMATC
