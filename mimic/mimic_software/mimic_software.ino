@@ -73,7 +73,7 @@ void setup()
         pinMode(AUXLED, OUTPUT);
         pinMode(SWA, OUTPUT);
         pinMode(SWB, OUTPUT);
-        digitalWrite(REFEN, LOW);
+        digitalWrite(REFEN, HIGH);
         digitalWrite(FSYNC1, HIGH);   
         
         digitalWrite(AUXLED, HIGH);
@@ -83,22 +83,27 @@ void setup()
         ad9835_init(PORT0);
         ad9835_init(PORT1);
 
-        ad9835_syncphase();
-        ad9835_setfreqhz(PORT1, 12000000, 0);
-        ad9835_setfreqhz(PORT0, 12000000, 0);
-        ad9835_syncen();
-        digitalWrite(REFEN, HIGH);
-//        ad9835_setphase(PORT0, 0, 0);
-//        ad9835_setphase(PORT1, 30, 0);
+        //ad9835_syncphase();
         
+        ad9835_setfreqhz(PORT0, 10000000, 0);
+        ad9835_setfreqhz(PORT1, 9000000, 0);
+     
         
-       
-       while(HIGH)
+        ad9835_enable(PORT0);
+        ad9835_enable(PORT1);
+        //ad9835_setfreqhz(PORT1, 11000000, 0);
+
+         
+        while(HIGH)
         {
-          set_txswitch(HIGH);
-          /*delay(1000);
-          set_txswitch(LOW);
-          delay(1000);*/
+            digitalWrite(TX, HIGH);
+            delayMicroseconds(50);
+            set_txswitch(HIGH);
+            delayMicroseconds(200);
+            set_txswitch(LOW);
+            delayMicroseconds(50);
+            digitalWrite(TX, LOW);
+            delayMicroseconds(500000);
         }
 }
 
@@ -217,13 +222,13 @@ void set_txswitch(uint8_t state)
   if(!state) {
     digitalWrite(SWA, HIGH);
     digitalWrite(SWB, LOW);
-    digitalWrite(TXLED, HIGH);
+    digitalWrite(TXLED, LOW);
   }
 
   else {
     digitalWrite(SWA, LOW);
     digitalWrite(SWB, HIGH);
-    digitalWrite(TXLED, LOW);
+    digitalWrite(TXLED, HIGH);
   }
 }
 
