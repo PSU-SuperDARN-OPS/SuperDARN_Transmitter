@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Jul  9 08:41:23 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu 24 Jul 2014 12:06:46 PM AKDT
 
 BeginCmp
 TimeStamp = /537A6740;
@@ -218,20 +218,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537A3DCF;
-Reference = D1;
-ValeurCmp = DIODE;
-IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A3DBD;
-Reference = D2;
-ValeurCmp = DIODE;
-IdModule  = Diodes_SMD:Diode-SMB_Handsoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /537A948A;
 Reference = D3;
 ValeurCmp = LED;
@@ -281,6 +267,13 @@ IdModule  = Connect:SIL-10;
 EndCmp
 
 BeginCmp
+TimeStamp = /53D159AE;
+Reference = J6;
+ValeurCmp = SMA_LPTR;
+IdModule  = sma:sma;
+EndCmp
+
+BeginCmp
 TimeStamp = /53AB9031;
 Reference = JP2;
 ValeurCmp = JUMPER;
@@ -295,23 +288,9 @@ IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /537A3DEB;
-Reference = K2;
-ValeurCmp = CONN_3;
-IdModule  = Connect:PINHEAD1-3;
-EndCmp
-
-BeginCmp
 TimeStamp = /537ABC3E;
 Reference = K3;
 ValeurCmp = VIN;
-IdModule  = Connect:PINHEAD1-3;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A3DFD;
-Reference = K4;
-ValeurCmp = CONN_3;
 IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
@@ -355,13 +334,6 @@ TimeStamp = /537A53C7;
 Reference = L5;
 ValeurCmp = 10uH;
 IdModule  = SMD_Packages:SM1210;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A6638;
-Reference = P1;
-ValeurCmp = COUPLED_TEST;
-IdModule  = Connect:PINTST;
 EndCmp
 
 BeginCmp
@@ -449,55 +421,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537A4266;
-Reference = R4;
-ValeurCmp = 4k7;
-IdModule  = SMD_Packages:SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A4271;
-Reference = R5;
-ValeurCmp = 100;
-IdModule  = SMD_Packages:SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A3DD7;
-Reference = R6;
-ValeurCmp = 1k;
-IdModule  = SMD_Packages:SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A440D;
-Reference = R7;
-ValeurCmp = 39;
-IdModule  = SMD_Packages:SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A414C;
-Reference = R8;
-ValeurCmp = 1k;
-IdModule  = SMD_Packages:SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A4418;
-Reference = R9;
-ValeurCmp = 10;
-IdModule  = SMD_Packages:SM1206;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A4423;
-Reference = R10;
-ValeurCmp = 39;
-IdModule  = SMD_Packages:SM1206;
-EndCmp
-
-BeginCmp
 TimeStamp = /537A442E;
 Reference = R11;
 ValeurCmp = DNP;
@@ -540,13 +463,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537A5918;
-Reference = R17;
-ValeurCmp = DNP;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /53AB899F;
 Reference = R18;
 ValeurCmp = 10k;
@@ -557,13 +473,6 @@ BeginCmp
 TimeStamp = /537A5186;
 Reference = R20;
 ValeurCmp = 2k2;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A590D;
-Reference = R21;
-ValeurCmp = DNP;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
@@ -838,6 +747,27 @@ TimeStamp = /537D425C;
 Reference = U12;
 ValeurCmp = 78SRH-5/2-C;
 IdModule  = Transistors_TO-220:TO-220_Neutral123_Vertical;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D17799;
+Reference = U14;
+ValeurCmp = SMP1330-005LF;
+IdModule  = SMD_Packages:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D1711D;
+Reference = U15;
+ValeurCmp = SMP1330-005LF;
+IdModule  = SMD_Packages:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D16C2A;
+Reference = U16;
+ValeurCmp = SMP1330-005LF;
+IdModule  = SMD_Packages:SOT23;
 EndCmp
 
 EndListe

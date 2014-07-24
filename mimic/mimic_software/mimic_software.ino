@@ -97,13 +97,13 @@ void setup()
         while(HIGH)
         {
             digitalWrite(TX, HIGH);
-            delayMicroseconds(50);
+            delayMicroseconds(15);
             set_txswitch(HIGH);
-            delayMicroseconds(200);
+            delayMicroseconds(270);
             set_txswitch(LOW);
-            delayMicroseconds(50);
+            delayMicroseconds(15);
             digitalWrite(TX, LOW);
-            delayMicroseconds(500000);
+            delayMicroseconds(12000);
         }
 }
 

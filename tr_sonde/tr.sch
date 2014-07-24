@@ -309,17 +309,6 @@ F 3 "~" H 6150 6700 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L INDUCTOR L2
-U 1 1 52AA151D
-P 4600 4950
-F 0 "L2" V 4550 4950 40  0000 C CNN
-F 1 "22uH" V 4700 4950 40  0000 C CNN
-F 2 "smd_capacitors:c_1210" H 4600 4950 60  0001 C CNN
-F 3 "~" H 4600 4950 60  0000 C CNN
-	1    4600 4950
-	1    0    0    -1  
-$EndComp
-$Comp
 L INDUCTOR L5
 U 1 1 52AA1523
 P 6950 4950
@@ -329,17 +318,6 @@ F 2 "smd_capacitors:c_1210" H 6950 4950 60  0001 C CNN
 F 3 "~" H 6950 4950 60  0000 C CNN
 	1    6950 4950
 	1    0    0    -1  
-$EndComp
-$Comp
-L C C3
-U 1 1 52AA19DC
-P 4300 4850
-F 0 "C3" H 4300 4950 40  0000 L CNN
-F 1 "10nF" H 4306 4765 40  0000 L CNN
-F 2 "smd_capacitors:c_0805" H 4338 4700 30  0001 C CNN
-F 3 "~" H 4300 4850 60  0000 C CNN
-	1    4300 4850
-	-1   0    0    1   
 $EndComp
 $Comp
 L C C7
@@ -361,17 +339,6 @@ F 1 "GND" H 6150 9880 30  0001 C CNN
 F 2 "" H 6150 9950 60  0000 C CNN
 F 3 "" H 6150 9950 60  0000 C CNN
 	1    6150 9950
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR010
-U 1 1 52AA19EF
-P 4300 5150
-F 0 "#PWR010" H 4300 5150 30  0001 C CNN
-F 1 "GND" H 4300 5080 30  0001 C CNN
-F 2 "" H 4300 5150 60  0000 C CNN
-F 3 "" H 4300 5150 60  0000 C CNN
-	1    4300 5150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -668,17 +635,6 @@ F 1 "GND" H 6150 5180 30  0001 C CNN
 F 2 "" H 6150 5250 60  0000 C CNN
 F 3 "" H 6150 5250 60  0000 C CNN
 	1    6150 5250
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R21
-U 1 1 52AE7113
-P 4600 3900
-F 0 "R21" V 4680 3900 40  0000 C CNN
-F 1 "150" V 4607 3901 40  0000 C CNN
-F 2 "smd_capacitors:c_0805" V 4530 3900 30  0001 C CNN
-F 3 "~" H 4600 3900 30  0000 C CNN
-	1    4600 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1115,8 +1071,6 @@ Text Label 5750 3200 1    60   ~ 0
 RXDRV
 Text Label 6700 3100 1    60   ~ 0
 RXDRV
-Text Label 4600 3150 1    60   ~ 0
-TXDRV
 Text Label 11400 8300 0    60   ~ 0
 TX
 $Comp
@@ -1850,7 +1804,6 @@ Wire Wire Line
 	8400 1750 9600 1750
 Wire Wire Line
 	9300 1550 9600 1550
-Connection ~ 13450 8400
 Wire Wire Line
 	13450 8450 13450 8400
 Wire Wire Line
@@ -1971,8 +1924,6 @@ Wire Wire Line
 Wire Wire Line
 	6850 9550 6850 10150
 Wire Wire Line
-	4600 3150 4600 3650
-Wire Wire Line
 	6700 3100 6700 3650
 Wire Wire Line
 	5750 3650 5750 3200
@@ -1998,8 +1949,6 @@ Wire Wire Line
 Connection ~ 5700 5800
 Wire Wire Line
 	5250 5800 5850 5800
-Wire Wire Line
-	4600 4150 4600 4650
 Wire Wire Line
 	15400 6450 15900 6450
 Wire Wire Line
@@ -2052,9 +2001,6 @@ Wire Wire Line
 Connection ~ 6150 8850
 Wire Wire Line
 	3550 8850 6150 8850
-Connection ~ 4600 5800
-Wire Wire Line
-	4600 5800 4600 5250
 Wire Wire Line
 	5350 8850 5350 8700
 Connection ~ 5350 8850
@@ -2148,8 +2094,6 @@ Wire Wire Line
 	6850 5800 7050 5800
 Connection ~ 6950 5800
 Wire Wire Line
-	4300 5050 4300 5150
-Wire Wire Line
 	6150 6100 6150 6400
 Wire Wire Line
 	7650 6500 7650 6800
@@ -2158,7 +2102,6 @@ Wire Wire Line
 Connection ~ 7650 5800
 Wire Wire Line
 	7950 6500 7950 6800
-Connection ~ 4600 4550
 Wire Wire Line
 	6950 5250 6950 5800
 Connection ~ 5750 5800
@@ -2192,8 +2135,6 @@ Wire Wire Line
 Wire Wire Line
 	2400 4450 2600 4450
 Wire Wire Line
-	4300 4550 4600 4550
-Wire Wire Line
 	13450 8400 13750 8400
 Wire Wire Line
 	6150 4550 6150 4750
@@ -2201,6 +2142,4 @@ Wire Wire Line
 	6700 4550 6950 4550
 Wire Wire Line
 	6950 4550 6950 4650
-Wire Wire Line
-	4300 4550 4300 4650
 $EndSCHEMATC
