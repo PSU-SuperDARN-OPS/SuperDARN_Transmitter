@@ -3,7 +3,7 @@
 # mit license
 from __future__ import division
 
-I_n = [100e-6, 100e-6, 100e-6, 100e-6]
+I_n = [50e-6, 100e-6, 100e-6, 100e-6]
 vref = .5
 
 Vn = [400, 3, 3, 12]

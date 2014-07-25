@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed 23 Jul 2014 02:55:35 PM AKDT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri 25 Jul 2014 01:05:54 PM AKDT
 
 BeginCmp
 TimeStamp = /529EC2A5;
@@ -221,14 +221,14 @@ BeginCmp
 TimeStamp = /529EC89F;
 Reference = J1;
 ValeurCmp = SMA;
-IdModule  = sma:sma;
+IdModule  = local:SMA_0732511350;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC8AE;
 Reference = J2;
 ValeurCmp = SMA;
-IdModule  = sma:sma;
+IdModule  = local:SMA_0732511350;
 EndCmp
 
 BeginCmp
