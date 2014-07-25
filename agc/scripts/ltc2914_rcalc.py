@@ -3,12 +3,12 @@
 # mit license
 from __future__ import division
 
-I_n = [50e-6, 100e-6, 100e-6, 100e-6]
+I_n = [100e-6, 100e-6, 100e-6, 100e-6]
 vref = .5
 
-Vn = [400, 5, 5, 15]
-Vuv = [300, 3.5, 3.5, 12]
-Vov = [450, 8, 8, 20]
+Vn = [400, 3, 3, 12]
+Vuv = [320, 1.5, 1.5, 9]
+Vov = [500, 7, 7, 16]
 
 print '---'
 for (i,vn) in enumerate(Vn):

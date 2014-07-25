@@ -1804,7 +1804,6 @@ Wire Wire Line
 	8400 1750 9600 1750
 Wire Wire Line
 	9300 1550 9600 1550
-Connection ~ 13450 8400
 Wire Wire Line
 	13450 8450 13450 8400
 Wire Wire Line
