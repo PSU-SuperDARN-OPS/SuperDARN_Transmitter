@@ -15,7 +15,7 @@
   (page A3)
   (layers
     (15 F.Cu signal)
-    (2 Inner2.Cu signal hide)
+    (2 Inner2.Cu signal)
     (1 Inner1.Cu signal)
     (0 B.Cu signal)
     (16 B.Adhes user)
