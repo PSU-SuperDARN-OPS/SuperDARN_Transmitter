@@ -4,14 +4,14 @@
 
 
 #define AUX 0
-#define TX 1
-#define SCLK2 2
-#define SDATA2 3
+#define TR 1
+#define SCLK2 8
+#define SDATA2 9
 #define SCLK1 8
 #define SDATA1 9
 #define REFEN 10
 #define FSYNC2 11
-#define FSYNC1 11
+#define FSYNC1 12
 #define TXLED 13
 #define AUXLED 14
 #define SWA 19
@@ -37,15 +37,17 @@
 
 #define PORT0 0
 #define PORT1 1
+#define BOTHPORTS 2
 
 #define TICKS_PER_PERIOD 500 // 60 ms repetition rate
 #define TICK_RES 20 // uS
 
 #define MCLK 50000000
 
-const uint8_t sclk[] = {SCLK1, SCLK2};
-const uint8_t sdata[] = {SDATA1, SDATA2};
+const uint8_t sclk[] = {SCLK1, SCLK2, SCLK1};
+const uint8_t sdata[] = {SDATA1, SDATA2, SDATA1};
 const uint8_t fsync[] = {FSYNC1, FSYNC2};
+
 volatile uint16_t tickcounter;
 uint8_t cmd, channel, stat;
 uint32_t payload;
@@ -58,45 +60,49 @@ IntervalTimer timer; // see http://www.pjrc.com/teensy/td_timing_IntervalTimer.h
 
 void setup() 
 {
-	Serial.begin(9600);
-      
-        pinMode(TX, OUTPUT);
+        pinMode(REFEN, OUTPUT);
+        digitalWrite(REFEN, HIGH);
+        
+        pinMode(TR, INPUT);
         pinMode(AUX, OUTPUT);
+        
         pinMode(SCLK2, OUTPUT);
         pinMode(SDATA2, OUTPUT);
         pinMode(SCLK1, OUTPUT);
         pinMode(SDATA1, OUTPUT);
-        pinMode(REFEN, OUTPUT);
+        
         pinMode(FSYNC2, OUTPUT);
         pinMode(FSYNC1, OUTPUT);
         pinMode(TXLED, OUTPUT);
         pinMode(AUXLED, OUTPUT);
         pinMode(SWA, OUTPUT);
         pinMode(SWB, OUTPUT);
-        digitalWrite(REFEN, HIGH);
-        digitalWrite(FSYNC1, HIGH);   
+        
+  
+        digitalWrite(FSYNC1, HIGH); 
+        digitalWrite(FSYNC2, HIGH);
         
         digitalWrite(AUXLED, HIGH);
-
+        
+        Serial.begin(9600);
+        
         delay(100);
         
-        ad9835_init(PORT0);
-        ad9835_init(PORT1);
-
-        //ad9835_syncphase();
+        ad9835_init(BOTHPORTS);
+        ad9835_setfreqhz(BOTHPORTS, 10000000, 0);
+        ad9835_syncphase();
+        ad9835_enable(BOTHPORTS);
+        ad9835_setphase(BOTHPORTS, 0, 0);
+        delay(100);
         
-        ad9835_setfreqhz(PORT0, 10000000, 0);
-        ad9835_setfreqhz(PORT1, 9000000, 0);
-     
-        
-        ad9835_enable(PORT0);
-        ad9835_enable(PORT1);
-        //ad9835_setfreqhz(PORT1, 11000000, 0);
-
-         
+        /*
         while(HIGH)
         {
-            digitalWrite(TX, HIGH);
+            delay(1000);
+            ad9835_setphase(0, 90, 0);
+            delay(1000);
+            ad9835_setphase(0, 0, 0);
+            /*
             delayMicroseconds(15);
             set_txswitch(HIGH);
             delayMicroseconds(270);
@@ -104,7 +110,9 @@ void setup()
             delayMicroseconds(15);
             digitalWrite(TX, LOW);
             delayMicroseconds(12000);
-        }
+            
+        }*/
+
 }
 
 void tick(void)
@@ -120,7 +128,7 @@ void tick(void)
 // bit-bang the SPI... the SPI library didn't work.. this is a stupid slow approach, but it works
 void shiftByte(uint8_t data, uint8_t clk, uint8_t b)
 {
-  for(int i = 0; i < 8; i++) {
+  for(uint8_t i = 0; i < 8; i++) {
     digitalWrite(clk, HIGH);
     delayMicroseconds(1);
     digitalWrite(data, (b >> (7 - i)) & 0x01);
@@ -134,7 +142,16 @@ void spi_write16(uint8_t channel, uint8_t msb, uint8_t lsb)
 {
   spi_write16_nosync(channel, msb, lsb);
   delay(1);
-  digitalWrite(fsync[channel], HIGH);
+  
+  if (channel < CHANNELS) {
+    digitalWrite(fsync[channel], HIGH);
+  }
+  else {
+    for(uint8_t i = 0; i < CHANNELS; i++) {
+      digitalWrite(fsync[i], HIGH);
+    }  
+  }
+  
   delay(1);
 }
 
@@ -143,9 +160,17 @@ void spi_write16_nosync(uint8_t channel, uint8_t msb, uint8_t lsb)
   delay(1);
   digitalWrite(sclk[channel], LOW);
   delay(1);
-  digitalWrite(fsync[channel], LOW);
+  if (channel < CHANNELS) {
+    digitalWrite(fsync[channel], LOW);
+  }
+  else {
+    uint8_t i;
+    for(i = 0; i < CHANNELS; i++) {
+      digitalWrite(fsync[i], LOW);
+    }  
+  }
   delay(1);
-  shiftByte(sdata[channel], sclk[channel], msb); // shiftOut(sdata[channel], sclk[channel], MSBFIRST, msb);
+  shiftByte(sdata[channel], sclk[channel], msb);
   delay(1);
   shiftByte(sdata[channel], sclk[channel], lsb);
 }
@@ -153,7 +178,7 @@ void spi_write16_nosync(uint8_t channel, uint8_t msb, uint8_t lsb)
 void ad9835_init(uint8_t channel)
 {
   spi_write16(channel, 0xF0, 0x00); // init into sleep mode
-  spi_write16(channel, 0xA0, 0x00); // SYNC loading, fsel/psel from io
+  spi_write16(channel, 0xAC, 0x00); // SYNC loading, fsel/psel from io
 }
 
 void ad9835_enable(uint8_t channel)
@@ -204,15 +229,15 @@ uint8_t ad9835_setphase(uint8_t channel, uint32_t phasedeg, uint8_t preg)
 void ad9835_syncphase(void)
 {
   // send reset to both dds
-  spi_write16_nosync(PORT0, 0xE0, 0x00);
-  spi_write16_nosync(PORT1, 0xE0, 0x00);
-  digitalWrite(fsync[0], HIGH);
+  spi_write16_nosync(BOTHPORTS, 0xD0, 0x00);
+  digitalWrite(fsync[PORT0], HIGH);
+  digitalWrite(fsync[PORT1], HIGH);
 }
 
 void ad9835_syncen(void)
 {
-  spi_write16_nosync(PORT0, 0xC0, 0x00);
-  spi_write16_nosync(PORT1, 0xC0, 0x00);
+  spi_write16_nosync(PORT0, 0xD0, 0x00);
+  spi_write16_nosync(PORT1, 0xD0, 0x00);
   digitalWrite(fsync[0], HIGH);
 }
 
@@ -255,17 +280,16 @@ void pulse(uint32_t pulselen, uint32_t ipp, uint32_t trgap)
 
 void loop() 
 {
-
-        
-  if (Serial.available() > 5) {
+  if (Serial.available() >= 4) {
     cmd = Serial.read();
     channel = Serial.read();
-    payload = Serial.parseInt();
+    payload = Serial.read() << 8;
+    payload |= Serial.read();
     stat = NAK;
     
     switch(cmd) {
       case SETFREQ:
-        stat = ad9835_setfreqhz(channel, payload, 0);
+        stat = ad9835_setfreqhz(channel, payload * 1000, 0);
         break;
         
       case SETPHASE:
@@ -317,10 +341,11 @@ void loop()
         
     }
     
-    Serial.print(cmd, BIN);
-    Serial.print(channel, BIN);
-    Serial.print(payload, BIN);
-    Serial.print(stat, BIN);
+    Serial.write(cmd);
+    Serial.write(channel);
+    Serial.write(payload >> 8);
+    Serial.write(payload & 0xff);
+    Serial.write(stat);
   }
   
   if (pulseen) {
@@ -328,7 +353,8 @@ void loop()
   }
     
   else {
-    set_txswitch(digitalRead(TX));
+    set_txswitch(digitalRead(TR));
+    //set_txswitch(HIGH);
   }
   
   
