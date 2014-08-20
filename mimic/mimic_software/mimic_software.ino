@@ -61,8 +61,6 @@ IntervalTimer timer; // see http://www.pjrc.com/teensy/td_timing_IntervalTimer.h
 void setup() 
 {
         pinMode(REFEN, OUTPUT);
-        digitalWrite(REFEN, HIGH);
-        
         pinMode(TR, INPUT);
         pinMode(AUX, OUTPUT);
         
@@ -78,10 +76,9 @@ void setup()
         pinMode(SWA, OUTPUT);
         pinMode(SWB, OUTPUT);
         
-  
+        digitalWrite(REFEN, HIGH);
         digitalWrite(FSYNC1, HIGH); 
         digitalWrite(FSYNC2, HIGH);
-        
         digitalWrite(AUXLED, HIGH);
         
         Serial.begin(9600);
@@ -93,8 +90,18 @@ void setup()
         ad9835_syncphase();
         ad9835_enable(BOTHPORTS);
         ad9835_setphase(BOTHPORTS, 0, 0);
-        delay(100);
         
+        set_txswitch(HIGH);
+        delay(100);
+        while(HIGH)
+        {
+            digitalWrite(AUX, HIGH);
+            set_txswitch(HIGH);
+            delay(1);
+            digitalWrite(AUX, LOW);
+            set_txswitch(LOW);
+            delay(9);
+        }
         /*
         while(HIGH)
         {
@@ -340,12 +347,6 @@ void loop()
         break;
         
     }
-    
-    Serial.write(cmd);
-    Serial.write(channel);
-    Serial.write(payload >> 8);
-    Serial.write(payload & 0xff);
-    Serial.write(stat);
   }
   
   if (pulseen) {

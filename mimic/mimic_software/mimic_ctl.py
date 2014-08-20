@@ -39,25 +39,28 @@ def set_freq(mimic, channel, value):
 def sync_phase(mimic):
     send_cmd(mimic, SYNCPHASE, 0, 0)
 
-'''
-SETIPP = 71
-SETPLEN = 72
-SETPULSE = 73
-SETTRGAP = 74
-ENABLE = 50
-DISABLE = 60
-'''
+def enable_pulse(mimic, enable = True):
+    send_cmd(mimic, SETPULSE, 0, enable)
+
+def mimic_enable(mimic):
+    send_cmd(mimic, ENABLE, 0, 0)
+
+def mimic_disable(mimic):
+    send_cmd(mimic, DISABLE, 0, 0)
+
+# ipp, plen, and trgap in microseconds
+def set_pulse(mimic, ipp, plen, trgap):
+    send_cmd(mimic, SETIPP, 0, ipp)
+    send_cmd(mimic, SETPLEN, 0, plen)
+    send_cmd(mimic, SETTRGAP, 0, trgap)
 
 if __name__ == '__main__':
     mimic = open_mimic()
-    i = 0
-
+    
     set_freq(mimic, BOTHPORTS, 10000)
-    while(1): 
-        set_phase(mimic, 0, i)
-        i = (i + 1) % 360
-        time.sleep(.10)
-
+    set_phase(mimic, BOTHPORTS, 0)
+    set_pulse(mimic, 10000, 1500, 25)
+    enable_pulse(mimic, True)
     mimic.close()
 
 
