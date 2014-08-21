@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Jul  7 16:51:46 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Aug 20 16:33:18 2014
 
 BeginCmp
 TimeStamp = /53BAE8F2;
@@ -197,6 +197,20 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /53F5422F;
+Reference = C29;
+ValeurCmp = 100 nF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F54259;
+Reference = C30;
+ValeurCmp = 1 uF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /53B876A5;
 Reference = D1;
 ValeurCmp = LED;
@@ -274,10 +288,10 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53BB4E47;
+TimeStamp = /53F51099;
 Reference = P1;
-ValeurCmp = CONN_10X2;
-IdModule  = Connect:VASCH10x2;
+ValeurCmp = CONN_8X2;
+IdModule  = Connect:VASCH8x2;
 EndCmp
 
 BeginCmp
@@ -386,20 +400,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53BB4B23;
-Reference = R21;
-ValeurCmp = 10k;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /53BB4904;
-Reference = R22;
-ValeurCmp = 10k;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /53B4AD49;
 Reference = U1;
 ValeurCmp = SKY12347;
@@ -481,6 +481,13 @@ TimeStamp = /53BB1DE3;
 Reference = U12;
 ValeurCmp = SMP1330-005LF;
 IdModule  = SMD_Packages:SOT23;
+EndCmp
+
+BeginCmp
+TimeStamp = /53F518B2;
+Reference = U13;
+ValeurCmp = LM7805;
+IdModule  = Housings_SOT-89:SOT89-3_Housing;
 EndCmp
 
 EndListe
