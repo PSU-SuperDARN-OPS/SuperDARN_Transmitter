@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Sun 27 Jul 2014 09:13:58 PM AKDT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu 04 Sep 2014 09:36:39 AM AKDT
 
 BeginCmp
 TimeStamp = /537A6740;
 Reference = C1;
 ValeurCmp = 10nF;
-IdModule  = SMD_Packages:SM0805;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
@@ -249,28 +249,28 @@ BeginCmp
 TimeStamp = /537A3D54;
 Reference = J1;
 ValeurCmp = SMA_DAC;
-IdModule  = sma:sma;
+IdModule  = ocal:SMA_5-1814832-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /537A3CD6;
 Reference = J2;
 ValeurCmp = SMA_LPTR;
-IdModule  = sma:sma;
+IdModule  = ocal:SMA_5-1814832-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /537A3D69;
 Reference = J3;
 ValeurCmp = SMA_DRIVER;
-IdModule  = sma:sma;
+IdModule  = ocal:SMA_5-1814832-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /537A3D3F;
 Reference = J4;
 ValeurCmp = SMA_RX;
-IdModule  = sma:sma;
+IdModule  = ocal:SMA_5-1814832-1;
 EndCmp
 
 BeginCmp
@@ -284,7 +284,7 @@ BeginCmp
 TimeStamp = /53D159AE;
 Reference = J6;
 ValeurCmp = SMA_LPTR;
-IdModule  = sma:sma;
+IdModule  = ocal:SMA_5-1814832-1;
 EndCmp
 
 BeginCmp
@@ -312,6 +312,13 @@ BeginCmp
 TimeStamp = /537ABC3E;
 Reference = K3;
 ValeurCmp = VIN;
+IdModule  = Connect:PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D68A04;
+Reference = K4;
+ValeurCmp = VOUT_TR;
 IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
@@ -542,14 +549,14 @@ EndCmp
 BeginCmp
 TimeStamp = /537BE297;
 Reference = R28;
-ValeurCmp = DNP;
+ValeurCmp = 0;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /537BD690;
 Reference = R29;
-ValeurCmp = 0;
+ValeurCmp = DNP;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
