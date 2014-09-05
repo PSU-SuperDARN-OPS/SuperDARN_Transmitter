@@ -52,8 +52,8 @@ volatile uint16_t tickcounter;
 uint8_t cmd, channel, stat;
 uint32_t payload;
 uint32_t plen = 300; // us
-uint32_t ipp = 10000; // us q
-uint32_t pulseen = 0;
+uint32_t ipp = 100000; // us q
+uint32_t pulseen = 1;
 uint32_t trgap = 60; // us delay between TR high and rf pulse
 
 IntervalTimer timer; // see http://www.pjrc.com/teensy/td_timing_IntervalTimer.html
@@ -93,22 +93,14 @@ void setup()
         
         set_txswitch(HIGH);
         delay(100);
-        while(HIGH)
-        {
-            digitalWrite(AUX, HIGH);
-            set_txswitch(HIGH);
-            delay(1);
-            digitalWrite(AUX, LOW);
-            set_txswitch(LOW);
-            delay(9);
-        }
-        /*
+        
+        
         while(HIGH)
         {
             delay(1000);
-            ad9835_setphase(0, 90, 0);
-            delay(1000);
-            ad9835_setphase(0, 0, 0);
+            //ad9835_setphase(0, 90, 0);
+            //delay(1000);
+            //ad9835_setphase(0, 0, 0);
             /*
             delayMicroseconds(15);
             set_txswitch(HIGH);
@@ -116,9 +108,9 @@ void setup()
             set_txswitch(LOW);
             delayMicroseconds(15);
             digitalWrite(TX, LOW);
-            delayMicroseconds(12000);
+            delayMicroseconds(12000);*/
             
-        }*/
+        }
 
 }
 
@@ -268,17 +260,13 @@ void pulse(uint32_t pulselen, uint32_t ipp, uint32_t trgap)
 {
   digitalWrite(AUX, LOW);
   set_txswitch(LOW);
-  ad9835_disable(0);
-  ad9835_disable(1);
+  
   delayMicroseconds(ipp - pulselen);
 
   digitalWrite(AUX, HIGH);
-  
+ 
   delayMicroseconds(trgap);
   set_txswitch(HIGH);
-
-  ad9835_syncphase();
-  
   delayMicroseconds(pulselen - 2 * trgap);
   set_txswitch(LOW);
   delayMicroseconds(trgap);

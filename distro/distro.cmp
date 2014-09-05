@@ -1,0 +1,185 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu 04 Sep 2014 04:13:17 PM AKDT
+
+BeginCmp
+TimeStamp = /5408CCB4;
+Reference = C1;
+ValeurCmp = 22000 uF;
+IdModule  = Capacitors_ThroughHole:Capacitor35x51RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CCF7;
+Reference = C2;
+ValeurCmp = 10000 uF;
+IdModule  = Capacitors_ThroughHole:Capacitor35x51RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408D703;
+Reference = C3;
+ValeurCmp = 10000 uF;
+IdModule  = Capacitors_ThroughHole:Capacitor35x51RM10;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408E164;
+Reference = C4;
+ValeurCmp = 22 nF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408E176;
+Reference = C5;
+ValeurCmp = 22 nF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408FBB4;
+Reference = C6;
+ValeurCmp = 1000 pF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408FBBF;
+Reference = C7;
+ValeurCmp = 22 nF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408FBCF;
+Reference = C8;
+ValeurCmp = 1 uF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408FB7D;
+Reference = C9;
+ValeurCmp = 10 uF;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408FB8F;
+Reference = C10;
+ValeurCmp = 1000 pF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408FE5E;
+Reference = C11;
+ValeurCmp = 1 uF;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CC8C;
+Reference = K1;
+ValeurCmp = CONN_3;
+IdModule  = Connect:PINHEAD1-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CE31;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = local:0015311026;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CD5B;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CDD7;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CDED;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CE0A;
+Reference = P5;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CE6E;
+Reference = P6;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CE86;
+Reference = P7;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CFDA;
+Reference = P8;
+ValeurCmp = CONN_2;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408D565;
+Reference = P9;
+ValeurCmp = CONN_2;
+IdModule  = local:0015311026;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CFC1;
+Reference = P10;
+ValeurCmp = CONN_2;
+IdModule  = local:2-1445053-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408CFA4;
+Reference = P11;
+ValeurCmp = CONN_2;
+IdModule  = local:0015311026;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408F2A1;
+Reference = P12;
+ValeurCmp = CONN_2;
+IdModule  = local:0015311026;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408D17F;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5408F93D;
+Reference = U1;
+ValeurCmp = KBVW006A0B;
+IdModule  = local:KBVW006A0B;
+EndCmp
+
+EndListe
