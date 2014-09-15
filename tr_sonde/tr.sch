@@ -2181,4 +2181,6 @@ Wire Wire Line
 	12400 5400 12400 5600
 Wire Wire Line
 	12100 5400 12100 5600
+Text Notes 7850 600  0    60   ~ 0
+trip at 300 mA, nominal 200 mA
 $EndSCHEMATC
