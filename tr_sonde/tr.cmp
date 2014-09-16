@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Aug 20 12:23:42 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Sep 15 09:57:46 2014
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -459,7 +459,7 @@ BeginCmp
 TimeStamp = /52AB9C51;
 Reference = R11;
 ValeurCmp = 150;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = SMD_Packages:SMD-1210;
 EndCmp
 
 BeginCmp
@@ -515,14 +515,14 @@ BeginCmp
 TimeStamp = /52AE55A8;
 Reference = R22;
 ValeurCmp = 150;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = SMD_Packages:SMD-1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /52AE7C16;
 Reference = R25;
 ValeurCmp = 220;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = SMD_Packages:SMD-1210;
 EndCmp
 
 BeginCmp
@@ -550,7 +550,7 @@ BeginCmp
 TimeStamp = /537FC764;
 Reference = R30;
 ValeurCmp = 220;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = SMD_Packages:SMD-1210;
 EndCmp
 
 BeginCmp

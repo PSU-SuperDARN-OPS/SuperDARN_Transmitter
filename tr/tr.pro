@@ -1,6 +1,6 @@
-update=Tue Jan 28 13:51:26 2014
+update=Fri May 23 14:20:15 2014
 version=1
-last_client=cvpcb
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -48,10 +48,18 @@ LibName24=smb_diode
 LibDir=../driveramp
 [general]
 version=1
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
 LibDir=../tr
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -94,8 +102,7 @@ LibName34=lt3757
 LibName35=mos_n_ppak
 LibName36=tr-cache
 LibName37=transfo_multi
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName38=rxx-b
+LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7545x
+LibName40=xxsaxxxx
+LibName41=npn_e1
