@@ -1,4 +1,4 @@
-update=Mon Jul  7 09:38:52 2014
+update=Thu Oct  2 15:38:12 2014
 version=1
 last_client=eeschema
 [cvpcb]
@@ -104,3 +104,5 @@ LibName44=/home/kleinjt/repos/SuperDARN_Transmitter/lib/74xx1g14
 LibName45=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sclf-25
 LibName46=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sky12347
 LibName47=/home/kleinjt/repos/SuperDARN_Transmitter/lib/smp1330-005lf
+LibName48=/home/kleinjt/repos/SuperDARN_Transmitter/lib/tcm809
+LibName49=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7805
