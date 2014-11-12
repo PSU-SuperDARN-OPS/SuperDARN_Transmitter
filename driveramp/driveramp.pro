@@ -1,4 +1,4 @@
-update=Tue Jul  8 09:47:56 2014
+update=Mon Nov 10 13:05:25 2014
 version=1
 last_client=eeschema
 [pcbnew]
@@ -92,3 +92,4 @@ LibName30=valves
 LibName31=sma
 LibName32=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm2936bm
 LibName33=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mrfe6vp100h
+LibName34=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm317hv

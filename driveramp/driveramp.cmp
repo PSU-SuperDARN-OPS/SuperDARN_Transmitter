@@ -1,30 +1,9 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri 25 Jul 2014 01:05:54 PM AKDT
-
-BeginCmp
-TimeStamp = /529EC2A5;
-Reference = C1;
-ValeurCmp = 22uF 35V;
-IdModule  = Capacitors_SMD:c_1210;
-EndCmp
-
-BeginCmp
-TimeStamp = /529EC21B;
-Reference = C2;
-ValeurCmp = 100nF 50V;
-IdModule  = Capacitors_SMD:c_0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /529EC1FD;
-Reference = C4;
-ValeurCmp = 10nF;
-IdModule  = Capacitors_SMD:c_0805;
-EndCmp
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Nov 10 13:08:12 2014
 
 BeginCmp
 TimeStamp = /53A9F0B8;
 Reference = C5;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -38,14 +17,14 @@ EndCmp
 BeginCmp
 TimeStamp = /529EC25A;
 Reference = C7;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC269;
 Reference = C8;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -80,7 +59,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53865267;
 Reference = C14;
-ValeurCmp = 10nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -108,21 +87,21 @@ EndCmp
 BeginCmp
 TimeStamp = /53A908D4;
 Reference = C18;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A8F189;
 Reference = C19;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A9D31D;
 Reference = C20;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -136,21 +115,21 @@ EndCmp
 BeginCmp
 TimeStamp = /53A9D50F;
 Reference = C22;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A9F880;
 Reference = C25;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A9FA7B;
 Reference = C27;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -178,7 +157,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53AA03BF;
 Reference = C32;
-ValeurCmp = 20nF;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -199,7 +178,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53CF66DB;
 Reference = C35;
-ValeurCmp = 2.2uF;
+ValeurCmp = 1uF 100V;
 IdModule  = Capacitors_SMD:c_0805;
 EndCmp
 
@@ -283,7 +262,7 @@ EndCmp
 BeginCmp
 TimeStamp = /538644C0;
 Reference = R3;
-ValeurCmp = 1k;
+ValeurCmp = 560;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
@@ -302,17 +281,17 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /53AA11BC;
-Reference = R6;
-ValeurCmp = 0;
-IdModule  = local:jumper;
-EndCmp
-
-BeginCmp
 TimeStamp = /53CF6B6B;
 Reference = R7;
 ValeurCmp = 2.49 ohm, 2 W(RHC2512FT2R49);
 IdModule  = SMD_Packages:SM2512;
+EndCmp
+
+BeginCmp
+TimeStamp = /53D2D0DB;
+Reference = R8;
+ValeurCmp = 2k2;
+IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
@@ -358,10 +337,10 @@ IdModule  = local:NI780-4;
 EndCmp
 
 BeginCmp
-TimeStamp = /53CF6304;
+TimeStamp = /54613912;
 Reference = U3;
-ValeurCmp = TL783;
-IdModule  = SMD_Packages:DPAK3;
+ValeurCmp = LM317HV;
+IdModule  = to252_5:TO-220_Neutral123_Horizontal;
 EndCmp
 
 EndListe
