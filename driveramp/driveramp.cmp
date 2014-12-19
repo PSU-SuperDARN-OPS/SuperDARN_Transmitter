@@ -1,4 +1,32 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Nov 10 13:08:12 2014
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri 19 Dec 2014 01:44:00 PM AKST
+
+BeginCmp
+TimeStamp = /5494B052;
+Reference = C1;
+ValeurCmp = DNP;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5494B04C;
+Reference = C2;
+ValeurCmp = JMP;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5494B03C;
+Reference = C3;
+ValeurCmp = DNP;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5494AD09;
+Reference = C4;
+ValeurCmp = DNP;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
 
 BeginCmp
 TimeStamp = /53A9F0B8;
@@ -33,6 +61,13 @@ TimeStamp = /529EC278;
 Reference = C9;
 ValeurCmp = 100nF;
 IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5494AC46;
+Reference = C10;
+ValeurCmp = JMP;
+IdModule  = SMD_Packages:SMD-1210;
 EndCmp
 
 BeginCmp
@@ -151,7 +186,7 @@ BeginCmp
 TimeStamp = /53AA09DA;
 Reference = C31;
 ValeurCmp = DNP;
-IdModule  = Capacitors_SMD:c_0805;
+IdModule  = SMD_Packages:SMD-1210;
 EndCmp
 
 BeginCmp
