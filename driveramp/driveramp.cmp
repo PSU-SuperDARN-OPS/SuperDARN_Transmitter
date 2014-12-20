@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri 19 Dec 2014 01:44:00 PM AKST
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri Dec 19 15:12:40 2014
 
 BeginCmp
 TimeStamp = /5494B052;
@@ -152,6 +152,13 @@ TimeStamp = /53A9D50F;
 Reference = C22;
 ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5494C0A1;
+Reference = C23;
+ValeurCmp = 22nF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
