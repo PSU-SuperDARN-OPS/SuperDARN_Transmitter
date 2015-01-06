@@ -33,6 +33,9 @@ LIBS:sma
 LIBS:lm2936bm
 LIBS:mrfe6vp100h
 LIBS:lm317hv
+LIBS:7321mf
+LIBS:dg4599
+LIBS:lt3010ems8e
 LIBS:driveramp-cache
 EELAYER 24 0
 EELAYER END
@@ -213,32 +216,8 @@ F 3 "" H 12150 2850 60  0000 C CNN
 	1    12150 2850
 	1    0    0    -1  
 $EndComp
-$Comp
-L THERMISTOR TH1
-U 1 1 538523F7
-P 2650 4400
-F 0 "TH1" V 2750 4450 50  0000 C CNN
-F 1 "330k" V 2550 4400 50  0000 C CNN
-F 2 "local:NTC_HSMOUNT" H 2650 4400 60  0001 C CNN
-F 3 "" H 2650 4400 60  0000 C CNN
-	1    2650 4400
-	-1   0    0    1   
-$EndComp
 Text Notes 6850 2500 0    118  ~ 0
 class AB driver amplifier, 2 MHz to 20 MHz\nidsq of 400 mA at Vdd 50 V
-Text Notes 500  6550 0    60   ~ 0
-for description of bias network\nsee freescale AN1643\nsee http://application-notes.digchip.com/147/147-47845.pdf \n
-$Comp
-L LM2936BM U1
-U 1 1 53862283
-P 2050 1950
-F 0 "U1" H 1850 2300 60  0000 C CNN
-F 1 "LM2936HVBMA-5.0" H 2050 2400 60  0000 C CNN
-F 2 "SOIC_Packages:SOIC-8_N" H 2050 1950 60  0001 C CNN
-F 3 "" H 2050 1950 60  0000 C CNN
-	1    2050 1950
-	1    0    0    -1  
-$EndComp
 $Comp
 L VDD #PWR15
 U 1 1 53862298
@@ -250,133 +229,8 @@ F 3 "" H 9650 6150 60  0000 C CNN
 	1    9650 6150
 	1    0    0    -1  
 $EndComp
-$Comp
-L CONN_2 P1
-U 1 1 538624CC
-P 3800 2200
-F 0 "P1" V 3750 2200 40  0000 C CNN
-F 1 "FAULT" V 3850 2200 40  0000 C CNN
-F 2 "local:2-1445053-2" H 3800 2200 60  0001 C CNN
-F 3 "" H 3800 2200 60  0000 C CNN
-	1    3800 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR7
-U 1 1 5386256E
-P 3300 2400
-F 0 "#PWR7" H 3300 2400 30  0001 C CNN
-F 1 "GND" H 3300 2330 30  0001 C CNN
-F 2 "" H 3300 2400 60  0000 C CNN
-F 3 "" H 3300 2400 60  0000 C CNN
-	1    3300 2400
-	1    0    0    -1  
-$EndComp
-$Comp
-L DIODE D1
-U 1 1 538634FC
-P 2800 5700
-F 0 "D1" H 2800 5800 40  0000 C CNN
-F 1 "DIODE" H 2800 5600 40  0000 C CNN
-F 2 "local:DUAL_DIODE" H 2800 5700 60  0001 C CNN
-F 3 "" H 2800 5700 60  0000 C CNN
-	1    2800 5700
-	0    1    1    0   
-$EndComp
-$Comp
-L GND #PWR2
-U 1 1 5386355A
-P 2800 6100
-F 0 "#PWR2" H 2800 6100 30  0001 C CNN
-F 1 "GND" H 2800 6030 30  0001 C CNN
-F 2 "" H 2800 6100 60  0000 C CNN
-F 3 "" H 2800 6100 60  0000 C CNN
-	1    2800 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L POT RV1
-U 1 1 538635B2
-P 2800 3750
-F 0 "RV1" H 2800 3650 50  0000 C CNN
-F 1 "1k" H 2800 3750 50  0000 C CNN
-F 2 "local:POT_SMD" H 2800 3750 60  0001 C CNN
-F 3 "" H 2800 3750 60  0000 C CNN
-	1    2800 3750
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R2
-U 1 1 538636A9
-P 2800 3150
-F 0 "R2" V 2880 3150 40  0000 C CNN
-F 1 "2k2" V 2807 3151 40  0000 C CNN
-F 2 "SMD_Packages:SM0805" V 2730 3150 30  0001 C CNN
-F 3 "" H 2800 3150 30  0000 C CNN
-	1    2800 3150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C12
-U 1 1 53864391
-P 3050 1600
-F 0 "C12" H 3050 1700 40  0000 L CNN
-F 1 "100nF 50V" H 3056 1515 40  0000 L CNN
-F 2 "Capacitors_SMD:c_0805" H 3088 1450 30  0001 C CNN
-F 3 "~" H 3050 1600 60  0000 C CNN
-	1    3050 1600
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR5
-U 1 1 538643F4
-P 3050 1850
-F 0 "#PWR5" H 3050 1850 30  0001 C CNN
-F 1 "GND" H 3050 1780 30  0001 C CNN
-F 2 "" H 3050 1850 60  0000 C CNN
-F 3 "" H 3050 1850 60  0000 C CNN
-	1    3050 1850
-	1    0    0    -1  
-$EndComp
-$Comp
-L R R3
-U 1 1 538644C0
-P 2900 4400
-F 0 "R3" V 2980 4400 40  0000 C CNN
-F 1 "560" V 2907 4401 40  0000 C CNN
-F 2 "SMD_Packages:SM0805" V 2830 4400 30  0001 C CNN
-F 3 "" H 2900 4400 30  0000 C CNN
-	1    2900 4400
-	1    0    0    -1  
-$EndComp
-Text Notes 2450 3550 0    60   ~ 0
-PVG5A102C03R00
-Text Notes 2350 4500 1    60   ~ 0
-NTCLE100E3334JB0
 Text Notes 10700 6600 0    60   ~ 0
 P15449CT-ND
-$Comp
-L C C13
-U 1 1 5386518F
-P 1600 3650
-F 0 "C13" H 1600 3750 40  0000 L CNN
-F 1 "2.2uF" H 1606 3565 40  0000 L CNN
-F 2 "Capacitors_SMD:c_0805" H 1638 3500 30  0001 C CNN
-F 3 "~" H 1600 3650 60  0000 C CNN
-	1    1600 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L C C14
-U 1 1 53865267
-P 1850 3650
-F 0 "C14" H 1850 3750 40  0000 L CNN
-F 1 "22nF" H 1856 3565 40  0000 L CNN
-F 2 "Capacitors_SMD:c_0805" H 1888 3500 30  0001 C CNN
-F 3 "~" H 1850 3650 60  0000 C CNN
-	1    1850 3650
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR4
 U 1 1 53A8EFAD
@@ -448,7 +302,7 @@ L TRANSFO4 T1
 U 1 1 53A9A725
 P 4850 7950
 F 0 "T1" H 4850 8200 70  0000 C CNN
-F 1 "MABA-011002" H 4850 7650 70  0000 C CNN
+F 1 "MABAES0061" H 4850 7650 70  0000 C CNN
 F 2 "local:MABA-01002" H 4850 7950 60  0001 C CNN
 F 3 "" H 4850 7950 60  0000 C CNN
 	1    4850 7950
@@ -531,17 +385,6 @@ F 1 "1k 3W (DNP)" V 7507 6401 40  0000 C CNN
 F 2 "local:4122" V 7430 6400 30  0001 C CNN
 F 3 "~" H 7500 6400 30  0000 C CNN
 	1    7500 6400
-	0    1    1    0   
-$EndComp
-$Comp
-L INDUCTOR_SMALL L1
-U 1 1 53A9EEBF
-P 5350 6500
-F 0 "L1" H 5350 6600 50  0000 C CNN
-F 1 "1.5 uH" H 5350 6450 50  0000 C CNN
-F 2 "SMD_Packages:SM1812" H 5350 6500 60  0001 C CNN
-F 3 "NLFC453232T-1R5M-PF" H 5350 6500 60  0001 C CNN
-	1    5350 6500
 	0    1    1    0   
 $EndComp
 $Comp
@@ -836,12 +679,10 @@ F 3 "" H 9900 8700 60  0000 C CNN
 $EndComp
 Text Notes 5950 5050 0    60   ~ 0
 mouser cart:\nhttp://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=78a24cbee4\n\nDigikey: \nWeb ID	  	106262028	   	Access ID	  	70481
-Text Notes 5950 1550 0    118  ~ 0
+Text Notes 5900 1400 0    118  ~ 0
 see http://www.nxp.com/documents/report/R_10032.pdf
 Text Notes 11750 2100 0    60   ~ 0
 2-1445053-2
-Text Notes 3400 1950 0    60   ~ 0
-3-794636-2
 $Comp
 L GND #PWR31
 U 1 1 53CF64AD
@@ -923,30 +764,6 @@ F 3 "" H 11350 9950 60  0000 C CNN
 	1    11350 9950
 	1    0    0    -1  
 $EndComp
-Text Notes 2900 5550 0    60   ~ 0
-two diodes in series.. mount to heatsink using holes in PCB
-$Comp
-L R R8
-U 1 1 53D2D0DB
-P 3050 2450
-F 0 "R8" V 3130 2450 40  0000 C CNN
-F 1 "2k2" V 3057 2451 40  0000 C CNN
-F 2 "SMD_Packages:SM0805" V 2980 2450 30  0001 C CNN
-F 3 "" H 3050 2450 30  0000 C CNN
-	1    3050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR6
-U 1 1 53D2D0E6
-P 3050 2800
-F 0 "#PWR6" H 3050 2800 30  0001 C CNN
-F 1 "GND" H 3050 2730 30  0001 C CNN
-F 2 "" H 3050 2800 60  0000 C CNN
-F 3 "" H 3050 2800 60  0000 C CNN
-	1    3050 2800
-	1    0    0    -1  
-$EndComp
 $Comp
 L LM317HV U3
 U 1 1 54613912
@@ -996,87 +813,6 @@ Wire Wire Line
 	1350 7700 1250 7700
 Connection ~ 1250 7700
 Connection ~ 10550 6650
-Wire Wire Line
-	2750 1300 2750 1800
-Wire Wire Line
-	2750 1800 2650 1800
-Wire Wire Line
-	2650 2100 3450 2100
-Wire Wire Line
-	3450 2300 3300 2300
-Wire Wire Line
-	3300 2300 3300 2400
-Wire Wire Line
-	1450 1800 1150 1800
-Wire Wire Line
-	1150 1800 1150 2700
-Wire Wire Line
-	1150 2700 2800 2700
-Wire Wire Line
-	2800 5900 2800 6100
-Wire Wire Line
-	2800 2700 2800 2900
-Wire Wire Line
-	2800 4750 2800 5500
-Wire Wire Line
-	1450 1900 1300 1900
-Wire Wire Line
-	1300 1900 1300 4750
-Wire Wire Line
-	1450 2000 1300 2000
-Connection ~ 1300 2000
-Wire Wire Line
-	2650 2000 2750 2000
-Wire Wire Line
-	2750 1900 2750 2300
-Wire Wire Line
-	2750 2300 1300 2300
-Connection ~ 1300 2300
-Wire Wire Line
-	2650 1900 2750 1900
-Connection ~ 2750 2000
-Wire Wire Line
-	3050 1800 3050 1850
-Wire Wire Line
-	2750 1350 3050 1350
-Connection ~ 2750 1350
-Wire Wire Line
-	2650 4050 2650 4150
-Wire Wire Line
-	2900 4050 2900 4150
-Wire Wire Line
-	2650 4750 2650 4650
-Wire Wire Line
-	1300 4750 2900 4750
-Wire Wire Line
-	2900 4750 2900 4650
-Connection ~ 2800 4750
-Connection ~ 2650 4750
-Connection ~ 2900 4050
-Wire Wire Line
-	2550 3750 2450 3750
-Wire Wire Line
-	2450 3750 2450 4050
-Wire Wire Line
-	2450 4050 2900 4050
-Connection ~ 2650 4050
-Wire Wire Line
-	2800 3400 2800 3600
-Connection ~ 2800 3450
-Wire Wire Line
-	3050 1350 3050 1400
-Wire Wire Line
-	1600 3850 1600 4750
-Connection ~ 1600 4750
-Wire Wire Line
-	1600 3450 1600 2700
-Connection ~ 1600 2700
-Wire Wire Line
-	1850 2700 1850 3450
-Connection ~ 1850 2700
-Wire Wire Line
-	1850 3850 1850 4750
-Connection ~ 1850 4750
 Wire Wire Line
 	12150 2750 12150 2850
 Wire Wire Line
@@ -1144,8 +880,6 @@ Connection ~ 8350 8250
 Wire Wire Line
 	6600 6400 6600 7750
 Wire Wire Line
-	2800 3450 5350 3450
-Wire Wire Line
 	5350 6750 5350 7950
 Wire Wire Line
 	5350 6800 5850 6800
@@ -1159,8 +893,6 @@ Wire Wire Line
 Wire Wire Line
 	5850 6800 5850 6850
 Connection ~ 5550 6800
-Wire Wire Line
-	5350 3450 5350 6250
 Connection ~ 8900 8250
 Wire Wire Line
 	8900 9450 11350 9450
@@ -1227,11 +959,6 @@ Wire Wire Line
 Wire Wire Line
 	11050 7100 11050 7150
 Wire Wire Line
-	3050 2800 3050 2700
-Wire Wire Line
-	3050 2200 3050 2100
-Connection ~ 3050 2100
-Wire Wire Line
 	11750 3050 12900 3050
 Connection ~ 11950 3050
 Wire Wire Line
@@ -1245,8 +972,6 @@ Wire Wire Line
 Wire Wire Line
 	14450 3700 14200 3700
 Connection ~ 14450 3050
-Text Label 2750 1300 1    60   ~ 0
-Vconn
 Text Label 11750 3050 2    60   ~ 0
 Vconn
 Wire Wire Line
@@ -1360,35 +1085,41 @@ Wire Wire Line
 Connection ~ 2900 7750
 Wire Wire Line
 	3350 7750 3800 7750
-$Comp
-L C C23
-U 1 1 5494C0A1
-P 5550 5850
-F 0 "C23" H 5550 5950 40  0000 L CNN
-F 1 "22nF" H 5556 5765 40  0000 L CNN
-F 2 "Capacitors_SMD:c_0805" H 5588 5700 30  0001 C CNN
-F 3 "~" H 5550 5850 60  0000 C CNN
-	1    5550 5850
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR10
-U 1 1 5494C0B2
-P 5550 6150
-F 0 "#PWR10" H 5550 6150 30  0001 C CNN
-F 1 "GND" H 5550 6080 30  0001 C CNN
-F 2 "" H 5550 6150 60  0000 C CNN
-F 3 "" H 5550 6150 60  0000 C CNN
-	1    5550 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5550 6050 5550 6150
-Wire Wire Line
-	5550 5650 5550 5600
-Wire Wire Line
-	5550 5600 5350 5600
-Connection ~ 5350 5600
 Text Notes 6150 6050 0    60   ~ 0
 see 907K-ND or similar for attaching transistor to top ground
+Text Notes 5900 1900 0    157  ~ 0
+maybe add ttl bias switching (see NXP AN11226) and rework bias as CA-330-11. move to two layer .8mm board, w/ 20 mil milspec washers as spacers..\nadd clip drill holes, see 907K-ND\n
+$Comp
+L 7321MF U?
+U 1 1 54AC72AE
+P 3750 3650
+F 0 "U?" H 3350 4050 60  0000 C CNN
+F 1 "7321MF" H 3450 3950 60  0000 C CNN
+F 2 "" H 3750 3650 60  0000 C CNN
+F 3 "" H 3750 3650 60  0000 C CNN
+	1    3750 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L LT3010EMS8E U?
+U 1 1 54AC72C2
+P 2100 3400
+F 0 "U?" H 1750 3550 60  0000 C CNN
+F 1 "LT3010EMS8E" H 2000 3650 60  0000 C CNN
+F 2 "" H 2050 3400 60  0000 C CNN
+F 3 "" H 2050 3400 60  0000 C CNN
+	1    2100 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L DG4599 U?
+U 1 1 54AC72D6
+P 3650 2550
+F 0 "U?" H 3450 2850 60  0000 C CNN
+F 1 "DG4599" H 3550 2950 60  0000 C CNN
+F 2 "" H 3650 2550 60  0000 C CNN
+F 3 "" H 3650 2550 60  0000 C CNN
+	1    3650 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
