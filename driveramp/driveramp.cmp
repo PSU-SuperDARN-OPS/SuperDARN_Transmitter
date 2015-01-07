@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Jan  7 11:47:16 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Jan  7 13:35:03 2015
 
 BeginCmp
 TimeStamp = /5494B052;
@@ -379,6 +379,13 @@ IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L;
 EndCmp
 
 BeginCmp
+TimeStamp = /54ADB6EA;
+Reference = L4;
+ValeurCmp = FERRITE BEAD;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /5346DF9F;
 Reference = P2;
 ValeurCmp = CONN_2;
@@ -403,14 +410,14 @@ BeginCmp
 TimeStamp = /54AC86BF;
 Reference = R2;
 ValeurCmp = 432 1%;
-IdModule  = SMD_Packages:SM0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AC86CA;
 Reference = R3;
 ValeurCmp = 432 1%;
-IdModule  = SMD_Packages:SM0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -445,7 +452,7 @@ BeginCmp
 TimeStamp = /54ACB501;
 Reference = R8;
 ValeurCmp = 10k;
-IdModule  = SMD_Packages:SM0805;
+IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
@@ -522,7 +529,7 @@ BeginCmp
 TimeStamp = /54AC9514;
 Reference = R19;
 ValeurCmp = 20;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
