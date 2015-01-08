@@ -79,7 +79,7 @@ L C C9
 U 1 1 529EC278
 P 9950 6900
 F 0 "C9" H 9950 7000 40  0000 L CNN
-F 1 "100nF" H 9956 6815 40  0000 L CNN
+F 1 "100 nF" H 9956 6815 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0805" H 9988 6750 30  0001 C CNN
 F 3 "~" H 9950 6900 60  0000 C CNN
 	1    9950 6900
@@ -198,26 +198,26 @@ $EndComp
 $Comp
 L CONN_2 P2
 U 1 1 5346DF9F
-P 12050 2400
-F 0 "P2" V 12000 2400 40  0000 C CNN
-F 1 "CONN_2" V 12100 2400 40  0000 C CNN
-F 2 "local:2-1445053-2" H 12050 2400 60  0001 C CNN
-F 3 "" H 12050 2400 60  0000 C CNN
-	1    12050 2400
+P 12050 1800
+F 0 "P2" V 12000 1800 40  0000 C CNN
+F 1 "CONN_2" V 12100 1800 40  0000 C CNN
+F 2 "local:2-1445053-2" H 12050 1800 60  0001 C CNN
+F 3 "" H 12050 1800 60  0000 C CNN
+	1    12050 1800
 	0    -1   -1   0   
 $EndComp
 $Comp
 L GND #PWR06
 U 1 1 5346E112
-P 12150 2850
-F 0 "#PWR06" H 12150 2850 30  0001 C CNN
-F 1 "GND" H 12150 2780 30  0001 C CNN
-F 2 "" H 12150 2850 60  0000 C CNN
-F 3 "" H 12150 2850 60  0000 C CNN
-	1    12150 2850
+P 12150 2250
+F 0 "#PWR06" H 12150 2250 30  0001 C CNN
+F 1 "GND" H 12150 2180 30  0001 C CNN
+F 2 "" H 12150 2250 60  0000 C CNN
+F 3 "" H 12150 2250 60  0000 C CNN
+	1    12150 2250
 	1    0    0    -1  
 $EndComp
-Text Notes 9800 4400 0    118  ~ 0
+Text Notes 10900 1100 0    118  ~ 0
 class AB driver amplifier, 2 MHz to 20 MHz\nidsq of 400 mA at Vdd 50 V
 $Comp
 L VDD #PWR07
@@ -310,7 +310,7 @@ F 3 "" H 4850 7950 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Text Notes 9650 7450 0    60   ~ 0
-see figure 16/17, Designing Wide-band Transformers for HF and VHF Power Amplifiers by Chris Trask, N7ZWY\nTwo Fair-Rite 2843006802 (available from mouser)
+for transformer design, see "Designing Wide-band Transformers for HF and VHF Power Amplifiers" by Chris Trask, N7ZWY figure 16/17\nuse two Fair-Rite 2843006802 binocular toroids (available from mouser)
 $Comp
 L MRFE6VP100H U2
 U 1 1 53A9C617
@@ -426,7 +426,7 @@ L C C28
 U 1 1 53A9FA81
 P 10200 9700
 F 0 "C28" H 10200 9800 40  0000 L CNN
-F 1 "100nF" H 10206 9615 40  0000 L CNN
+F 1 "100 nF" H 10206 9615 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0805" H 10238 9550 30  0001 C CNN
 F 3 "~" H 10200 9700 60  0000 C CNN
 	1    10200 9700
@@ -536,12 +536,12 @@ $EndComp
 $Comp
 L VDD #PWR018
 U 1 1 53A9D510
-P 14450 2950
-F 0 "#PWR018" H 14450 3050 30  0001 C CNN
-F 1 "VDD" H 14450 3060 30  0000 C CNN
-F 2 "" H 14450 2950 60  0000 C CNN
-F 3 "" H 14450 2950 60  0000 C CNN
-	1    14450 2950
+P 15050 2950
+F 0 "#PWR018" H 15050 3050 30  0001 C CNN
+F 1 "VDD" H 15050 3060 30  0000 C CNN
+F 2 "" H 15050 2950 60  0000 C CNN
+F 3 "" H 15050 2950 60  0000 C CNN
+	1    15050 2950
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -577,8 +577,6 @@ F 3 "" H 11650 10300 60  0000 C CNN
 	1    11650 10300
 	1    0    0    -1  
 $EndComp
-Text Notes 6800 6150 0    60   ~ 0
-Use VHS-95 Heatsink on Bottom
 $Comp
 L CAPAPOL C34
 U 1 1 53A9F70A
@@ -636,9 +634,7 @@ F 3 "" H 9900 8700 60  0000 C CNN
 $EndComp
 Text Notes 5950 5050 0    60   ~ 0
 mouser cart:\nhttp://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=78a24cbee4\n\nDigikey: \nWeb ID	  	106262028	   	Access ID	  	70481
-Text Notes 10750 1250 0    118  ~ 0
-see http://www.nxp.com/documents/report/R_10032.pdf
-Text Notes 11750 2100 0    60   ~ 0
+Text Notes 11750 1500 0    60   ~ 0
 2-1445053-2
 $Comp
 L GND #PWR023
@@ -665,17 +661,17 @@ $EndComp
 $Comp
 L R R7
 U 1 1 53CF6B6B
-P 13950 3700
-F 0 "R7" V 14030 3700 40  0000 C CNN
-F 1 "2.49 ohm, 2 W(RHC2512FT2R49)" V 14100 3700 40  0000 C CNN
-F 2 "SMD_Packages:SM2512" V 13880 3700 30  0001 C CNN
-F 3 "" H 13950 3700 30  0000 C CNN
-	1    13950 3700
+P 14500 3050
+F 0 "R7" V 14580 3050 40  0000 C CNN
+F 1 "2.49 ohm, 2 W(RHC2512FT2R49)" V 14650 3050 40  0000 C CNN
+F 2 "SMD_Packages:SM2512" V 14430 3050 30  0001 C CNN
+F 3 "" H 14500 3050 30  0000 C CNN
+	1    14500 3050
 	0    1    1    0   
 $EndComp
 Text Notes 12350 2750 0    60   ~ 0
 current limiting using linear regulator to absorb startup transients..\nI = Vref/R, Vref = 1.25 V
-Text Notes 10750 1000 0    118  ~ 0
+Text Notes 6050 950  0    118  ~ 0
 max pulse length: 5 ms\n
 $Comp
 L CAPAPOL C6
@@ -823,9 +819,7 @@ F 3 "" H 2900 8350 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Text Notes 6150 6050 0    60   ~ 0
-see 907K-ND or similar for attaching transistor to top ground
-Text Notes 10600 1800 0    157  ~ 0
-maybe add ttl bias switching (see NXP AN11226) and rework bias as CA-330-11. move to two layer .8mm board, w/ 20 mil milspec washers as spacers..\nadd clip drill holes, see 907K-ND\n
+see 907K-ND lug or similar for attaching transistor source to ground
 $Comp
 L 7321MF U4
 U 1 1 54AC72AE
@@ -881,8 +875,6 @@ F 3 "" H 3050 3250 60  0000 C CNN
 	1    3050 3250
 	1    0    0    -1  
 $EndComp
-Text Label 9300 950  1    60   ~ 0
-Vconn
 $Comp
 L C C40
 U 1 1 54AC7574
@@ -1032,7 +1024,7 @@ U 1 1 54AC86BF
 P 800 1450
 F 0 "R2" V 880 1450 40  0000 C CNN
 F 1 "432 1%" V 807 1451 40  0000 C CNN
-F 2 "SMD_Packages:SM0805" V 730 1450 30  0001 C CNN
+F 2 "SMD_Packages:SMD-0603" V 730 1450 30  0001 C CNN
 F 3 "" H 800 1450 30  0000 C CNN
 	1    800  1450
 	1    0    0    -1  
@@ -1043,7 +1035,7 @@ U 1 1 54AC86CA
 P 800 2050
 F 0 "R3" V 880 2050 40  0000 C CNN
 F 1 "432 1%" V 807 2051 40  0000 C CNN
-F 2 "SMD_Packages:SM0805" V 730 2050 30  0001 C CNN
+F 2 "SMD_Packages:SMD-0603" V 730 2050 30  0001 C CNN
 F 3 "" H 800 2050 30  0000 C CNN
 	1    800  2050
 	1    0    0    -1  
@@ -1175,7 +1167,7 @@ U 1 1 54AC9514
 P 5400 4150
 F 0 "R19" V 5480 4150 40  0000 C CNN
 F 1 "20" V 5407 4151 40  0000 C CNN
-F 2 "SMD_Packages:SMD-0603" V 5330 4150 30  0001 C CNN
+F 2 "SMD_Packages:SMD-0805" V 5330 4150 30  0001 C CNN
 F 3 "" H 5400 4150 30  0000 C CNN
 	1    5400 4150
 	-1   0    0    -1  
@@ -1317,7 +1309,7 @@ L C C14
 U 1 1 54ACA194
 P 3850 4100
 F 0 "C14" H 3850 4200 40  0000 L CNN
-F 1 "1 nF" H 3856 4015 40  0000 L CNN
+F 1 "1000 pF" H 3856 4015 40  0000 L CNN
 F 2 "SMD_Packages:SMD-0805" H 3888 3950 30  0001 C CNN
 F 3 "~" H 3850 4100 60  0000 C CNN
 	1    3850 4100
@@ -1381,13 +1373,13 @@ $EndComp
 $Comp
 L CONN_3 K1
 U 1 1 54ACAC23
-P 850 4050
-F 0 "K1" V 800 4050 50  0000 C CNN
-F 1 "CONN_3" V 900 4050 40  0000 C CNN
-F 2 "localconn:3-647166-3" H 850 4050 60  0001 C CNN
-F 3 "" H 850 4050 60  0000 C CNN
-	1    850  4050
-	-1   0    0    1   
+P 800 3900
+F 0 "K1" V 750 3900 50  0000 C CNN
+F 1 "CONN_3" V 850 3900 40  0000 C CNN
+F 2 "localconn:3-647166-3" H 800 3900 60  0001 C CNN
+F 3 "" H 800 3900 60  0000 C CNN
+	1    800  3900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L C C5
@@ -1472,7 +1464,7 @@ Wire Wire Line
 Connection ~ 1250 7700
 Connection ~ 10550 6650
 Wire Wire Line
-	12150 2750 12150 2850
+	12150 2150 12150 2250
 Wire Wire Line
 	4350 8650 4350 8800
 Wire Wire Line
@@ -1549,8 +1541,6 @@ Wire Wire Line
 	12250 7800 12250 7750
 Connection ~ 12250 7750
 Wire Wire Line
-	11950 2750 11950 3550
-Wire Wire Line
 	11650 10300 11650 10250
 Wire Wire Line
 	11650 9750 11650 9700
@@ -1598,14 +1588,10 @@ Connection ~ 11950 3050
 Wire Wire Line
 	13450 3600 13450 3700
 Wire Wire Line
-	13450 3700 13700 3700
+	13450 3700 15050 3700
 Wire Wire Line
-	14450 2950 14450 3700
-Wire Wire Line
-	14450 3050 14000 3050
-Wire Wire Line
-	14450 3700 14200 3700
-Connection ~ 14450 3050
+	15050 3700 15050 2950
+Connection ~ 15050 3050
 Wire Wire Line
 	12950 7750 13400 7750
 Wire Wire Line
@@ -1793,7 +1779,7 @@ Wire Wire Line
 Wire Wire Line
 	1700 5100 2400 5100
 Wire Wire Line
-	1800 5100 1800 5150
+	1800 4600 1800 5150
 Wire Wire Line
 	2000 5200 2000 5100
 Connection ~ 2000 5100
@@ -1832,7 +1818,7 @@ U 1 1 54ACB501
 P 1600 4350
 F 0 "R8" V 1680 4350 40  0000 C CNN
 F 1 "10k" V 1607 4351 40  0000 C CNN
-F 2 "SMD_Packages:SM0805" V 1530 4350 30  0001 C CNN
+F 2 "SMD_Packages:SMD-0603" V 1530 4350 30  0001 C CNN
 F 3 "" H 1600 4350 30  0000 C CNN
 	1    1600 4350
 	-1   0    0    1   
@@ -1853,7 +1839,7 @@ Wire Wire Line
 Wire Wire Line
 	1600 4100 1600 4000
 Wire Wire Line
-	1600 4000 2000 4000
+	1150 4000 2000 4000
 $Comp
 L R R14
 U 1 1 54ACB9BB
@@ -2019,9 +2005,9 @@ Wire Wire Line
 	9800 3450 9650 3450
 Connection ~ 9650 3650
 Text Notes 1600 800  0    60   ~ 0
-LDMOS temperature compensated bias circuit\n(see NXP CA-330-11)
+temperature compensated LDMOS bias circuit\n(see NXP application note CA-330-11)
 Text Notes 1950 6250 0    60   ~ 0
-TTL bias switching circuit\n(see NXP AN11226)
+TTL bias switching circuit\n(see NXP application note AN11226)
 Text Notes 7150 2250 0    60   ~ 0
 8V supply for bias circuit and switcher
 $Comp
@@ -2074,7 +2060,7 @@ U 1 1 54AD9DF9
 P 16050 5800
 F 0 "H5" H 15750 5850 60  0000 C CNN
 F 1 "MOUNTING_HOLE" H 16050 5950 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3-5mm" H 16050 5800 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2-7mm" H 16050 5800 60  0001 C CNN
 F 3 "" H 16050 5800 60  0000 C CNN
 	1    16050 5800
 	1    0    0    -1  
@@ -2085,7 +2071,7 @@ U 1 1 54AD9E04
 P 16050 6100
 F 0 "H6" H 15750 6150 60  0000 C CNN
 F 1 "MOUNTING_HOLE" H 16050 6250 60  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3-5mm" H 16050 6100 60  0001 C CNN
+F 2 "Mounting_Holes:MountingHole_2-7mm" H 16050 6100 60  0001 C CNN
 F 3 "" H 16050 6100 60  0000 C CNN
 	1    16050 6100
 	1    0    0    -1  
@@ -2105,7 +2091,7 @@ L INDUCTOR L1
 U 1 1 54AC7557
 P 5400 6250
 F 0 "L1" V 5350 6250 40  0000 C CNN
-F 1 "6.8 uH, Wurth 7447786006" V 5500 6250 40  0000 C CNN
+F 1 "1.5 uH" V 5500 6250 40  0000 C CNN
 F 2 "SMD_Packages:SM1812" H 5400 6250 60  0001 C CNN
 F 3 "~" H 5400 6250 60  0000 C CNN
 	1    5400 6250
@@ -2121,11 +2107,74 @@ U 1 1 54ADB6EA
 P 9300 1450
 F 0 "L4" V 9250 1450 40  0000 C CNN
 F 1 "FERRITE BEAD" V 9400 1450 40  0000 C CNN
-F 2 "SMD_Packages:SM1812" H 9300 1450 60  0001 C CNN
+F 2 "SMD_Packages:SMD-0805" H 9300 1450 60  0001 C CNN
 F 3 "~" H 9300 1450 60  0000 C CNN
 	1    9300 1450
 	1    0    0    -1  
 $EndComp
-Text Notes 6750 5850 0    60   ~ 0
-heatsink with 10mm metric 6061 bar
+Text Notes 6150 5900 0    60   ~ 0
+heatsink with 10mm metric 6061 bar, eg mcmaster-carr 9146T12\nto al plate
+$Comp
+L GND #PWR059
+U 1 1 54ADE6CF
+P 1300 3900
+F 0 "#PWR059" H 1300 3900 30  0001 C CNN
+F 1 "GND" H 1300 3830 30  0001 C CNN
+F 2 "" H 1300 3900 60  0000 C CNN
+F 3 "" H 1300 3900 60  0000 C CNN
+	1    1300 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1300 3900 1150 3900
+Connection ~ 1600 4000
+NoConn ~ 1300 3800
+Wire Wire Line
+	1300 3800 1150 3800
+Text Notes 2250 4300 0    60   ~ 0
+attach Q1 transistor\nto heatsink using\nrouted out area on pcb
+Wire Wire Line
+	14000 3050 14250 3050
+Wire Wire Line
+	14750 3050 15050 3050
+$Comp
+L DIODE D1
+U 1 1 54AED904
+P 11950 2500
+F 0 "D1" H 11950 2600 40  0000 C CNN
+F 1 "DIODE" H 11950 2400 40  0000 C CNN
+F 2 "SMD_Packages:DO-214-AA_SMB" H 11950 2500 60  0001 C CNN
+F 3 "" H 11950 2500 60  0000 C CNN
+	1    11950 2500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	11950 2700 11950 3550
+Wire Wire Line
+	11950 2300 11950 2150
+$Comp
+L VDD #PWR060
+U 1 1 54AEDE54
+P 9300 950
+F 0 "#PWR060" H 9300 1050 30  0001 C CNN
+F 1 "VDD" H 9300 1060 30  0000 C CNN
+F 2 "" H 9300 950 60  0000 C CNN
+F 3 "" H 9300 950 60  0000 C CNN
+	1    9300 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 54AF0A14
+P 1800 4350
+F 0 "R?" V 1880 4350 40  0000 C CNN
+F 1 "DNP" V 1807 4351 40  0000 C CNN
+F 2 "SMD_Packages:SMD-0603" V 1730 4350 30  0001 C CNN
+F 3 "" H 1800 4350 30  0000 C CNN
+	1    1800 4350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1800 4000 1800 4100
+Connection ~ 1800 4000
 $EndSCHEMATC

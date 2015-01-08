@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Jan  7 13:35:03 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Jan  8 10:15:45 2015
 
 BeginCmp
 TimeStamp = /5494B052;
@@ -278,6 +278,13 @@ TimeStamp = /54AC7574;
 Reference = C40;
 ValeurCmp = 1uF 100V;
 IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AED904;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = SMD_Packages:DO-214-AA_SMB;
 EndCmp
 
 BeginCmp
