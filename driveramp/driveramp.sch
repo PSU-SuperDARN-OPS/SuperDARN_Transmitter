@@ -2126,4 +2126,6 @@ F 3 "~" H 9300 1450 60  0000 C CNN
 	1    9300 1450
 	1    0    0    -1  
 $EndComp
+Text Notes 6750 5850 0    60   ~ 0
+heatsink with 10mm metric 6061 bar
 $EndSCHEMATC
