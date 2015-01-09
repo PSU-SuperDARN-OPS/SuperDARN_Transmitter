@@ -1,4 +1,4 @@
-update=Thu Oct  2 15:38:12 2014
+update=Fri Jan  9 10:46:15 2015
 version=1
 last_client=eeschema
 [cvpcb]
@@ -106,3 +106,4 @@ LibName46=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sky12347
 LibName47=/home/kleinjt/repos/SuperDARN_Transmitter/lib/smp1330-005lf
 LibName48=/home/kleinjt/repos/SuperDARN_Transmitter/lib/tcm809
 LibName49=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7805
+LibName50=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole

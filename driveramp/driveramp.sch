@@ -634,8 +634,6 @@ F 3 "" H 9900 8700 60  0000 C CNN
 $EndComp
 Text Notes 5950 5050 0    60   ~ 0
 mouser cart:\nhttp://www.mouser.com/ProjectManager/ProjectDetail.aspx?AccessID=78a24cbee4\n\nDigikey: \nWeb ID	  	106262028	   	Access ID	  	70481
-Text Notes 11750 1500 0    60   ~ 0
-2-1445053-2
 $Comp
 L GND #PWR57
 U 1 1 53CF64AD
@@ -669,7 +667,7 @@ F 3 "" H 14500 3050 30  0000 C CNN
 	1    14500 3050
 	0    1    1    0   
 $EndComp
-Text Notes 12350 2750 0    60   ~ 0
+Text Notes 12450 2600 0    60   ~ 0
 current limiting using linear regulator to absorb startup transients..\nI = Vref/R, Vref = 1.25 V
 Text Notes 6050 950  0    118  ~ 0
 max pulse length: 5 ms\n

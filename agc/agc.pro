@@ -1,4 +1,4 @@
-update=Thu 24 Jul 2014 10:51:59 AM AKDT
+update=Thu Jan  8 14:42:30 2015
 version=1
 last_client=eeschema
 [cvpcb]
@@ -51,7 +51,7 @@ PageLayoutDescrFile=
 SubpartIdSeparator=0
 SubpartFirstId=65
 LibDir=../tr_sonde;../driveramp
-NetFmtName=
+NetFmtName=PcbnewAdvanced
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -101,3 +101,4 @@ LibName41=/home/kleinjt/repos/SuperDARN_Transmitter/lib/75182
 LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/ltc2914
 LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/isl3281e
 LibName44=/home/kleinjt/repos/SuperDARN_Transmitter/lib/smp1330-005lf
+LibName45=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole

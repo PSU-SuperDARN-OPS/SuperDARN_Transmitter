@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu 04 Sep 2014 09:36:39 AM AKDT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Jan  8 15:07:11 2015
 
 BeginCmp
 TimeStamp = /537A6740;
@@ -134,13 +134,6 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /537A56E7;
-Reference = C20;
-ValeurCmp = DNP;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /53AB828F;
 Reference = C21;
 ValeurCmp = 10nF;
@@ -157,34 +150,6 @@ EndCmp
 BeginCmp
 TimeStamp = /537A604D;
 Reference = C23;
-ValeurCmp = 10nF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A517B;
-Reference = C24;
-ValeurCmp = 10nF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A544F;
-Reference = C25;
-ValeurCmp = 10nF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A545A;
-Reference = C26;
-ValeurCmp = 100pF;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A4E9A;
-Reference = C27;
 ValeurCmp = 10nF;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
@@ -243,6 +208,34 @@ TimeStamp = /537A9478;
 Reference = D4;
 ValeurCmp = LED;
 IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AF1EB7;
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AF1ECB;
+Reference = H2;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AF1EDF;
+Reference = H3;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54AF1EF3;
+Reference = H4;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
 EndCmp
 
 BeginCmp
@@ -330,6 +323,13 @@ IdModule  = Connect:PINHEAD1-3;
 EndCmp
 
 BeginCmp
+TimeStamp = /54AF18D4;
+Reference = K6;
+ValeurCmp = TR;
+IdModule  = Connect:PINHEAD1-3;
+EndCmp
+
+BeginCmp
 TimeStamp = /537FD579;
 Reference = K7;
 ValeurCmp = HVMON;
@@ -346,20 +346,6 @@ EndCmp
 BeginCmp
 TimeStamp = /537A6FCB;
 Reference = L3;
-ValeurCmp = 10uH;
-IdModule  = SMD_Packages:SM1210;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A56DC;
-Reference = L4;
-ValeurCmp = JMP;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A53C7;
-Reference = L5;
 ValeurCmp = 10uH;
 IdModule  = SMD_Packages:SM1210;
 EndCmp
@@ -449,6 +435,20 @@ IdModule  = SMD_Packages:SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /54247ADB;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54247AED;
+Reference = R5;
+ValeurCmp = 20k;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /537A442E;
 Reference = R11;
 ValeurCmp = DNP;
@@ -494,13 +494,6 @@ BeginCmp
 TimeStamp = /53AB899F;
 Reference = R18;
 ValeurCmp = 4k7;
-IdModule  = SMD_Packages:SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A5186;
-Reference = R20;
-ValeurCmp = 2k2;
 IdModule  = SMD_Packages:SM0805;
 EndCmp
 
@@ -733,13 +726,6 @@ TimeStamp = /53AE17C4;
 Reference = U7;
 ValeurCmp = ISL3281E;
 IdModule  = SMD_Packages:SOT23_6;
-EndCmp
-
-BeginCmp
-TimeStamp = /537A6B04;
-Reference = U8;
-ValeurCmp = MGA-61563;
-IdModule  = Housings_SOT-23_SOT-143_TSOT-6:SC70-6_Handsoldering;
 EndCmp
 
 BeginCmp
