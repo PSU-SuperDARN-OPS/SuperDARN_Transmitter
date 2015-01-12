@@ -816,8 +816,8 @@ F 3 "" H 2900 8350 60  0000 C CNN
 	1    2900 8350
 	1    0    0    -1  
 $EndComp
-Text Notes 6150 6050 0    60   ~ 0
-see 907K-ND lug or similar for attaching transistor source to ground
+Text Notes 6100 6100 0    60   ~ 0
+see 907K-ND lug or similar for attaching transistor source to ground\nuse 1-64 machine screws, flat head to attach to heatsink\n
 $Comp
 L 7321MF U4
 U 1 1 54AC72AE
