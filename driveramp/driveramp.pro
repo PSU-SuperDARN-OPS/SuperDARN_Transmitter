@@ -1,6 +1,6 @@
-update=Wed Jan  7 16:34:59 2015
+update=Thu Jan 29 13:58:17 2015
 version=1
-last_client=kicad
+last_client=eeschema
 [pcbnew]
 version=1
 LastNetListRead=
@@ -45,6 +45,8 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -95,5 +97,5 @@ LibName35=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7321mf
 LibName36=/home/kleinjt/repos/SuperDARN_Transmitter/lib/dg4599
 LibName37=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lt3010ems8e
 LibName38=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole
-[general]
-version=1
+LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc475
+LibName40=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm2937

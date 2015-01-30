@@ -1,4 +1,4 @@
-update=Fri May 23 14:20:15 2014
+update=Thu Jan 29 10:42:45 2015
 version=1
 last_client=eeschema
 [pcbnew]
@@ -106,3 +106,4 @@ LibName38=rxx-b
 LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7545x
 LibName40=xxsaxxxx
 LibName41=npn_e1
+LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/rlm-521-2wl+
