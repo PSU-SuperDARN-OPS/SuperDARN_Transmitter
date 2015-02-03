@@ -1,0 +1,45 @@
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue Sep  2 11:53:36 2014
+
+BeginCmp
+TimeStamp = /54061A17;
+Reference = C1;
+ValeurCmp = .022 uF 630V;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /54061A05;
+Reference = C2;
+ValeurCmp = .022 uF;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /540619BC;
+Reference = J1;
+ValeurCmp = SMA;
+IdModule  = sma:sma;
+EndCmp
+
+BeginCmp
+TimeStamp = /54061A8D;
+Reference = P1;
+ValeurCmp = CONN_2;
+IdModule  = Connect:SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /54061A2E;
+Reference = R1;
+ValeurCmp = 1M HVC1206 600V;
+IdModule  = SMD_Packages:SMD-1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /54061A40;
+Reference = R2;
+ValeurCmp = 51;
+IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+EndListe
