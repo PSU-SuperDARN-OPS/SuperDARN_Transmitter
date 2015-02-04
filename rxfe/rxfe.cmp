@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri Jan 30 10:03:37 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 09:43:13 2015
 
 BeginCmp
 TimeStamp = /53BAE8F2;
@@ -38,7 +38,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53BAE590;
 Reference = C6;
-ValeurCmp = 22 uF;
+ValeurCmp = 10 uF;
 IdModule  = SMD_Packages:SMD-1210;
 EndCmp
 
@@ -239,7 +239,7 @@ IdModule  = SMD_Packages:SMD-1210_Pol;
 EndCmp
 
 BeginCmp
-TimeStamp = /54CB20E6;
+TimeStamp = /54CBE2BE;
 Reference = C35;
 ValeurCmp = 10 uF;
 IdModule  = SMD_Packages:SMD-1210_Pol;
@@ -257,6 +257,27 @@ TimeStamp = /53B876A5;
 Reference = D1;
 ValeurCmp = LED;
 IdModule  = SMD_Packages:SMD-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D26C4B;
+Reference = FID1;
+ValeurCmp = FIDUCIAL;
+IdModule  = sdtransmitter:FID_1MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D26C67;
+Reference = FID2;
+ValeurCmp = FIDUCIAL;
+IdModule  = sdtransmitter:FID_1MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D26C72;
+Reference = FID3;
+ValeurCmp = FIDUCIAL;
+IdModule  = sdtransmitter:FID_1MM;
 EndCmp
 
 BeginCmp

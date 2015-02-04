@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue Feb  3 16:41:34 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 10:06:41 2015
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -302,6 +302,48 @@ IdModule  = Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D2717D;
+Reference = FID1;
+ValeurCmp = FIDUCIAL;
+IdModule  = sdtransmitter:FID_1MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D27192;
+Reference = FID2;
+ValeurCmp = FIDUCIAL;
+IdModule  = sdtransmitter:FID_1MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D2719D;
+Reference = FID3;
+ValeurCmp = FIDUCIAL;
+IdModule  = sdtransmitter:FID_1MM;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D27172;
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D27167;
+Reference = H2;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D27155;
+Reference = H3;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /52AA0DCB;
 Reference = J1;
 ValeurCmp = SMA;
@@ -326,28 +368,28 @@ BeginCmp
 TimeStamp = /52ABD194;
 Reference = K1;
 ValeurCmp = TR;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = localconn:3-647166-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /537FA301;
 Reference = K2;
 ValeurCmp = HV_MON;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = localconn:3-647166-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5384E82B;
 Reference = K3;
 ValeurCmp = VINHDR;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = localconn:3-647166-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /54172BC5;
 Reference = K4;
 ValeurCmp = TR;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = localconn:3-647166-3;
 EndCmp
 
 BeginCmp

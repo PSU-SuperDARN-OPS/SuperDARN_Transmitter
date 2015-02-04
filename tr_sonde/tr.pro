@@ -1,4 +1,4 @@
-update=Thu Jan 29 10:42:45 2015
+update=Wed Feb  4 10:04:25 2015
 version=1
 last_client=eeschema
 [pcbnew]
@@ -107,3 +107,4 @@ LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/7545x
 LibName40=xxsaxxxx
 LibName41=npn_e1
 LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/rlm-521-2wl+
+LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole
