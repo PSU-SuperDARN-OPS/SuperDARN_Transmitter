@@ -1831,4 +1831,6 @@ Wire Wire Line
 Wire Wire Line
 	13900 3950 14050 3950
 NoConn ~ 14050 3950
+Text Notes 2000 1750 0    79   ~ 0
+get 	A9982-ND T handle tool for connectors
 $EndSCHEMATC
