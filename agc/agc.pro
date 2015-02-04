@@ -1,6 +1,6 @@
-update=Thu Jan  8 14:42:30 2015
+update=Tue Feb  3 12:58:58 2015
 version=1
-last_client=eeschema
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -43,8 +43,6 @@ LibName13=led
 LibName14=dip_sockets
 LibName15=pga_sockets
 LibName16=valves
-[general]
-version=1
 [eeschema]
 version=1
 PageLayoutDescrFile=
@@ -102,3 +100,5 @@ LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/ltc2914
 LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/isl3281e
 LibName44=/home/kleinjt/repos/SuperDARN_Transmitter/lib/smp1330-005lf
 LibName45=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole
+[general]
+version=1
