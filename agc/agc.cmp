@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 09:08:06 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 15:31:31 2015
 
 BeginCmp
 TimeStamp = /537AB198;
@@ -144,91 +144,91 @@ BeginCmp
 TimeStamp = /54D132F1;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB9031;
 Reference = JP2;
 ValeurCmp = JUMPER;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /537D1CE7;
 Reference = K1;
 ValeurCmp = TR;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D2AA11;
 Reference = K2;
 ValeurCmp = TR;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /537ABC3E;
 Reference = K3;
 ValeurCmp = VIN;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D68A04;
 Reference = K4;
 ValeurCmp = VOUT_TR;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /537D1CD3;
 Reference = K5;
 ValeurCmp = TR;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AF18D4;
 Reference = K6;
 ValeurCmp = TR;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /537FD579;
 Reference = K7;
 ValeurCmp = HVMON;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC0CBE;
 Reference = K8;
 ValeurCmp = TR;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC0CC9;
 Reference = K9;
 ValeurCmp = TR;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D136D2;
 Reference = K10;
 ValeurCmp = HVMON;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D13A93;
 Reference = K11;
 ValeurCmp = HVMON;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp

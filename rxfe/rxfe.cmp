@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 09:43:13 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 15:33:44 2015
 
 BeginCmp
 TimeStamp = /53BAE8F2;
@@ -340,7 +340,7 @@ BeginCmp
 TimeStamp = /54CB07E8;
 Reference = K1;
 ValeurCmp = CONN_3;
-IdModule  = localconn:3-647166-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
