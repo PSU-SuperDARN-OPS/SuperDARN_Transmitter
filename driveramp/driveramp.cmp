@@ -1,24 +1,24 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 09:57:00 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 15:05:22 2015
 
 BeginCmp
 TimeStamp = /54CAA86E;
 Reference = C1;
 ValeurCmp = 22nF;
-IdModule  = SMD_Packages:SMD-1210;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CAC72E;
 Reference = C2;
 ValeurCmp = 22nF;
-IdModule  = SMD_Packages:SMD-1210;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC079F;
 Reference = C3;
 ValeurCmp = 100 nF;
-IdModule  = SMD_Packages:SMD-1210;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
@@ -393,17 +393,17 @@ IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L;
 EndCmp
 
 BeginCmp
-TimeStamp = /54ADB6EA;
+TimeStamp = /54D2AAFF;
 Reference = L4;
-ValeurCmp = FERRITE BEAD;
-IdModule  = SMD_Packages:SMD-0805;
+ValeurCmp = 1.5 uH;
+IdModule  = SMD_Packages:SMD-1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CAAD91;
 Reference = L5;
 ValeurCmp = 1.5 uH;
-IdModule  = SMD_Packages:SM1812;
+IdModule  = SMD_Packages:SMD-1812;
 EndCmp
 
 BeginCmp
@@ -536,7 +536,7 @@ BeginCmp
 TimeStamp = /54CAAD68;
 Reference = R17;
 ValeurCmp = 43.2;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-2512_Pol;
 EndCmp
 
 BeginCmp
@@ -606,7 +606,7 @@ BeginCmp
 TimeStamp = /54CAA438;
 Reference = U5;
 ValeurCmp = GALI6+;
-IdModule  = local:MSOP8-EP;
+IdModule  = Housings_SOT-89:SOT89-3_Housing;
 EndCmp
 
 BeginCmp

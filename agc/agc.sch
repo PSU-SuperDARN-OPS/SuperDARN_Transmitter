@@ -1866,4 +1866,6 @@ F 3 "" H 4600 4850 60  0000 C CNN
 	1    4600 4850
 	1    0    0    -1  
 $EndComp
+Text Notes 1900 2100 0    79   ~ 0
+see WM17552-NDcrimp tool
 $EndSCHEMATC

@@ -3,7 +3,7 @@
   (general
     (links 199)
     (no_connects 0)
-    (area 96.469999 82.499999 225.856001 128.320001)
+    (area 95.836786 78.8416 229.031801 131.267201)
     (thickness 1.6)
     (drawings 20)
     (tracks 811)
@@ -32,7 +32,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.254)
     (user_trace_width 0.25)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
@@ -2623,10 +2623,10 @@
     )
   )
 
-  (module sdtransmitter:FID_1MM (layer F.Cu) (tedit 54D26850) (tstamp 54D269A0)
+  (module sdtransmitter:FID_1MM (layer F.Cu) (tedit 54D271D1) (tstamp 54D269A0)
     (at 99.822 112.268)
     (path /54D26C4B)
-    (fp_text reference FID1 (at 0.254 -1.778) (layer F.SilkS)
+    (fp_text reference FID1 (at -0.762 -6.096) (layer F.SilkS)
       (effects (font (size 0.9 0.9) (thickness 0.175)))
     )
     (fp_text value FIDUCIAL (at -0.762 -0.508) (layer F.SilkS)
@@ -3388,7 +3388,7 @@
   (segment (start 141.6685 87.249) (end 141.6685 84.709) (width 0.5) (layer F.Cu) (net 56))
   (segment (start 147.828 87.249) (end 141.6685 87.249) (width 0.5) (layer F.Cu) (net 56))
   (segment (start 107.188 97.0534) (end 105.1306 97.0534) (width 0.5) (layer F.Cu) (net 57))
-  (segment (start 115.316 119.38) (end 116.332 119.38) (width 0.5) (layer F.Cu) (net 57) (tstamp 54D26A0F) (status 800000))
+  (segment (start 115.316 119.38) (end 116.332 119.38) (width 0.5) (layer F.Cu) (net 57) (tstamp 54D26A0F))
   (segment (start 102.616 106.68) (end 115.316 119.38) (width 0.5) (layer F.Cu) (net 57) (tstamp 54D26A0D))
   (segment (start 102.616 99.568) (end 102.616 106.68) (width 0.5) (layer F.Cu) (net 57) (tstamp 54D26A0B))
   (segment (start 105.1306 97.0534) (end 102.616 99.568) (width 0.5) (layer F.Cu) (net 57) (tstamp 54D26A09))
