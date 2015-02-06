@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 15:34:37 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Feb  5 10:40:03 2015
 
 BeginCmp
 TimeStamp = /54CAA86E;
@@ -31,7 +31,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54ACADD8;
 Reference = C5;
-ValeurCmp = 100 nF;
+ValeurCmp = 1uF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -477,13 +477,6 @@ IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54ACADEE;
-Reference = R9;
-ValeurCmp = 9.1k;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /54AC8B63;
 Reference = R10;
 ValeurCmp = 2k 1%;
@@ -540,20 +533,6 @@ IdModule  = SMD_Packages:SMD-2512_Pol;
 EndCmp
 
 BeginCmp
-TimeStamp = /54ACB329;
-Reference = R23;
-ValeurCmp = 6.2 k;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
-TimeStamp = /54AF0A14;
-Reference = R24;
-ValeurCmp = DNP;
-IdModule  = SMD_Packages:SMD-0603;
-EndCmp
-
-BeginCmp
 TimeStamp = /54AC7490;
 Reference = RV1;
 ValeurCmp = 200;
@@ -577,8 +556,8 @@ EndCmp
 BeginCmp
 TimeStamp = /54AC72D6;
 Reference = U1;
-ValeurCmp = DG9411;
-IdModule  = Transistors_SMD:sc70-6;
+ValeurCmp = ISL43210A;
+IdModule  = SMD_Packages:SOT-23-6;
 EndCmp
 
 BeginCmp

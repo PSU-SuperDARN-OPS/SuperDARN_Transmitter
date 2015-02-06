@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 15:30:22 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Feb  5 12:58:12 2015
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -344,6 +344,13 @@ IdModule  = Mounting_Holes:MountingHole_3-5mm;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D3E2A6;
+Reference = H4;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
+EndCmp
+
+BeginCmp
 TimeStamp = /52AA0DCB;
 Reference = J1;
 ValeurCmp = SMA;
@@ -368,28 +375,21 @@ BeginCmp
 TimeStamp = /52ABD194;
 Reference = K1;
 ValeurCmp = TR;
-IdModule  = sdtransmitter:0740991003;
+IdModule  = sdtransmitter:0015912035;
 EndCmp
 
 BeginCmp
 TimeStamp = /537FA301;
 Reference = K2;
 ValeurCmp = HV_MON;
-IdModule  = sdtransmitter:0740991003;
+IdModule  = sdtransmitter:0015912035;
 EndCmp
 
 BeginCmp
 TimeStamp = /5384E82B;
 Reference = K3;
 ValeurCmp = VINHDR;
-IdModule  = sdtransmitter:0740991003;
-EndCmp
-
-BeginCmp
-TimeStamp = /54172BC5;
-Reference = K4;
-ValeurCmp = TR;
-IdModule  = sdtransmitter:0740991003;
+IdModule  = sdtransmitter:0015912035;
 EndCmp
 
 BeginCmp

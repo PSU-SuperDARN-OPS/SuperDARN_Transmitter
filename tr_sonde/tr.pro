@@ -1,6 +1,6 @@
-update=Wed Feb  4 10:04:25 2015
+update=Thu Feb  5 15:25:07 2015
 version=1
-last_client=eeschema
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=
@@ -46,8 +46,6 @@ LibName22=powerpakso8
 LibName23=msop10ep
 LibName24=smb_diode
 LibDir=../driveramp
-[general]
-version=1
 [cvpcb]
 version=1
 NetIExt=net
@@ -108,3 +106,5 @@ LibName40=xxsaxxxx
 LibName41=npn_e1
 LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/rlm-521-2wl+
 LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole
+[general]
+version=1
