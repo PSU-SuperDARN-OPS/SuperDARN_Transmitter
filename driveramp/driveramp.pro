@@ -1,4 +1,4 @@
-update=Thu Jan 29 13:58:17 2015
+update=Thu Feb  5 17:01:10 2015
 version=1
 last_client=eeschema
 [pcbnew]
@@ -99,3 +99,4 @@ LibName37=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lt3010ems8e
 LibName38=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole
 LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc475
 LibName40=/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm2937
+LibName41=/home/kleinjt/repos/SuperDARN_Transmitter/lib/pe4239
