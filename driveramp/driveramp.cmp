@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Feb  5 10:40:03 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Feb  5 17:22:54 2015
 
 BeginCmp
 TimeStamp = /54CAA86E;
@@ -372,6 +372,13 @@ IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
+TimeStamp = /54D41668;
+Reference = K2;
+ValeurCmp = CONN_3;
+IdModule  = sdtransmitter:0740991003;
+EndCmp
+
+BeginCmp
 TimeStamp = /54AC7557;
 Reference = L1;
 ValeurCmp = 1.5 uH;
@@ -589,10 +596,10 @@ IdModule  = Housings_SOT-89:SOT89-3_Housing;
 EndCmp
 
 BeginCmp
-TimeStamp = /54CABE47;
+TimeStamp = /54D4286C;
 Reference = U6;
-ValeurCmp = LM2937;
-IdModule  = SMD_Packages:SOT-223;
+ValeurCmp = BA08CC0WFP;
+IdModule  = to252_5:TO252-5;
 EndCmp
 
 EndListe
