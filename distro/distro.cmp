@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu 04 Sep 2014 04:13:17 PM AKDT
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri Feb  6 16:29:21 2015
 
 BeginCmp
 TimeStamp = /5408CCB4;
@@ -36,52 +36,10 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5408FBB4;
-Reference = C6;
-ValeurCmp = 1000 pF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5408FBBF;
-Reference = C7;
-ValeurCmp = 22 nF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5408FBCF;
-Reference = C8;
-ValeurCmp = 1 uF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5408FB7D;
-Reference = C9;
-ValeurCmp = 10 uF;
-IdModule  = SMD_Packages:SMD-1210;
-EndCmp
-
-BeginCmp
-TimeStamp = /5408FB8F;
-Reference = C10;
-ValeurCmp = 1000 pF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5408FE5E;
-Reference = C11;
-ValeurCmp = 1 uF;
-IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
 TimeStamp = /5408CC8C;
 Reference = K1;
 ValeurCmp = CONN_3;
-IdModule  = Connect:PINHEAD1-3;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
@@ -169,17 +127,17 @@ IdModule  = local:0015311026;
 EndCmp
 
 BeginCmp
+TimeStamp = /54172114;
+Reference = P13;
+ValeurCmp = CONN_2;
+IdModule  = local:0015311026;
+EndCmp
+
+BeginCmp
 TimeStamp = /5408D17F;
 Reference = R1;
 ValeurCmp = R;
 IdModule  = SMD_Packages:SMD-0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5408F93D;
-Reference = U1;
-ValeurCmp = KBVW006A0B;
-IdModule  = local:KBVW006A0B;
 EndCmp
 
 EndListe
