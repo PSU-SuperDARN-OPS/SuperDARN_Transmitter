@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 15:33:44 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri Feb  6 10:57:37 2015
 
 BeginCmp
 TimeStamp = /53BAE8F2;
@@ -312,14 +312,14 @@ BeginCmp
 TimeStamp = /53B46F73;
 Reference = J1;
 ValeurCmp = SMA;
-IdModule  = local:SMA_5-1814832-1;
+IdModule  = local:SMA_0732511350;
 EndCmp
 
 BeginCmp
 TimeStamp = /53B46F8B;
 Reference = J2;
 ValeurCmp = SMA;
-IdModule  = local:SMA_5-1814832-1;
+IdModule  = local:SMA_0732511350;
 EndCmp
 
 BeginCmp
@@ -333,7 +333,7 @@ BeginCmp
 TimeStamp = /54CABB39;
 Reference = J4;
 ValeurCmp = SMA;
-IdModule  = local:SMA_5-1814832-1;
+IdModule  = local:SMA_0732511350;
 EndCmp
 
 BeginCmp

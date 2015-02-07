@@ -1,16 +1,16 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Thu Feb  5 17:22:54 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri Feb  6 15:33:23 2015
 
 BeginCmp
 TimeStamp = /54CAA86E;
 Reference = C1;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CAC72E;
 Reference = C2;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -45,22 +45,22 @@ EndCmp
 BeginCmp
 TimeStamp = /529EC25A;
 Reference = C7;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /529EC269;
 Reference = C8;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5494AC46;
 Reference = C10;
-ValeurCmp = JMP;
-IdModule  = SMD_Packages:SMD-1210;
+ValeurCmp = 22 nF;
+IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
@@ -115,14 +115,14 @@ EndCmp
 BeginCmp
 TimeStamp = /53A908D4;
 Reference = C18;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A8F189;
 Reference = C19;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -164,7 +164,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53A9F880;
 Reference = C25;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -178,7 +178,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53A9FA7B;
 Reference = C27;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -206,7 +206,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53AA03BF;
 Reference = C32;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -262,7 +262,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54AF1275;
 Reference = C41;
-ValeurCmp = 22nF;
+ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
@@ -360,21 +360,21 @@ EndCmp
 BeginCmp
 TimeStamp = /54CC0A8C;
 Reference = JP1;
-ValeurCmp = JUMPER3;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ACAC23;
 Reference = K1;
-ValeurCmp = CONN_3;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D41668;
 Reference = K2;
-ValeurCmp = CONN_3;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
