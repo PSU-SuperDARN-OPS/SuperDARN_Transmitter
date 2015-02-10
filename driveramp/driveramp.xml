@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/home/kleinjt/repos/SuperDARN_Transmitter/driveramp/driveramp.sch</source>
-    <date>Fri Feb  6 15:44:35 2015</date>
+    <date>Mon Feb  9 11:53:33 2015</date>
     <tool>eeschema (2014-03-19 BZR 4756)-product</tool>
   </design>
   <components>
@@ -784,31 +784,6 @@
         <pin num="3" name="P3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="dg4599" part="DG4599">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">DG4599</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IN" type="input"/>
-        <pin num="2" name="V+" type="input"/>
-        <pin num="3" name="GND" type="input"/>
-        <pin num="4" name="NC" type="input"/>
-        <pin num="5" name="COM" type="input"/>
-        <pin num="6" name="NO" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="lm317hv" part="LM317HV">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM317HV</field>
-      </fields>
-      <pins>
-        <pin num="1" name="ADJ" type="input"/>
-        <pin num="2" name="VOUT" type="input"/>
-        <pin num="3" name="VIN" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="sma" part="SMA">
       <fields>
         <field name="Reference">J</field>
@@ -836,6 +811,17 @@
         <pin num="6" name="SOURCE_2" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="lm317hv" part="LM317HV">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM317HV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VOUT" type="input"/>
+        <pin num="3" name="VIN" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="7321mf" part="7321MF">
       <fields>
         <field name="Reference">U</field>
@@ -849,6 +835,26 @@
         <pin num="5" name="V+" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="dg4599" part="DG4599">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DG4599</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="input"/>
+        <pin num="2" name="V+" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="COM" type="input"/>
+        <pin num="6" name="NO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="mounting_hole" part="MOUNTING_HOLE">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MOUNTING_HOLE</field>
+      </fields>
+    </libpart>
     <libpart lib="hmc475" part="HMC475">
       <fields>
         <field name="Reference">U</field>
@@ -859,12 +865,6 @@
         <pin num="2" name="GND" type="input"/>
         <pin num="3" name="OUT" type="input"/>
       </pins>
-    </libpart>
-    <libpart lib="mounting_hole" part="MOUNTING_HOLE">
-      <fields>
-        <field name="Reference">H</field>
-        <field name="Value">MOUNTING_HOLE</field>
-      </fields>
     </libpart>
     <libpart lib="ba08cc0wfp" part="BA08CC0WFP">
       <fields>
@@ -886,6 +886,9 @@
     <library logical="conn">
       <uri>/usr/local/share/kicad/library/conn.lib</uri>
     </library>
+    <library logical="dg4599">
+      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/dg4599.lib</uri>
+    </library>
     <library logical="sma">
       <uri>sma.lib</uri>
     </library>
@@ -898,14 +901,11 @@
     <library logical="7321mf">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/7321mf.lib</uri>
     </library>
-    <library logical="hmc475">
-      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc475.lib</uri>
-    </library>
-    <library logical="dg4599">
-      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/dg4599.lib</uri>
-    </library>
     <library logical="mounting_hole">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole.lib</uri>
+    </library>
+    <library logical="hmc475">
+      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc475.lib</uri>
     </library>
     <library logical="ba08cc0wfp">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/ba08cc0wfp.lib</uri>

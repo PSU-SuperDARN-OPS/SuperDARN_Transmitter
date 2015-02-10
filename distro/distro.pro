@@ -1,4 +1,4 @@
-update=Thu 04 Sep 2014 03:43:46 PM AKDT
+update=Mon Feb  9 15:49:55 2015
 version=1
 last_client=eeschema
 [cvpcb]
@@ -88,3 +88,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=/home/kleinjt/repos/SuperDARN_Transmitter/lib/kbvw006a0b
+LibName32=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole

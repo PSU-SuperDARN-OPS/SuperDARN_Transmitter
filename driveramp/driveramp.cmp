@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri Feb  6 15:33:23 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Feb  9 13:40:48 2015
 
 BeginCmp
 TimeStamp = /54CAA86E;
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /54AC83AF;
 Reference = C38;
 ValeurCmp = 10 uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = SMD_Packages:SMD-1210_Pol;
 EndCmp
 
 BeginCmp
@@ -277,7 +277,7 @@ BeginCmp
 TimeStamp = /53A9D5CB;
 Reference = D3;
 ValeurCmp = LED;
-IdModule  = LEDs:LED-0603;
+IdModule  = LEDs:LED-0805;
 EndCmp
 
 BeginCmp
@@ -484,9 +484,16 @@ IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
 BeginCmp
-TimeStamp = /54AC8B63;
+TimeStamp = /54D56405;
+Reference = R9;
+ValeurCmp = 1.1k 1%;
+IdModule  = SMD_Packages:SMD-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /54D565DF;
 Reference = R10;
-ValeurCmp = 2k 1%;
+ValeurCmp = 909 1%;
 IdModule  = SMD_Packages:SMD-0603;
 EndCmp
 
