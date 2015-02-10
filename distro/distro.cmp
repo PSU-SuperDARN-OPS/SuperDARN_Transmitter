@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Feb  9 16:43:29 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue Feb 10 11:06:04 2015
 
 BeginCmp
 TimeStamp = /5408CCB4;
@@ -8,29 +8,22 @@ IdModule  = Capacitors_ThroughHole:Capacitor35x51RM10;
 EndCmp
 
 BeginCmp
-TimeStamp = /5408CCF7;
+TimeStamp = /5408D703;
 Reference = C2;
 ValeurCmp = 10000 uF;
 IdModule  = Capacitors_ThroughHole:Capacitor35x51RM10;
 EndCmp
 
 BeginCmp
-TimeStamp = /5408D703;
-Reference = C3;
-ValeurCmp = 10000 uF;
-IdModule  = Capacitors_ThroughHole:Capacitor35x51RM10;
-EndCmp
-
-BeginCmp
 TimeStamp = /5408E164;
-Reference = C4;
+Reference = C3;
 ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5408E176;
-Reference = C5;
+Reference = C4;
 ValeurCmp = 22 nF;
 IdModule  = SMD_Packages:SMD-0805;
 EndCmp
@@ -39,28 +32,28 @@ BeginCmp
 TimeStamp = /54D956E3;
 Reference = H1;
 ValeurCmp = MOUNTING_HOLE;
-IdModule  = Mounting_Holes:MountingHole_6-5mm;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D956F5;
 Reference = H2;
 ValeurCmp = MOUNTING_HOLE;
-IdModule  = Mounting_Holes:MountingHole_6-5mm;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D95700;
 Reference = H3;
 ValeurCmp = MOUNTING_HOLE;
-IdModule  = Mounting_Holes:MountingHole_6-5mm;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D9570B;
 Reference = H4;
 ValeurCmp = MOUNTING_HOLE;
-IdModule  = Mounting_Holes:MountingHole_6-5mm;
+IdModule  = Mounting_Holes:MountingHole_3-5mm;
 EndCmp
 
 BeginCmp
@@ -93,58 +86,58 @@ EndCmp
 
 BeginCmp
 TimeStamp = /5408CDD7;
-Reference = P3;
-ValeurCmp = CONN_2;
-IdModule  = sdtransmitter:0740991003;
-EndCmp
-
-BeginCmp
-TimeStamp = /5408CDED;
-Reference = P4;
+Reference = P1;
 ValeurCmp = CONN_2;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /5408CE0A;
-Reference = P5;
+Reference = P2;
 ValeurCmp = CONN_2;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
-TimeStamp = /5408D565;
-Reference = P9;
+TimeStamp = /5408F2A1;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = sdtransmitter:0740991003;
+EndCmp
+
+BeginCmp
+TimeStamp = /54172114;
+Reference = P4;
 ValeurCmp = CONN_2;
 IdModule  = local:0015311026;
 EndCmp
 
 BeginCmp
 TimeStamp = /5408CFC1;
-Reference = P10;
+Reference = P5;
 ValeurCmp = CONN_2;
-IdModule  = local:2-1445053-2;
+IdModule  = local:0015311026;
 EndCmp
 
 BeginCmp
 TimeStamp = /5408CFA4;
-Reference = P11;
+Reference = P6;
 ValeurCmp = CONN_2;
 IdModule  = local:0015311026;
 EndCmp
 
 BeginCmp
-TimeStamp = /5408F2A1;
-Reference = P12;
+TimeStamp = /5408D565;
+Reference = P7;
 ValeurCmp = CONN_2;
 IdModule  = local:0015311026;
 EndCmp
 
 BeginCmp
-TimeStamp = /54172114;
-Reference = P13;
+TimeStamp = /54D9632B;
+Reference = P8;
 ValeurCmp = CONN_2;
-IdModule  = local:0015311026;
+IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 EndListe
