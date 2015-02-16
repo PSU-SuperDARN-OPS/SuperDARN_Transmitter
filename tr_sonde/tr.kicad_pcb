@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 54.753358 21.844 166.370001 92.710001)
     (thickness 1.6)
-    (drawings 25)
+    (drawings 29)
     (tracks 584)
     (zones 0)
     (modules 90)
@@ -15,7 +15,7 @@
   (page A3)
   (layers
     (15 F.Cu signal)
-    (2 Inner2.Cu signal hide)
+    (2 Inner2.Cu signal)
     (1 Inner1.Cu signal)
     (0 B.Cu signal)
     (16 B.Adhes user)
@@ -34,13 +34,13 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.18)
     (user_trace_width 0.5)
     (user_trace_width 0.8)
     (user_trace_width 1)
     (user_trace_width 2.54)
     (trace_clearance 0.17)
-    (zone_clearance 1)
+    (zone_clearance 0.5)
     (zone_45_only yes)
     (trace_min 0.18)
     (segment_width 0.2)
@@ -707,10 +707,10 @@
       (net 4 /hvdiode))
   )
 
-  (module melf-1072:MELF-1072 (layer F.Cu) (tedit 537F975A) (tstamp 54173D0D)
+  (module melf-1072:MELF-1072 (layer F.Cu) (tedit 54DBA3F4) (tstamp 54173D0D)
     (at 113.284 57.277 180)
     (path /52AA1017)
-    (fp_text reference D5 (at 0.127 2.921 180) (layer F.SilkS)
+    (fp_text reference D5 (at -0.889 2.667 180) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.175)))
     )
     (fp_text value MA4P7006F-1072T (at -2.25 -3.25 180) (layer F.SilkS)
@@ -887,11 +887,11 @@
     )
   )
 
-  (module smd_capacitors:c_1210 (layer F.Cu) (tedit 54D40B73) (tstamp 54173C5F)
+  (module smd_capacitors:c_1210 (layer F.Cu) (tedit 54DBA3F6) (tstamp 54173C5F)
     (at 108.585 56.134 270)
     (descr "SMT capacitor, 1210")
     (path /52AA131D)
-    (fp_text reference L4 (at -3.048 -2.921 360) (layer F.SilkS)
+    (fp_text reference L4 (at -3.683 -2.286 360) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.175)))
     )
     (fp_text value 22uH (at -0.0254 1.7272 270) (layer F.SilkS) hide
@@ -2381,13 +2381,13 @@
     )
   )
 
-  (module Diodes_SMD:Diode-SMB_Handsoldering (layer F.Cu) (tedit 54D40C60) (tstamp 54D17B0A)
+  (module Diodes_SMD:Diode-SMB_Handsoldering (layer F.Cu) (tedit 54DBA3FA) (tstamp 54D17B0A)
     (at 98.298 66.548 90)
     (descr "Diode SMB Handsoldering")
     (tags "Diode SMB Handsoldering")
     (path /52AA3DC3)
     (attr smd)
-    (fp_text reference D4 (at 0.254 2.794 90) (layer F.SilkS)
+    (fp_text reference D4 (at 0.254 3.048 90) (layer F.SilkS)
       (effects (font (size 0.8 0.8) (thickness 0.175)))
     )
     (fp_text value MA4P4006F-1091T (at 0 3.81 90) (layer F.SilkS) hide
@@ -2629,6 +2629,10 @@
     (pad 5 thru_hole circle (at 3.935 -10.69 180) (size 3.78 3.78) (drill 3.76) (layers *.Cu *.Mask F.SilkS))
   )
 
+  (gr_line (start 56.388 91.44) (end 56.388 24.13) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 164.592 91.44) (end 56.388 91.44) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 164.592 24.13) (end 164.592 91.44) (angle 90) (layer F.SilkS) (width 0.2))
+  (gr_line (start 56.388 24.13) (end 164.592 24.13) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_text C (at 60.452 82.042) (layer F.SilkS)
     (effects (font (size 0.7 0.7) (thickness 0.175)))
   )
@@ -3295,7 +3299,7 @@
     (fill (arc_segments 16) (thermal_gap 5) (thermal_bridge_width 5))
     (polygon
       (pts
-        (xy 166.37 92.71) (xy 55.88 92.71) (xy 55.88 21.844) (xy 166.37 21.844)
+        (xy 164.592 91.44) (xy 56.769 91.44) (xy 56.769 24.13) (xy 164.592 24.13)
       )
     )
     (filled_polygon

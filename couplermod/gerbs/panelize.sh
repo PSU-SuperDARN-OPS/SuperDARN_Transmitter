@@ -1,8 +1,8 @@
+FILENAME="couplermod"
 echo "NOTE: set minimal header in kicad drill file"
-#FMAT,2
-#G90
-#G05
-#T0
+sed -i '/G90/d' "$FILENAME".drl
+sed -i '/G05/d' "$FILENAME".drl
+sed -i '/T0/d' "$FILENAME".drl
 touch fabdwg.txt
 gerbmerge twolayer.cfg
 
