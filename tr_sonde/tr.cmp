@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb 25 15:37:30 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Fri 27 Feb 2015 11:33:31 AM AKST
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -262,8 +262,8 @@ EndCmp
 BeginCmp
 TimeStamp = /537E9B17;
 Reference = F1;
-ValeurCmp = PTC FUSE (0ZCJ0010FF2E);
-IdModule  = Fuse_Holders_and_Fuses:Fuse_SMD1206_HandSoldering;
+ValeurCmp = PTC FUSE (1.2A TRIP);
+IdModule  = smd_capacitors:c_1812;
 EndCmp
 
 BeginCmp
@@ -479,14 +479,14 @@ EndCmp
 BeginCmp
 TimeStamp = /537F911B;
 Reference = R6;
-ValeurCmp = 300 (1W);
+ValeurCmp = 150;
 IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /537F912B;
 Reference = R7;
-ValeurCmp = 300 (1W);
+ValeurCmp = 150;
 IdModule  = smd_capacitors:c_1210;
 EndCmp
 
@@ -582,17 +582,31 @@ IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /54EE65CE;
+Reference = R21;
+ValeurCmp = 150;
+IdModule  = smd_capacitors:c_1210;
+EndCmp
+
+BeginCmp
 TimeStamp = /52AE55A8;
 Reference = R22;
 ValeurCmp = 150;
-IdModule  = SMD_Packages:SMD-1210;
+IdModule  = smd_capacitors:c_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /54EE6854;
+Reference = R23;
+ValeurCmp = 150;
+IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
 TimeStamp = /52AE7C16;
 Reference = R25;
 ValeurCmp = 150;
-IdModule  = SMD_Packages:SMD-1210;
+IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
@@ -620,7 +634,7 @@ BeginCmp
 TimeStamp = /537FC764;
 Reference = R30;
 ValeurCmp = 150;
-IdModule  = SMD_Packages:SMD-1210;
+IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
