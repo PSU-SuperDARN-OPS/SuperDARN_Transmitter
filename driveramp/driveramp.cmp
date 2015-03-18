@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Mar 18 11:57:01 2015
+Cmp-Mod V01 Created by Cvpcb (2015-03-18 BZR 5525)-product   date = Wed 18 Mar 2015 01:33:13 PM AKDT
 
 BeginCmp
 TimeStamp = /54CAA86E;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /54ACADD8;
 Reference = C5;
 ValeurCmp = 1 uF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /54D93860;
 Reference = C9;
 ValeurCmp = 1 uF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /54AC92FA;
 Reference = C16;
 ValeurCmp = 1 uF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -137,7 +137,7 @@ BeginCmp
 TimeStamp = /5509D5BE;
 Reference = C20;
 ValeurCmp = 22 pF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -151,14 +151,14 @@ BeginCmp
 TimeStamp = /54ACA189;
 Reference = C23;
 ValeurCmp = 22 pF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AC9817;
 Reference = C24;
 ValeurCmp = 22 pF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -235,7 +235,7 @@ BeginCmp
 TimeStamp = /53CF66DB;
 Reference = C35;
 ValeurCmp = 1 uF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -249,7 +249,7 @@ BeginCmp
 TimeStamp = /54AC8EF7;
 Reference = C37;
 ValeurCmp = 1 uF;
-IdModule  = smd_capacitors:c_0805;
+IdModule  = Capacitors_SMD:C_0805;
 EndCmp
 
 BeginCmp
@@ -403,7 +403,7 @@ BeginCmp
 TimeStamp = /5509CE64;
 Reference = L4;
 ValeurCmp = 8.2 uH;
-IdModule  = SMD_Packages:SMD-1812;
+IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L;
 EndCmp
 
 BeginCmp
