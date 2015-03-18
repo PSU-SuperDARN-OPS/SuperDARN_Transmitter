@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Mar  9 14:11:44 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Mar 18 11:57:01 2015
 
 BeginCmp
 TimeStamp = /54CAA86E;
@@ -32,7 +32,7 @@ BeginCmp
 TimeStamp = /54ACADD8;
 Reference = C5;
 ValeurCmp = 1 uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /54D93860;
 Reference = C9;
 ValeurCmp = 1 uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /54AC92FA;
 Reference = C16;
 ValeurCmp = 1 uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -134,6 +134,13 @@ IdModule  = SMD_Packages:SMD-0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /5509D5BE;
+Reference = C20;
+ValeurCmp = 22 pF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /53AA0614;
 Reference = C21;
 ValeurCmp = DNP;
@@ -144,14 +151,14 @@ BeginCmp
 TimeStamp = /54ACA189;
 Reference = C23;
 ValeurCmp = 22 pF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AC9817;
 Reference = C24;
 ValeurCmp = 22 pF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -178,7 +185,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54FE0772;
 Reference = C28;
-ValeurCmp = 56uF;
+ValeurCmp = 10uF;
 IdModule  = smd_capacitors:c_1210;
 EndCmp
 
@@ -228,7 +235,7 @@ BeginCmp
 TimeStamp = /53CF66DB;
 Reference = C35;
 ValeurCmp = 1 uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -242,7 +249,7 @@ BeginCmp
 TimeStamp = /54AC8EF7;
 Reference = C37;
 ValeurCmp = 1 uF;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -372,30 +379,30 @@ IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
+TimeStamp = /5509CE51;
+Reference = L1;
+ValeurCmp = 8.2 uH;
+IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L;
+EndCmp
+
+BeginCmp
 TimeStamp = /529EC342;
 Reference = L2;
-ValeurCmp = 6.8 uH, Wurth 7447786006;
+ValeurCmp = 8.2 uH;
 IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A9F97D;
 Reference = L3;
-ValeurCmp = 6.8 uH, Wurth 7447786006;
+ValeurCmp = 8.2 uH;
 IdModule  = Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L;
 EndCmp
 
 BeginCmp
-TimeStamp = /54D2AAFF;
+TimeStamp = /5509CE64;
 Reference = L4;
-ValeurCmp = 1.5 uH;
-IdModule  = SMD_Packages:SMD-1812;
-EndCmp
-
-BeginCmp
-TimeStamp = /54CAAD91;
-Reference = L5;
-ValeurCmp = 1.5 uH;
+ValeurCmp = 8.2 uH;
 IdModule  = SMD_Packages:SMD-1812;
 EndCmp
 

@@ -2,13 +2,19 @@
 <export version="D">
   <design>
     <source>/home/kleinjt/repos/SuperDARN_Transmitter/driveramp/driveramp.sch</source>
-    <date>Mon Mar  9 14:12:06 2015</date>
+    <date>Wed Mar 18 10:49:06 2015</date>
     <tool>eeschema (2014-03-19 BZR 4756)-product</tool>
   </design>
   <components>
     <comp ref="C7">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>529EC25A</tstamp>
@@ -16,6 +22,12 @@
     <comp ref="C8">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>529EC269</tstamp>
@@ -23,13 +35,25 @@
     <comp ref="C11">
       <value>56uF</value>
       <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">EEH-ZA1J560P</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P15449DKR-ND</field>
+      </fields>
       <libsource lib="device" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>529EC2B4</tstamp>
     </comp>
     <comp ref="L2">
-      <value>6.8 uH, Wurth 7447786006</value>
+      <value>8.2 uH</value>
       <footprint>Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L</footprint>
+      <fields>
+        <field name="MFG Name">WURTH ELECTRONICS INC (VA)</field>
+        <field name="MFG PN">7447786008</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">732-3298-6-ND</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>529EC342</tstamp>
@@ -37,6 +61,12 @@
     <comp ref="J1">
       <value>SMA</value>
       <footprint>local:SMA_0732511350</footprint>
+      <fields>
+        <field name="MFG Name">MOLEX INC</field>
+        <field name="MFG PN">732511350</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">WM9357-ND</field>
+      </fields>
       <libsource lib="sma" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>529EC89F</tstamp>
@@ -44,6 +74,12 @@
     <comp ref="J2">
       <value>SMA</value>
       <footprint>local:SMA_0732511350</footprint>
+      <fields>
+        <field name="MFG Name">MOLEX INC</field>
+        <field name="MFG PN">732511350</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">WM9357-ND</field>
+      </fields>
       <libsource lib="sma" part="SMA"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>529EC8AE</tstamp>
@@ -51,6 +87,12 @@
     <comp ref="P2">
       <value>CONN_2</value>
       <footprint>local:2-1445053-2</footprint>
+      <fields>
+        <field name="MFG Name">TE CONNECTIVITY AMP (VA)</field>
+        <field name="MFG PN">2-1445096-2</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">A33204CT-ND</field>
+      </fields>
       <libsource lib="conn" part="CONN_2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5346DF9F</tstamp>
@@ -58,6 +100,12 @@
     <comp ref="C19">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A8F189</tstamp>
@@ -65,6 +113,12 @@
     <comp ref="C18">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A908D4</tstamp>
@@ -72,6 +126,12 @@
     <comp ref="T2">
       <value>2x Fair-Rite 2843006802, coax</value>
       <footprint>local:2843006802</footprint>
+      <fields>
+        <field name="MFG Name">Fair-Rite</field>
+        <field name="MFG PN">2843006802</field>
+        <field name="Dist Name">Mouser</field>
+        <field name="Dist PN">623-2843006802</field>
+      </fields>
       <libsource lib="device" part="TRANSFO4"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9A61F</tstamp>
@@ -79,6 +139,12 @@
     <comp ref="T1">
       <value>2843000302</value>
       <footprint>sdtransmitter:2843000302</footprint>
+      <fields>
+        <field name="MFG Name">Fair-Rite</field>
+        <field name="MFG PN">2843000302</field>
+        <field name="Dist Name">Mouser</field>
+        <field name="Dist PN">623-2843006802</field>
+      </fields>
       <libsource lib="device" part="TRANSFO4"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9A725</tstamp>
@@ -86,6 +152,12 @@
     <comp ref="U2">
       <value>MRFE6VP100H</value>
       <footprint>local:NI780-4</footprint>
+      <fields>
+        <field name="MFG Name">FREESCALE SEMICONDUCTOR (VA)</field>
+        <field name="MFG PN">MRFE6VP100HR5</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">MRFE6VP100HR5CT-ND</field>
+      </fields>
       <libsource lib="mrfe6vp100h" part="MRFE6VP100H"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9C617</tstamp>
@@ -93,6 +165,9 @@
     <comp ref="C17">
       <value>DNP</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Dist Name">DigiKey</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9CC86</tstamp>
@@ -100,13 +175,25 @@
     <comp ref="C25">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9F880</tstamp>
     </comp>
     <comp ref="L3">
-      <value>6.8 uH, Wurth 7447786006</value>
+      <value>8.2 uH</value>
       <footprint>Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L</footprint>
+      <fields>
+        <field name="MFG Name">WURTH ELECTRONICS INC (VA)</field>
+        <field name="MFG PN">7447786008</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">732-3298-6-ND</field>
+      </fields>
       <libsource lib="device" part="INDUCTOR"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9F97D</tstamp>
@@ -114,6 +201,12 @@
     <comp ref="C27">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9FA7B</tstamp>
@@ -121,6 +214,12 @@
     <comp ref="C30">
       <value>56uF</value>
       <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">EEH-ZA1J560P</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P15449DKR-ND</field>
+      </fields>
       <libsource lib="device" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9FA8D</tstamp>
@@ -128,6 +227,12 @@
     <comp ref="C32">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53AA03BF</tstamp>
@@ -135,6 +240,9 @@
     <comp ref="C21">
       <value>DNP</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="Dist Name">DigiKey</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53AA0614</tstamp>
@@ -142,6 +250,9 @@
     <comp ref="C31">
       <value>DNP</value>
       <footprint>SMD_Packages:SMD-1210</footprint>
+      <fields>
+        <field name="Dist Name">DigiKey</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53AA09DA</tstamp>
@@ -149,6 +260,12 @@
     <comp ref="D3">
       <value>LED</value>
       <footprint>LEDs:LED-0805</footprint>
+      <fields>
+        <field name="MFG Name">OSRAM OPTO SEMICONDUCTORS INC(VA)</field>
+        <field name="MFG PN">LS R976-NR-1</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">475-1278-6-ND</field>
+      </fields>
       <libsource lib="device" part="LED"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9D5CB</tstamp>
@@ -156,6 +273,11 @@
     <comp ref="R5">
       <value>10k</value>
       <footprint>SMD_Packages:SM0805</footprint>
+      <fields>
+        <field name="MFG PN">ERJ-3EKF1002V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P10.0KHDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9D5DF</tstamp>
@@ -163,6 +285,12 @@
     <comp ref="C34">
       <value>56uF</value>
       <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">EEH-ZA1J560P</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P15449DKR-ND</field>
+      </fields>
       <libsource lib="device" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9F70A</tstamp>
@@ -170,6 +298,12 @@
     <comp ref="C33">
       <value>56uF</value>
       <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">EEH-ZA1J560P</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P15449DKR-ND</field>
+      </fields>
       <libsource lib="device" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9FA86</tstamp>
@@ -177,6 +311,12 @@
     <comp ref="C35">
       <value>1 uF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">TDK CORPORATION (VA)</field>
+        <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">445-8782-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53CF66DB</tstamp>
@@ -184,6 +324,12 @@
     <comp ref="R7">
       <value>2.49 ohm, 2 W(RHC2512FT2R49)</value>
       <footprint>SMD_Packages:SM2512</footprint>
+      <fields>
+        <field name="MFG Name">STACKPOLE ELECTRONICS INC (VA)</field>
+        <field name="MFG PN">RHC2512FT2R49</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">RHC2512FT2R49DKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53CF6B6B</tstamp>
@@ -191,6 +337,12 @@
     <comp ref="C6">
       <value>56uF</value>
       <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">EEH-ZA1J560P</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P15449DKR-ND</field>
+      </fields>
       <libsource lib="device" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53CFF430</tstamp>
@@ -198,6 +350,12 @@
     <comp ref="C15">
       <value>56uF</value>
       <footprint>Capacitors_SMD:c_elec_10x10</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">EEH-ZA1J560P</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P15449DKR-ND</field>
+      </fields>
       <libsource lib="device" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53CFF446</tstamp>
@@ -205,6 +363,12 @@
     <comp ref="U3">
       <value>LM317HV</value>
       <footprint>to252_5:TO-220_Neutral123_Horizontal</footprint>
+      <fields>
+        <field name="MFG Name">TEXAS INSTRUMENTS</field>
+        <field name="MFG PN">LM317HVT/NOPB</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">LM317HVT/NOPB-ND</field>
+      </fields>
       <libsource lib="lm317hv" part="LM317HV"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54613912</tstamp>
@@ -212,6 +376,12 @@
     <comp ref="C10">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5494AC46</tstamp>
@@ -219,6 +389,9 @@
     <comp ref="C4">
       <value>DNP</value>
       <footprint>SMD_Packages:SMD-1210</footprint>
+      <fields>
+        <field name="Dist Name">DigiKey</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5494AD09</tstamp>
@@ -226,6 +399,12 @@
     <comp ref="U4">
       <value>7321MF</value>
       <footprint>SMD_Packages:SOT-23-5</footprint>
+      <fields>
+        <field name="MFG Name">TEXAS INSTRUMENTS (VA)</field>
+        <field name="MFG PN">LM7321MF/NOPB</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">LM7321MF/NOPBDKR-ND</field>
+      </fields>
       <libsource lib="7321mf" part="7321MF"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC72AE</tstamp>
@@ -233,6 +412,12 @@
     <comp ref="U1">
       <value>ISL43210A</value>
       <footprint>SMD_Packages:SOT-23-6</footprint>
+      <fields>
+        <field name="MFG Name">INTERSIL (VA)</field>
+        <field name="MFG PN">ISL43210AIHZ-T7A</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">ISL43210AIHZ-T7ADKR-ND</field>
+      </fields>
       <libsource lib="dg4599" part="DG4599"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC72D6</tstamp>
@@ -240,6 +425,12 @@
     <comp ref="RV1">
       <value>200</value>
       <footprint>local:3269W</footprint>
+      <fields>
+        <field name="MFG Name">BOURNS INC (VA)</field>
+        <field name="MFG PN">3269W-1-201GLF</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">3269W-1-201GLFCT-ND</field>
+      </fields>
       <libsource lib="device" part="POT"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC7490</tstamp>
@@ -247,6 +438,12 @@
     <comp ref="Q1">
       <value>BC547BTA</value>
       <footprint>local:TO92SMDSENSE</footprint>
+      <fields>
+        <field name="MFG Name">FAIRCHILD SEMICONDUCTOR (VA)</field>
+        <field name="MFG PN">BC547BTA</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">BC547BTACT-ND</field>
+      </fields>
       <libsource lib="device" part="NPN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC74A4</tstamp>
@@ -254,6 +451,12 @@
     <comp ref="C40">
       <value>100 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
+        <field name="MFG PN">CL21B104KCC5PNC</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">1276-2447-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC7574</tstamp>
@@ -261,6 +464,12 @@
     <comp ref="R2">
       <value>432 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF4320V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P432HDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC86BF</tstamp>
@@ -268,6 +477,12 @@
     <comp ref="R3">
       <value>432 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF4320V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P432HDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC86CA</tstamp>
@@ -275,6 +490,12 @@
     <comp ref="R6">
       <value>75 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF75R0V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P75.0HDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC86D5</tstamp>
@@ -282,6 +503,12 @@
     <comp ref="R11">
       <value>1.1k 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF1101V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P1.10KHDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC8C0C</tstamp>
@@ -289,6 +516,12 @@
     <comp ref="C13">
       <value>100 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
+        <field name="MFG PN">CL21B104KCC5PNC</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">1276-2447-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC8C17</tstamp>
@@ -296,6 +529,12 @@
     <comp ref="C37">
       <value>1 uF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">TDK CORPORATION (VA)</field>
+        <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">445-8782-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC8EF7</tstamp>
@@ -303,6 +542,12 @@
     <comp ref="C16">
       <value>1 uF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">TDK CORPORATION (VA)</field>
+        <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">445-8782-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC92FA</tstamp>
@@ -310,6 +555,12 @@
     <comp ref="R16">
       <value>5.1</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF5111V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P5.1GDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC980C</tstamp>
@@ -317,6 +568,12 @@
     <comp ref="C24">
       <value>22 pF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
+        <field name="MFG PN">CL21C220JCANNNC</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">1276-2607-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC9817</tstamp>
@@ -324,6 +581,12 @@
     <comp ref="C29">
       <value>1000 pF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM2195C2A102JA01D</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">GRM2195C2A102JA01D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC9822</tstamp>
@@ -331,6 +594,12 @@
     <comp ref="R15">
       <value>5.1</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF5111V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P5.1GDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC9D8D</tstamp>
@@ -338,6 +607,12 @@
     <comp ref="C36">
       <value>100 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
+        <field name="MFG PN">CL21B104KCC5PNC</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">1276-2447-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACA173</tstamp>
@@ -345,6 +620,12 @@
     <comp ref="C26">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACA17E</tstamp>
@@ -352,6 +633,12 @@
     <comp ref="C23">
       <value>22 pF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
+        <field name="MFG PN">CL21C220JCANNNC</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">1276-2607-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACA189</tstamp>
@@ -359,6 +646,12 @@
     <comp ref="C14">
       <value>1000 pF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM2195C2A102JA01D</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">GRM2195C2A102JA01D</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACA194</tstamp>
@@ -366,6 +659,12 @@
     <comp ref="K1">
       <value>SMD_HDR</value>
       <footprint>sdtransmitter:0740991003</footprint>
+      <fields>
+        <field name="MFG Name">MOLEX CONNECTOR CORPORATION</field>
+        <field name="MFG PN">740991003</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">WM7203-ND</field>
+      </fields>
       <libsource lib="conn" part="CONN_3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACAC23</tstamp>
@@ -373,6 +672,12 @@
     <comp ref="C5">
       <value>1 uF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">TDK CORPORATION (VA)</field>
+        <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">445-8782-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACADD8</tstamp>
@@ -380,6 +685,11 @@
     <comp ref="R8">
       <value>5.11k 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG PN">ERJ-3EKF5111V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P5.11KHDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACB501</tstamp>
@@ -387,6 +697,12 @@
     <comp ref="R14">
       <value>10k</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF1002V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P10.0KHDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACB9BB</tstamp>
@@ -394,6 +710,12 @@
     <comp ref="R12">
       <value>5.11k 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF5111V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P5.11KHDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACB9C6</tstamp>
@@ -401,6 +723,12 @@
     <comp ref="R13">
       <value>909 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF9090V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P909HDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACB9D1</tstamp>
@@ -408,6 +736,12 @@
     <comp ref="C12">
       <value>100 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
+        <field name="MFG PN">CL21B104KCC5PNC</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">1276-2447-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACB9DC</tstamp>
@@ -457,6 +791,12 @@
     <comp ref="D1">
       <value>DIODE</value>
       <footprint>SMD_Packages:DO-214-AA_SMB</footprint>
+      <fields>
+        <field name="MFG Name">FAIRCHILD SEMICONDUCTOR (VA)</field>
+        <field name="MFG PN">ES2B</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">ES2BFSDKR-ND</field>
+      </fields>
       <libsource lib="device" part="DIODE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AED904</tstamp>
@@ -464,6 +804,12 @@
     <comp ref="C41">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AF1275</tstamp>
@@ -471,6 +817,12 @@
     <comp ref="U5">
       <value>GALI6+</value>
       <footprint>Housings_SOT-89:SOT89-3_Housing</footprint>
+      <fields>
+        <field name="MFG Name">Mini-Circuits</field>
+        <field name="MFG PN">GALI6+</field>
+        <field name="Dist Name">Mini-Circuits</field>
+        <field name="Dist PN">GALI6+</field>
+      </fields>
       <libsource lib="hmc475" part="HMC475"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54CAA438</tstamp>
@@ -478,6 +830,12 @@
     <comp ref="C1">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54CAA86E</tstamp>
@@ -485,20 +843,25 @@
     <comp ref="R17">
       <value>43.2</value>
       <footprint>SMD_Packages:SMD-2512_Pol</footprint>
+      <fields>
+        <field name="MFG Name">ROHM SEMICONDUCTOR (PASSIVE) (VA)</field>
+        <field name="MFG PN">MCR100JZHF43R2</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">RHM43.2BBDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54CAAD68</tstamp>
     </comp>
-    <comp ref="L5">
-      <value>1.5 uH</value>
-      <footprint>SMD_Packages:SMD-1812</footprint>
-      <libsource lib="device" part="INDUCTOR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54CAAD91</tstamp>
-    </comp>
     <comp ref="C2">
       <value>22 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">MURATA ELECTRONICS (VA)</field>
+        <field name="MFG PN">GRM21BR72A223KA01L</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">490-1658-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54CAC72E</tstamp>
@@ -506,6 +869,12 @@
     <comp ref="C3">
       <value>100 nF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
+        <field name="MFG PN">CL21B104KCC5PNC</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">1276-2447-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54CC079F</tstamp>
@@ -513,6 +882,9 @@
     <comp ref="JP1">
       <value>SMD_HDR</value>
       <footprint>sdtransmitter:0740991003</footprint>
+      <fields>
+        <field name="Dist Name">DigiKey</field>
+      </fields>
       <libsource lib="device" part="JUMPER3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54CC0A8C</tstamp>
@@ -538,16 +910,15 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54D26F2A</tstamp>
     </comp>
-    <comp ref="L4">
-      <value>1.5 uH</value>
-      <footprint>SMD_Packages:SMD-1812</footprint>
-      <libsource lib="device" part="INDUCTOR"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>54D2AAFF</tstamp>
-    </comp>
     <comp ref="K2">
       <value>SMD_HDR</value>
       <footprint>sdtransmitter:0740991003</footprint>
+      <fields>
+        <field name="MFG Name">MOLEX CONNECTOR CORPORATION</field>
+        <field name="MFG PN">740991003</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">WM7203-ND</field>
+      </fields>
       <libsource lib="conn" part="CONN_3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54D41668</tstamp>
@@ -555,6 +926,12 @@
     <comp ref="U6">
       <value>BA08CC0WFP</value>
       <footprint>to252_5:TO252-5</footprint>
+      <fields>
+        <field name="MFG Name">ROHM SEMICONDUCTOR(VA)</field>
+        <field name="MFG PN">BA08CC0WFP-E2</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">BA08CC0WFP-E2DKR-ND</field>
+      </fields>
       <libsource lib="ba08cc0wfp" part="BA08CC0WFP"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54D4286C</tstamp>
@@ -562,6 +939,12 @@
     <comp ref="R9">
       <value>1.1k 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF1101V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P1.10KHDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54D56405</tstamp>
@@ -569,6 +952,12 @@
     <comp ref="R10">
       <value>909 1%</value>
       <footprint>SMD_Packages:SMD-0603</footprint>
+      <fields>
+        <field name="MFG Name">PANASONIC ELECTRONIC COMPONENTS (VA)</field>
+        <field name="MFG PN">ERJ-3EKF9090V</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">P909HDKR-ND</field>
+      </fields>
       <libsource lib="device" part="R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54D565DF</tstamp>
@@ -576,6 +965,12 @@
     <comp ref="C9">
       <value>1 uF</value>
       <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">TDK CORPORATION (VA)</field>
+        <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">445-8782-6-ND</field>
+      </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54D93860</tstamp>
@@ -583,9 +978,54 @@
     <comp ref="C28">
       <value>10uF</value>
       <footprint>smd_capacitors:c_1210</footprint>
+      <fields>
+        <field name="MFG Name">AVX CORPORATION (VA)</field>
+        <field name="MFG PN">TAJB106M020RNJ</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">478-3876-6-ND</field>
+      </fields>
       <libsource lib="device" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54FE0772</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>8.2 uH</value>
+      <footprint>Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L</footprint>
+      <fields>
+        <field name="MFG Name">WURTH ELECTRONICS INC (VA)</field>
+        <field name="MFG PN">7447786008</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">732-3298-6-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5509CE51</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>8.2 uH</value>
+      <footprint>Choke_SMD:Choke_SMD_Wuerth-WE-PD2-Typ-L</footprint>
+      <fields>
+        <field name="MFG Name">WURTH ELECTRONICS INC (VA)</field>
+        <field name="MFG PN">7447786008</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">732-3298-6-ND</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5509CE64</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>22 pF</value>
+      <footprint>SMD_Packages:SMD-0805</footprint>
+      <fields>
+        <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
+        <field name="MFG PN">CL21C220JCANNNC</field>
+        <field name="Dist Name">DigiKey</field>
+        <field name="Dist PN">1276-2607-6-ND</field>
+      </fields>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5509D5BE</tstamp>
     </comp>
   </components>
   <libparts>
@@ -756,17 +1196,6 @@
         <pin num="3" name="P3" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="lm317hv" part="LM317HV">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">LM317HV</field>
-      </fields>
-      <pins>
-        <pin num="1" name="ADJ" type="input"/>
-        <pin num="2" name="VOUT" type="input"/>
-        <pin num="3" name="VIN" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="sma" part="SMA">
       <fields>
         <field name="Reference">J</field>
@@ -794,17 +1223,15 @@
         <pin num="6" name="SOURCE_2" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="7321mf" part="7321MF">
+    <libpart lib="lm317hv" part="LM317HV">
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">7321MF</field>
+        <field name="Value">LM317HV</field>
       </fields>
       <pins>
-        <pin num="1" name="OUT" type="input"/>
-        <pin num="2" name="V-" type="input"/>
-        <pin num="3" name="+IN" type="input"/>
-        <pin num="4" name="-IN" type="input"/>
-        <pin num="5" name="V+" type="input"/>
+        <pin num="1" name="ADJ" type="input"/>
+        <pin num="2" name="VOUT" type="input"/>
+        <pin num="3" name="VIN" type="input"/>
       </pins>
     </libpart>
     <libpart lib="dg4599" part="DG4599">
@@ -819,6 +1246,19 @@
         <pin num="4" name="NC" type="input"/>
         <pin num="5" name="COM" type="input"/>
         <pin num="6" name="NO" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="7321mf" part="7321MF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7321MF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="input"/>
+        <pin num="2" name="V-" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="-IN" type="input"/>
+        <pin num="5" name="V+" type="input"/>
       </pins>
     </libpart>
     <libpart lib="mounting_hole" part="MOUNTING_HOLE">
@@ -861,17 +1301,11 @@
     <library logical="lm317hv">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm317hv.lib</uri>
     </library>
-    <library logical="sma">
-      <uri>sma.lib</uri>
-    </library>
     <library logical="mrfe6vp100h">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/mrfe6vp100h.lib</uri>
     </library>
-    <library logical="hmc475">
-      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc475.lib</uri>
-    </library>
-    <library logical="mounting_hole">
-      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole.lib</uri>
+    <library logical="sma">
+      <uri>sma.lib</uri>
     </library>
     <library logical="7321mf">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/7321mf.lib</uri>
@@ -879,265 +1313,273 @@
     <library logical="dg4599">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/dg4599.lib</uri>
     </library>
+    <library logical="mounting_hole">
+      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole.lib</uri>
+    </library>
+    <library logical="hmc475">
+      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc475.lib</uri>
+    </library>
     <library logical="ba08cc0wfp">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/ba08cc0wfp.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(C7-Pad2)">
+    <net code="1" name="Net-(C21-Pad2)">
+      <node ref="C7" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C21" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C7-Pad2)">
       <node ref="T2" pin="1"/>
       <node ref="C7" pin="2"/>
     </net>
-    <net code="2" name="Net-(C10-Pad2)">
-      <node ref="C10" pin="2"/>
-      <node ref="C32" pin="1"/>
-      <node ref="C31" pin="1"/>
-    </net>
-    <net code="3" name="Net-(D3-Pad2)">
-      <node ref="R5" pin="1"/>
-      <node ref="D3" pin="2"/>
+    <net code="3" name="Net-(C21-Pad1)">
+      <node ref="C25" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="L3" pin="1"/>
+      <node ref="U2" pin="3"/>
     </net>
     <net code="4" name="Net-(C25-Pad2)">
       <node ref="C25" pin="2"/>
       <node ref="T2" pin="3"/>
     </net>
-    <net code="5" name="Net-(C19-Pad1)">
-      <node ref="C19" pin="1"/>
-      <node ref="T1" pin="5"/>
+    <net code="5" name="Net-(C10-Pad2)">
+      <node ref="C31" pin="1"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C10" pin="2"/>
     </net>
-    <net code="6" name="Net-(C17-Pad2)">
-      <node ref="C17" pin="2"/>
-      <node ref="T1" pin="1"/>
-      <node ref="U2" pin="1"/>
+    <net code="6" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R5" pin="1"/>
     </net>
-    <net code="7" name="Net-(C17-Pad1)">
-      <node ref="C17" pin="1"/>
-      <node ref="U2" pin="2"/>
-      <node ref="T1" pin="3"/>
+    <net code="7" name="Net-(R2-Pad2)">
+      <node ref="R3" pin="1"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="R2" pin="2"/>
     </net>
-    <net code="8" name="Net-(C21-Pad1)">
-      <node ref="L3" pin="1"/>
-      <node ref="C25" pin="1"/>
-      <node ref="U2" pin="3"/>
-      <node ref="C21" pin="1"/>
+    <net code="8" name="Net-(C10-Pad1)">
+      <node ref="T2" pin="5"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C4" pin="1"/>
     </net>
     <net code="9" name="Net-(C32-Pad2)">
-      <node ref="J2" pin="1"/>
       <node ref="C32" pin="2"/>
+      <node ref="J2" pin="1"/>
     </net>
-    <net code="10" name="Net-(C10-Pad1)">
-      <node ref="C4" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="T2" pin="5"/>
-    </net>
-    <net code="11" name="VDD">
-      <node ref="R7" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C30" pin="1"/>
-      <node ref="C27" pin="1"/>
-      <node ref="L3" pin="2"/>
-      <node ref="U3" pin="1"/>
+    <net code="10" name="VDD">
       <node ref="L2" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="D3" pin="1"/>
       <node ref="C8" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C33" pin="1"/>
       <node ref="C34" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C30" pin="1"/>
     </net>
-    <net code="12" name="/Vconn">
-      <node ref="U3" pin="3"/>
-      <node ref="C35" pin="1"/>
+    <net code="11" name="/Vconn">
       <node ref="D1" pin="2"/>
+      <node ref="C35" pin="1"/>
+      <node ref="U3" pin="3"/>
     </net>
-    <net code="13" name="Net-(C21-Pad2)">
-      <node ref="C21" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="C7" pin="1"/>
-      <node ref="L2" pin="2"/>
-    </net>
-    <net code="14" name="GND">
-      <node ref="C34" pin="2"/>
-      <node ref="C33" pin="2"/>
-      <node ref="C31" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="J1" pin="5"/>
-      <node ref="P2" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C4" pin="2"/>
-      <node ref="C35" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="C27" pin="2"/>
-      <node ref="J2" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="J2" pin="3"/>
-      <node ref="J2" pin="4"/>
-      <node ref="J2" pin="5"/>
-      <node ref="U4" pin="2"/>
-      <node ref="R6" pin="2"/>
-      <node ref="C41" pin="1"/>
-      <node ref="C23" pin="2"/>
-      <node ref="U5" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C26" pin="2"/>
-      <node ref="C36" pin="2"/>
-      <node ref="R15" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="U1" pin="3"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="C40" pin="2"/>
-      <node ref="C37" pin="2"/>
-      <node ref="T2" pin="2"/>
-      <node ref="C13" pin="2"/>
-      <node ref="T2" pin="4"/>
-      <node ref="U2" pin="6"/>
-      <node ref="U2" pin="5"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C11" pin="2"/>
-      <node ref="J1" pin="2"/>
-      <node ref="J1" pin="3"/>
-      <node ref="K1" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="C12" pin="2"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R8" pin="1"/>
-      <node ref="C5" pin="2"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C28" pin="2"/>
-      <node ref="K2" pin="3"/>
-      <node ref="K2" pin="1"/>
-      <node ref="U6" pin="3"/>
-      <node ref="C9" pin="2"/>
-      <node ref="C3" pin="2"/>
-      <node ref="C2" pin="2"/>
-    </net>
-    <net code="15" name="/~FAULT">
-      <node ref="K2" pin="2"/>
-      <node ref="U6" pin="1"/>
-    </net>
-    <net code="16" name="Net-(R9-Pad1)">
-      <node ref="R9" pin="1"/>
+    <net code="12" name="Net-(R9-Pad1)">
       <node ref="RV1" pin="2"/>
+      <node ref="R9" pin="1"/>
     </net>
-    <net code="17" name="Net-(R10-Pad1)">
+    <net code="13" name="Net-(R10-Pad1)">
       <node ref="R10" pin="1"/>
       <node ref="R9" pin="2"/>
     </net>
-    <net code="18" name="Net-(JP1-Pad2)">
-      <node ref="JP1" pin="2"/>
-      <node ref="R16" pin="2"/>
+    <net code="14" name="GND">
+      <node ref="C4" pin="2"/>
+      <node ref="P2" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="4"/>
+      <node ref="J2" pin="5"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C13" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="C40" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="T2" pin="2"/>
+      <node ref="T2" pin="4"/>
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="5"/>
+      <node ref="J1" pin="5"/>
+      <node ref="J1" pin="4"/>
+      <node ref="J1" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="K1" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U6" pin="3"/>
+      <node ref="C28" pin="2"/>
+      <node ref="K2" pin="3"/>
+      <node ref="C9" pin="2"/>
+      <node ref="K2" pin="1"/>
     </net>
-    <net code="19" name="VPP">
+    <net code="15" name="VPP">
       <node ref="L4" pin="1"/>
       <node ref="C3" pin="1"/>
       <node ref="K1" pin="1"/>
     </net>
-    <net code="20" name="Net-(R3-Pad2)">
-      <node ref="R6" pin="1"/>
-      <node ref="R3" pin="2"/>
-      <node ref="RV1" pin="3"/>
+    <net code="16" name="Net-(JP1-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="JP1" pin="2"/>
     </net>
-    <net code="21" name="Net-(L5-Pad1)">
-      <node ref="R17" pin="1"/>
-      <node ref="L5" pin="1"/>
+    <net code="17" name="/~FAULT">
+      <node ref="U6" pin="1"/>
+      <node ref="K2" pin="2"/>
     </net>
-    <net code="22" name="Net-(C18-Pad2)">
-      <node ref="L5" pin="2"/>
-      <node ref="U5" pin="3"/>
-      <node ref="C18" pin="2"/>
+    <net code="18" name="Net-(C19-Pad1)">
+      <node ref="T1" pin="5"/>
+      <node ref="C19" pin="1"/>
     </net>
-    <net code="23" name="Net-(C40-Pad1)">
+    <net code="19" name="Net-(C40-Pad1)">
       <node ref="C9" pin="1"/>
-      <node ref="L4" pin="2"/>
       <node ref="U6" pin="2"/>
       <node ref="C40" pin="1"/>
+      <node ref="L4" pin="2"/>
     </net>
-    <net code="24" name="Net-(C41-Pad2)">
+    <net code="20" name="Net-(L1-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="R17" pin="1"/>
+    </net>
+    <net code="21" name="Net-(D1-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C41-Pad2)">
       <node ref="R16" pin="1"/>
       <node ref="C41" pin="2"/>
       <node ref="T1" pin="2"/>
     </net>
-    <net code="25" name="Net-(D1-Pad1)">
-      <node ref="P2" pin="1"/>
-      <node ref="D1" pin="1"/>
+    <net code="23" name="Net-(C18-Pad2)">
+      <node ref="U5" pin="3"/>
+      <node ref="C18" pin="2"/>
+      <node ref="L1" pin="2"/>
     </net>
-    <net code="26" name="Net-(R7-Pad2)">
-      <node ref="R7" pin="2"/>
-      <node ref="U3" pin="2"/>
-    </net>
-    <net code="27" name="Net-(K1-Pad3)">
-      <node ref="U1" pin="1"/>
-      <node ref="K1" pin="3"/>
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="28" name="Net-(C1-Pad2)">
-      <node ref="C1" pin="2"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="29" name="Net-(R2-Pad2)">
-      <node ref="R3" pin="1"/>
-      <node ref="R2" pin="2"/>
-      <node ref="RV1" pin="1"/>
-    </net>
-    <net code="30" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
-      <node ref="U5" pin="1"/>
-    </net>
-    <net code="31" name="Net-(R15-Pad2)">
+    <net code="24" name="Net-(R15-Pad2)">
       <node ref="U1" pin="6"/>
       <node ref="R15" pin="2"/>
     </net>
-    <net code="32" name="Net-(C18-Pad1)">
-      <node ref="C18" pin="1"/>
-      <node ref="T1" pin="4"/>
-    </net>
-    <net code="33" name="Net-(C24-Pad1)">
-      <node ref="U1" pin="5"/>
-      <node ref="JP1" pin="3"/>
-      <node ref="C29" pin="1"/>
-      <node ref="C24" pin="1"/>
-    </net>
-    <net code="34" name="Net-(C14-Pad1)">
-      <node ref="U1" pin="4"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="C36" pin="1"/>
+    <net code="25" name="Net-(C14-Pad1)">
       <node ref="U4" pin="4"/>
-      <node ref="C14" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="C36" pin="1"/>
       <node ref="JP1" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="4"/>
     </net>
-    <net code="35" name="Net-(Q1-Pad2)">
+    <net code="26" name="Net-(R3-Pad2)">
+      <node ref="R6" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="27" name="Net-(C1-Pad2)">
+      <node ref="J1" pin="1"/>
+      <node ref="C1" pin="2"/>
+    </net>
+    <net code="28" name="Net-(C1-Pad1)">
+      <node ref="U5" pin="1"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="29" name="Net-(C18-Pad1)">
+      <node ref="T1" pin="4"/>
+      <node ref="C18" pin="1"/>
+    </net>
+    <net code="30" name="+8V">
+      <node ref="C37" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U6" pin="4"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C5" pin="1"/>
+    </net>
+    <net code="31" name="Net-(C24-Pad1)">
+      <node ref="C29" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C24" pin="1"/>
+      <node ref="JP1" pin="3"/>
+    </net>
+    <net code="32" name="Net-(C17-Pad2)">
+      <node ref="U2" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="T1" pin="1"/>
+    </net>
+    <net code="33" name="Net-(C17-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="C17" pin="1"/>
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="34" name="Net-(Q1-Pad2)">
+      <node ref="R12" pin="1"/>
       <node ref="R13" pin="2"/>
       <node ref="Q1" pin="2"/>
-      <node ref="R12" pin="1"/>
     </net>
-    <net code="36" name="Net-(C13-Pad1)">
+    <net code="35" name="Net-(C20-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="K1" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="36" name="Net-(R7-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="37" name="Net-(C13-Pad1)">
+      <node ref="R14" pin="2"/>
       <node ref="C13" pin="1"/>
       <node ref="R10" pin="2"/>
-      <node ref="R14" pin="2"/>
       <node ref="U4" pin="3"/>
     </net>
-    <net code="37" name="+8V">
-      <node ref="U6" pin="4"/>
-      <node ref="C5" pin="1"/>
-      <node ref="C37" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="U4" pin="5"/>
-      <node ref="R17" pin="2"/>
-      <node ref="C28" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="C2" pin="1"/>
-    </net>
     <net code="38" name="Net-(C12-Pad1)">
-      <node ref="R11" pin="1"/>
       <node ref="Q1" pin="3"/>
-      <node ref="R14" pin="1"/>
+      <node ref="R11" pin="1"/>
       <node ref="R12" pin="2"/>
+      <node ref="R14" pin="1"/>
       <node ref="C12" pin="1"/>
     </net>
   </nets>
