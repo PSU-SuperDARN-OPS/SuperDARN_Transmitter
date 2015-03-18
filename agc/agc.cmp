@@ -1,17 +1,31 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Wed Feb  4 15:31:31 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue Mar 17 14:59:42 2015
+
+BeginCmp
+TimeStamp = /54FDD9EB;
+Reference = C1;
+ValeurCmp = 22pF;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
 
 BeginCmp
 TimeStamp = /537AB198;
 Reference = C2;
-ValeurCmp = 20 uF;
+ValeurCmp = 22 uF;
 IdModule  = SMD_Packages:SM1206POL;
 EndCmp
 
 BeginCmp
 TimeStamp = /537D2E3E;
 Reference = C3;
-ValeurCmp = 20 uF;
+ValeurCmp = 22 uF;
 IdModule  = SMD_Packages:SM1206POL;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FDDBE2;
+Reference = C4;
+ValeurCmp = 22pF;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -143,91 +157,91 @@ EndCmp
 BeginCmp
 TimeStamp = /54D132F1;
 Reference = JP1;
-ValeurCmp = JUMPER;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB9031;
 Reference = JP2;
-ValeurCmp = JUMPER;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /537D1CE7;
 Reference = K1;
-ValeurCmp = TR;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D2AA11;
 Reference = K2;
-ValeurCmp = TR;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /537ABC3E;
 Reference = K3;
-ValeurCmp = VIN;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /53D68A04;
 Reference = K4;
-ValeurCmp = VOUT_TR;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /537D1CD3;
 Reference = K5;
-ValeurCmp = TR;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AF18D4;
 Reference = K6;
-ValeurCmp = TR;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /537FD579;
 Reference = K7;
-ValeurCmp = HVMON;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC0CBE;
 Reference = K8;
-ValeurCmp = TR;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54CC0CC9;
 Reference = K9;
-ValeurCmp = TR;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D136D2;
 Reference = K10;
-ValeurCmp = HVMON;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D13A93;
 Reference = K11;
-ValeurCmp = HVMON;
+ValeurCmp = SMD_HDR;
 IdModule  = sdtransmitter:0740991003;
 EndCmp
 
@@ -248,7 +262,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53AB7261;
 Reference = P9;
-ValeurCmp = COUPLED_TEST;
+ValeurCmp = TESTPOINT;
 IdModule  = Connect:PINTST;
 EndCmp
 
@@ -270,14 +284,28 @@ BeginCmp
 TimeStamp = /54D14678;
 Reference = R3;
 ValeurCmp = 4k7;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FDE4B5;
+Reference = R4;
+ValeurCmp = 4k7;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FDE0CA;
+Reference = R5;
+ValeurCmp = 4k7;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53AB899F;
 Reference = R18;
 ValeurCmp = 4k7;
-IdModule  = SMD_Packages:SMD-0805;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -395,7 +423,7 @@ EndCmp
 BeginCmp
 TimeStamp = /53AB7C3A;
 Reference = U6;
-ValeurCmp = 74AHC1G04;
+ValeurCmp = SN74LVC1G04DBVT;
 IdModule  = SMD_Packages:SOT23-5;
 EndCmp
 
@@ -416,14 +444,14 @@ EndCmp
 BeginCmp
 TimeStamp = /537CCB3E;
 Reference = U10;
-ValeurCmp = 74AHC1G04;
+ValeurCmp = SN74LVC1G04DBVT;
 IdModule  = SMD_Packages:SOT23-5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53BDC592;
 Reference = U11;
-ValeurCmp = 74AHC1G04;
+ValeurCmp = SN74LVC1G04DBVT;
 IdModule  = SMD_Packages:SOT23-5;
 EndCmp
 

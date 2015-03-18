@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Mon Mar  9 13:02:23 2015
+Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue Mar 17 13:24:41 2015
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -103,6 +103,13 @@ TimeStamp = /52AE36E3;
 Reference = C15;
 ValeurCmp = .022uF 600V;
 IdModule  = smd_capacitors:c_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /55089B81;
+Reference = C16;
+ValeurCmp = 330 pF;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -372,6 +379,13 @@ IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
+TimeStamp = /55089B8C;
+Reference = L2;
+ValeurCmp = 22uH;
+IdModule  = smd_capacitors:c_1210;
+EndCmp
+
+BeginCmp
 TimeStamp = /52AE3960;
 Reference = L3;
 ValeurCmp = 22uH;
@@ -421,6 +435,13 @@ IdModule  = Inductors:SELF-WE-TPC_M;
 EndCmp
 
 BeginCmp
+TimeStamp = /55089B97;
+Reference = L10;
+ValeurCmp = 22uH;
+IdModule  = smd_capacitors:c_1210;
+EndCmp
+
+BeginCmp
 TimeStamp = /52AA0349;
 Reference = Q3;
 ValeurCmp = STD2NK90ZT4;
@@ -458,8 +479,22 @@ EndCmp
 BeginCmp
 TimeStamp = /54FA48BD;
 Reference = R4;
-ValeurCmp = 150;
+ValeurCmp = 100;
 IdModule  = smd_capacitors:c_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FDD7E3;
+Reference = R5;
+ValeurCmp = 10k;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /54FDD5A1;
+Reference = R6;
+ValeurCmp = 10k;
+IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
@@ -542,7 +577,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54EE65CE;
 Reference = R21;
-ValeurCmp = 150;
+ValeurCmp = 100;
 IdModule  = smd_capacitors:c_1210;
 EndCmp
 
@@ -556,7 +591,7 @@ EndCmp
 BeginCmp
 TimeStamp = /54EE6854;
 Reference = R23;
-ValeurCmp = 150;
+ValeurCmp = 100;
 IdModule  = smd_capacitors:c_1210;
 EndCmp
 
