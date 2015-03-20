@@ -2,8 +2,21 @@
 <export version="D">
   <design>
     <source>/home/kleinjt/repos/SuperDARN_Transmitter/driveramp/driveramp.sch</source>
-    <date>Wed Mar 18 10:49:06 2015</date>
-    <tool>eeschema (2014-03-19 BZR 4756)-product</tool>
+    <date>Wed 18 Mar 2015 02:33:02 PM AKDT</date>
+    <tool>Eeschema (2015-03-18 BZR 5525)-product</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date>11 dec 2013</date>
+        <source>driveramp.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
   </design>
   <components>
     <comp ref="C7">
@@ -41,7 +54,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">P15449DKR-ND</field>
       </fields>
-      <libsource lib="device" part="CAPAPOL"/>
+      <libsource lib="driveramp-cache" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>529EC2B4</tstamp>
     </comp>
@@ -93,7 +106,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">A33204CT-ND</field>
       </fields>
-      <libsource lib="conn" part="CONN_2"/>
+      <libsource lib="driveramp-cache" part="CONN_2"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5346DF9F</tstamp>
     </comp>
@@ -220,7 +233,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">P15449DKR-ND</field>
       </fields>
-      <libsource lib="device" part="CAPAPOL"/>
+      <libsource lib="driveramp-cache" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9FA8D</tstamp>
     </comp>
@@ -291,7 +304,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">P15449DKR-ND</field>
       </fields>
-      <libsource lib="device" part="CAPAPOL"/>
+      <libsource lib="driveramp-cache" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9F70A</tstamp>
     </comp>
@@ -304,13 +317,13 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">P15449DKR-ND</field>
       </fields>
-      <libsource lib="device" part="CAPAPOL"/>
+      <libsource lib="driveramp-cache" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53A9FA86</tstamp>
     </comp>
     <comp ref="C35">
       <value>1 uF</value>
-      <footprint>SMD_Packages:SMD-0805</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="MFG Name">TDK CORPORATION (VA)</field>
         <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
@@ -343,7 +356,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">P15449DKR-ND</field>
       </fields>
-      <libsource lib="device" part="CAPAPOL"/>
+      <libsource lib="driveramp-cache" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53CFF430</tstamp>
     </comp>
@@ -356,7 +369,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">P15449DKR-ND</field>
       </fields>
-      <libsource lib="device" part="CAPAPOL"/>
+      <libsource lib="driveramp-cache" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>53CFF446</tstamp>
     </comp>
@@ -444,7 +457,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">BC547BTACT-ND</field>
       </fields>
-      <libsource lib="device" part="NPN"/>
+      <libsource lib="driveramp-cache" part="NPN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AC74A4</tstamp>
     </comp>
@@ -528,7 +541,7 @@
     </comp>
     <comp ref="C37">
       <value>1 uF</value>
-      <footprint>SMD_Packages:SMD-0805</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="MFG Name">TDK CORPORATION (VA)</field>
         <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
@@ -541,7 +554,7 @@
     </comp>
     <comp ref="C16">
       <value>1 uF</value>
-      <footprint>SMD_Packages:SMD-0805</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="MFG Name">TDK CORPORATION (VA)</field>
         <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
@@ -567,7 +580,7 @@
     </comp>
     <comp ref="C24">
       <value>22 pF</value>
-      <footprint>SMD_Packages:SMD-0805</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
         <field name="MFG PN">CL21C220JCANNNC</field>
@@ -632,7 +645,7 @@
     </comp>
     <comp ref="C23">
       <value>22 pF</value>
-      <footprint>SMD_Packages:SMD-0805</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
         <field name="MFG PN">CL21C220JCANNNC</field>
@@ -665,13 +678,13 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">WM7203-ND</field>
       </fields>
-      <libsource lib="conn" part="CONN_3"/>
+      <libsource lib="driveramp-cache" part="CONN_3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54ACAC23</tstamp>
     </comp>
     <comp ref="C5">
       <value>1 uF</value>
-      <footprint>SMD_Packages:SMD-0805</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="MFG Name">TDK CORPORATION (VA)</field>
         <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
@@ -797,7 +810,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">ES2BFSDKR-ND</field>
       </fields>
-      <libsource lib="device" part="DIODE"/>
+      <libsource lib="driveramp-cache" part="DIODE"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54AED904</tstamp>
     </comp>
@@ -919,7 +932,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">WM7203-ND</field>
       </fields>
-      <libsource lib="conn" part="CONN_3"/>
+      <libsource lib="driveramp-cache" part="CONN_3"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54D41668</tstamp>
     </comp>
@@ -964,7 +977,7 @@
     </comp>
     <comp ref="C9">
       <value>1 uF</value>
-      <footprint>SMD_Packages:SMD-0805</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="MFG Name">TDK CORPORATION (VA)</field>
         <field name="MFG PN">CGA4J3X7S2A105K125AE</field>
@@ -984,7 +997,7 @@
         <field name="Dist Name">DigiKey</field>
         <field name="Dist PN">478-3876-6-ND</field>
       </fields>
-      <libsource lib="device" part="CAPAPOL"/>
+      <libsource lib="driveramp-cache" part="CAPAPOL"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>54FE0772</tstamp>
     </comp>
@@ -1016,7 +1029,7 @@
     </comp>
     <comp ref="C20">
       <value>22 pF</value>
-      <footprint>SMD_Packages:SMD-0805</footprint>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="MFG Name">SAMSUNG ELECTRO-MECHANICS AMERICA, INC (VA)</field>
         <field name="MFG PN">CL21C220JCANNNC</field>
@@ -1030,11 +1043,13 @@
   </components>
   <libparts>
     <libpart lib="device" part="C">
-      <description>Condensateur non polarise</description>
+      <description>Unpolarized capacitor</description>
       <footprints>
-        <fp>SM*</fp>
         <fp>C?</fp>
-        <fp>C1-1</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
@@ -1043,39 +1058,6 @@
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="CP">
-      <aliases>
-        <alias>CAPAPOL</alias>
-      </aliases>
-      <description>Condensateur polarise</description>
-      <footprints>
-        <fp>CP*</fp>
-        <fp>SM*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">CP</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="device" part="DIODE">
-      <description>Diode simple</description>
-      <footprints>
-        <fp>D?</fp>
-        <fp>S*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">D</field>
-        <field name="Value">DIODE</field>
-      </fields>
-      <pins>
-        <pin num="1" name="A" type="passive"/>
-        <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="device" part="INDUCTOR">
@@ -1118,18 +1100,6 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="NPN">
-      <docs>transistors/bipolar/*.*</docs>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">NPN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="E" type="passive"/>
-        <pin num="2" name="B" type="input"/>
-        <pin num="3" name="C" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="device" part="POT">
       <description>Potentionmetre</description>
       <fields>
@@ -1143,13 +1113,10 @@
       </pins>
     </libpart>
     <libpart lib="device" part="R">
-      <description>Resistance</description>
+      <description>Resistor</description>
       <footprints>
-        <fp>R?</fp>
-        <fp>SM0603</fp>
-        <fp>SM0805</fp>
-        <fp>R?-*</fp>
-        <fp>SM1206</fp>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
       </footprints>
       <fields>
         <field name="Reference">R</field>
@@ -1171,29 +1138,6 @@
         <pin num="3" name="PR2" type="passive"/>
         <pin num="4" name="S1" type="passive"/>
         <pin num="5" name="S2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_2">
-      <description>Symbole general de connecteur</description>
-      <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_2</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="PM" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="conn" part="CONN_3">
-      <description>Symbole general de connecteur</description>
-      <fields>
-        <field name="Reference">K</field>
-        <field name="Value">CONN_3</field>
-      </fields>
-      <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="PM" type="passive"/>
-        <pin num="3" name="P3" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="sma" part="SMA">
@@ -1234,6 +1178,19 @@
         <pin num="3" name="VIN" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="7321mf" part="7321MF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">7321MF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="input"/>
+        <pin num="2" name="V-" type="input"/>
+        <pin num="3" name="+IN" type="input"/>
+        <pin num="4" name="-IN" type="input"/>
+        <pin num="5" name="V+" type="input"/>
+      </pins>
+    </libpart>
     <libpart lib="dg4599" part="DG4599">
       <fields>
         <field name="Reference">U</field>
@@ -1246,19 +1203,6 @@
         <pin num="4" name="NC" type="input"/>
         <pin num="5" name="COM" type="input"/>
         <pin num="6" name="NO" type="input"/>
-      </pins>
-    </libpart>
-    <libpart lib="7321mf" part="7321MF">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">7321MF</field>
-      </fields>
-      <pins>
-        <pin num="1" name="OUT" type="input"/>
-        <pin num="2" name="V-" type="input"/>
-        <pin num="3" name="+IN" type="input"/>
-        <pin num="4" name="-IN" type="input"/>
-        <pin num="5" name="V+" type="input"/>
       </pins>
     </libpart>
     <libpart lib="mounting_hole" part="MOUNTING_HOLE">
@@ -1290,25 +1234,85 @@
         <pin num="4" name="VOUT" type="input"/>
       </pins>
     </libpart>
+    <libpart lib="driveramp-cache" part="CONN_2">
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="driveramp-cache" part="CONN_3">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">CONN_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="driveramp-cache" part="CP">
+      <aliases>
+        <alias>CAPAPOL</alias>
+      </aliases>
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="driveramp-cache" part="DIODE">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="driveramp-cache" part="NPN">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NPN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
   </libparts>
   <libraries>
     <library logical="device">
       <uri>/usr/local/share/kicad/library/device.lib</uri>
     </library>
-    <library logical="conn">
-      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    <library logical="7321mf">
+      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/7321mf.lib</uri>
     </library>
-    <library logical="lm317hv">
-      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm317hv.lib</uri>
+    <library logical="sma">
+      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/driveramp/sma.lib</uri>
     </library>
     <library logical="mrfe6vp100h">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/mrfe6vp100h.lib</uri>
     </library>
-    <library logical="sma">
-      <uri>sma.lib</uri>
-    </library>
-    <library logical="7321mf">
-      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/7321mf.lib</uri>
+    <library logical="lm317hv">
+      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/lm317hv.lib</uri>
     </library>
     <library logical="dg4599">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/dg4599.lib</uri>
@@ -1322,265 +1326,268 @@
     <library logical="ba08cc0wfp">
       <uri>/home/kleinjt/repos/SuperDARN_Transmitter/lib/ba08cc0wfp.lib</uri>
     </library>
+    <library logical="driveramp-cache">
+      <uri>/home/kleinjt/repos/SuperDARN_Transmitter/driveramp/driveramp-cache.lib</uri>
+    </library>
   </libraries>
   <nets>
-    <net code="1" name="Net-(C21-Pad2)">
-      <node ref="C7" pin="1"/>
-      <node ref="L2" pin="2"/>
-      <node ref="U2" pin="4"/>
-      <node ref="C21" pin="2"/>
+    <net code="1" name="Net-(C10-Pad2)">
+      <node ref="C32" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="C10" pin="2"/>
     </net>
-    <net code="2" name="Net-(C7-Pad2)">
-      <node ref="T2" pin="1"/>
-      <node ref="C7" pin="2"/>
+    <net code="2" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R5" pin="1"/>
     </net>
     <net code="3" name="Net-(C21-Pad1)">
+      <node ref="L3" pin="1"/>
       <node ref="C25" pin="1"/>
       <node ref="C21" pin="1"/>
-      <node ref="L3" pin="1"/>
       <node ref="U2" pin="3"/>
     </net>
     <net code="4" name="Net-(C25-Pad2)">
       <node ref="C25" pin="2"/>
       <node ref="T2" pin="3"/>
     </net>
-    <net code="5" name="Net-(C10-Pad2)">
-      <node ref="C31" pin="1"/>
-      <node ref="C32" pin="1"/>
-      <node ref="C10" pin="2"/>
+    <net code="5" name="Net-(C7-Pad2)">
+      <node ref="T2" pin="1"/>
+      <node ref="C7" pin="2"/>
     </net>
-    <net code="6" name="Net-(D3-Pad2)">
-      <node ref="D3" pin="2"/>
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="7" name="Net-(R2-Pad2)">
-      <node ref="R3" pin="1"/>
-      <node ref="RV1" pin="1"/>
-      <node ref="R2" pin="2"/>
-    </net>
-    <net code="8" name="Net-(C10-Pad1)">
-      <node ref="T2" pin="5"/>
-      <node ref="C10" pin="1"/>
+    <net code="6" name="Net-(C10-Pad1)">
       <node ref="C4" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="T2" pin="5"/>
     </net>
-    <net code="9" name="Net-(C32-Pad2)">
-      <node ref="C32" pin="2"/>
-      <node ref="J2" pin="1"/>
+    <net code="7" name="Net-(R3-Pad2)">
+      <node ref="RV1" pin="3"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R6" pin="1"/>
     </net>
-    <net code="10" name="VDD">
-      <node ref="L2" pin="1"/>
-      <node ref="C8" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="L3" pin="2"/>
-      <node ref="C15" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="R7" pin="1"/>
-      <node ref="C27" pin="1"/>
-      <node ref="C33" pin="1"/>
-      <node ref="C34" pin="1"/>
-      <node ref="D3" pin="1"/>
-      <node ref="C30" pin="1"/>
+    <net code="8" name="Net-(C21-Pad2)">
+      <node ref="L2" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C21" pin="2"/>
+      <node ref="U2" pin="4"/>
     </net>
-    <net code="11" name="/Vconn">
-      <node ref="D1" pin="2"/>
+    <net code="9" name="/Vconn">
       <node ref="C35" pin="1"/>
       <node ref="U3" pin="3"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="10" name="VDD">
+      <node ref="C8" pin="1"/>
+      <node ref="L2" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="L3" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C30" pin="1"/>
+    </net>
+    <net code="11" name="Net-(C32-Pad2)">
+      <node ref="J2" pin="1"/>
+      <node ref="C32" pin="2"/>
     </net>
     <net code="12" name="Net-(R9-Pad1)">
-      <node ref="RV1" pin="2"/>
       <node ref="R9" pin="1"/>
+      <node ref="RV1" pin="2"/>
     </net>
     <net code="13" name="Net-(R10-Pad1)">
-      <node ref="R10" pin="1"/>
       <node ref="R9" pin="2"/>
+      <node ref="R10" pin="1"/>
     </net>
     <net code="14" name="GND">
-      <node ref="C4" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="J2" pin="5"/>
       <node ref="P2" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="C4" pin="2"/>
       <node ref="C27" pin="2"/>
       <node ref="C33" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="C8" pin="2"/>
       <node ref="C31" pin="2"/>
-      <node ref="U4" pin="2"/>
-      <node ref="C6" pin="2"/>
-      <node ref="R5" pin="2"/>
+      <node ref="C30" pin="2"/>
+      <node ref="J2" pin="4"/>
       <node ref="C35" pin="2"/>
       <node ref="C34" pin="2"/>
-      <node ref="C15" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="R5" pin="2"/>
       <node ref="J2" pin="2"/>
       <node ref="J2" pin="3"/>
-      <node ref="J2" pin="4"/>
-      <node ref="J2" pin="5"/>
+      <node ref="C41" pin="1"/>
       <node ref="Q1" pin="1"/>
-      <node ref="U1" pin="3"/>
       <node ref="C13" pin="2"/>
       <node ref="R6" pin="2"/>
-      <node ref="C41" pin="1"/>
+      <node ref="U5" pin="2"/>
+      <node ref="C40" pin="2"/>
       <node ref="C2" pin="2"/>
-      <node ref="C29" pin="2"/>
-      <node ref="C37" pin="2"/>
       <node ref="C16" pin="2"/>
       <node ref="C24" pin="2"/>
+      <node ref="C29" pin="2"/>
       <node ref="C14" pin="2"/>
       <node ref="C23" pin="2"/>
       <node ref="C26" pin="2"/>
-      <node ref="C36" pin="2"/>
       <node ref="R15" pin="1"/>
-      <node ref="C40" pin="2"/>
-      <node ref="R8" pin="1"/>
+      <node ref="C36" pin="2"/>
+      <node ref="R13" pin="1"/>
       <node ref="C19" pin="2"/>
       <node ref="T2" pin="2"/>
       <node ref="T2" pin="4"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R8" pin="1"/>
       <node ref="U2" pin="6"/>
       <node ref="U2" pin="5"/>
       <node ref="J1" pin="5"/>
       <node ref="J1" pin="4"/>
       <node ref="J1" pin="3"/>
       <node ref="J1" pin="2"/>
-      <node ref="U5" pin="2"/>
       <node ref="C5" pin="2"/>
       <node ref="K1" pin="2"/>
       <node ref="C11" pin="2"/>
       <node ref="C12" pin="2"/>
-      <node ref="R13" pin="1"/>
-      <node ref="C3" pin="2"/>
       <node ref="C20" pin="2"/>
-      <node ref="U6" pin="3"/>
-      <node ref="C28" pin="2"/>
-      <node ref="K2" pin="3"/>
       <node ref="C9" pin="2"/>
+      <node ref="C28" pin="2"/>
+      <node ref="C3" pin="2"/>
       <node ref="K2" pin="1"/>
+      <node ref="K2" pin="3"/>
+      <node ref="U6" pin="3"/>
     </net>
-    <net code="15" name="VPP">
-      <node ref="L4" pin="1"/>
-      <node ref="C3" pin="1"/>
-      <node ref="K1" pin="1"/>
-    </net>
-    <net code="16" name="Net-(JP1-Pad2)">
-      <node ref="R16" pin="2"/>
-      <node ref="JP1" pin="2"/>
-    </net>
-    <net code="17" name="/~FAULT">
-      <node ref="U6" pin="1"/>
-      <node ref="K2" pin="2"/>
-    </net>
-    <net code="18" name="Net-(C19-Pad1)">
-      <node ref="T1" pin="5"/>
-      <node ref="C19" pin="1"/>
-    </net>
-    <net code="19" name="Net-(C40-Pad1)">
-      <node ref="C9" pin="1"/>
-      <node ref="U6" pin="2"/>
-      <node ref="C40" pin="1"/>
-      <node ref="L4" pin="2"/>
-    </net>
-    <net code="20" name="Net-(L1-Pad1)">
+    <net code="15" name="Net-(L1-Pad1)">
       <node ref="L1" pin="1"/>
       <node ref="R17" pin="1"/>
     </net>
-    <net code="21" name="Net-(D1-Pad1)">
-      <node ref="P2" pin="1"/>
-      <node ref="D1" pin="1"/>
-    </net>
-    <net code="22" name="Net-(C41-Pad2)">
-      <node ref="R16" pin="1"/>
-      <node ref="C41" pin="2"/>
-      <node ref="T1" pin="2"/>
-    </net>
-    <net code="23" name="Net-(C18-Pad2)">
+    <net code="16" name="Net-(C18-Pad2)">
       <node ref="U5" pin="3"/>
       <node ref="C18" pin="2"/>
       <node ref="L1" pin="2"/>
     </net>
-    <net code="24" name="Net-(R15-Pad2)">
-      <node ref="U1" pin="6"/>
+    <net code="17" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="18" name="/~FAULT">
+      <node ref="U6" pin="1"/>
+      <node ref="K2" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C19-Pad1)">
+      <node ref="T1" pin="5"/>
+      <node ref="C19" pin="1"/>
+    </net>
+    <net code="20" name="VPP">
+      <node ref="K1" pin="1"/>
+      <node ref="L4" pin="1"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="21" name="Net-(C40-Pad1)">
+      <node ref="L4" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C40" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C41-Pad2)">
+      <node ref="C41" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="T1" pin="2"/>
+    </net>
+    <net code="23" name="Net-(R7-Pad2)">
+      <node ref="U3" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="24" name="Net-(D1-Pad1)">
+      <node ref="P2" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(C20-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="26" name="Net-(R15-Pad2)">
       <node ref="R15" pin="2"/>
+      <node ref="U1" pin="6"/>
     </net>
-    <net code="25" name="Net-(C14-Pad1)">
-      <node ref="U4" pin="4"/>
-      <node ref="U4" pin="1"/>
-      <node ref="C36" pin="1"/>
-      <node ref="JP1" pin="1"/>
-      <node ref="C26" pin="1"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="26" name="Net-(R3-Pad2)">
-      <node ref="R6" pin="1"/>
-      <node ref="RV1" pin="3"/>
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="27" name="Net-(C1-Pad2)">
-      <node ref="J1" pin="1"/>
-      <node ref="C1" pin="2"/>
+    <net code="27" name="Net-(C12-Pad1)">
+      <node ref="C12" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="Q1" pin="3"/>
     </net>
     <net code="28" name="Net-(C1-Pad1)">
-      <node ref="U5" pin="1"/>
       <node ref="C1" pin="1"/>
+      <node ref="U5" pin="1"/>
     </net>
     <net code="29" name="Net-(C18-Pad1)">
       <node ref="T1" pin="4"/>
       <node ref="C18" pin="1"/>
     </net>
-    <net code="30" name="+8V">
-      <node ref="C37" pin="1"/>
-      <node ref="R11" pin="2"/>
-      <node ref="U6" pin="4"/>
-      <node ref="C28" pin="1"/>
-      <node ref="R2" pin="1"/>
-      <node ref="U4" pin="5"/>
-      <node ref="C2" pin="1"/>
-      <node ref="U1" pin="2"/>
-      <node ref="R17" pin="2"/>
-      <node ref="C5" pin="1"/>
+    <net code="30" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="1"/>
     </net>
-    <net code="31" name="Net-(C24-Pad1)">
-      <node ref="C29" pin="1"/>
-      <node ref="U1" pin="5"/>
+    <net code="31" name="Net-(R2-Pad2)">
+      <node ref="RV1" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="32" name="Net-(C14-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="4"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="33" name="Net-(C24-Pad1)">
       <node ref="C24" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C29" pin="1"/>
       <node ref="JP1" pin="3"/>
     </net>
-    <net code="32" name="Net-(C17-Pad2)">
-      <node ref="U2" pin="1"/>
-      <node ref="C17" pin="2"/>
-      <node ref="T1" pin="1"/>
+    <net code="34" name="Net-(C13-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="R14" pin="2"/>
     </net>
-    <net code="33" name="Net-(C17-Pad1)">
-      <node ref="U2" pin="2"/>
-      <node ref="C17" pin="1"/>
-      <node ref="T1" pin="3"/>
-    </net>
-    <net code="34" name="Net-(Q1-Pad2)">
+    <net code="35" name="Net-(Q1-Pad2)">
       <node ref="R12" pin="1"/>
       <node ref="R13" pin="2"/>
       <node ref="Q1" pin="2"/>
     </net>
-    <net code="35" name="Net-(C20-Pad1)">
-      <node ref="U1" pin="1"/>
-      <node ref="K1" pin="3"/>
-      <node ref="R8" pin="2"/>
-      <node ref="C20" pin="1"/>
+    <net code="36" name="Net-(C17-Pad1)">
+      <node ref="T1" pin="3"/>
+      <node ref="C17" pin="1"/>
+      <node ref="U2" pin="2"/>
     </net>
-    <net code="36" name="Net-(R7-Pad2)">
-      <node ref="U3" pin="2"/>
-      <node ref="R7" pin="2"/>
+    <net code="37" name="Net-(C17-Pad2)">
+      <node ref="C17" pin="2"/>
+      <node ref="T1" pin="1"/>
+      <node ref="U2" pin="1"/>
     </net>
-    <net code="37" name="Net-(C13-Pad1)">
-      <node ref="R14" pin="2"/>
-      <node ref="C13" pin="1"/>
-      <node ref="R10" pin="2"/>
-      <node ref="U4" pin="3"/>
-    </net>
-    <net code="38" name="Net-(C12-Pad1)">
-      <node ref="Q1" pin="3"/>
-      <node ref="R11" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="R14" pin="1"/>
-      <node ref="C12" pin="1"/>
+    <net code="38" name="+8V">
+      <node ref="R17" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U4" pin="5"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U6" pin="4"/>
+      <node ref="R11" pin="2"/>
+      <node ref="C28" pin="1"/>
+      <node ref="C37" pin="1"/>
     </net>
   </nets>
 </export>
