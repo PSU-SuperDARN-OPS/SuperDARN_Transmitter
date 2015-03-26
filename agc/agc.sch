@@ -1181,7 +1181,7 @@ FAULT
 Text Label 11350 8600 0    79   ~ 0
 ~FAULT
 Text Label 12500 6650 2    79   ~ 0
-~FAULT
+FAULT
 $Comp
 L GND #PWR044
 U 1 1 53BDCABB
@@ -1245,8 +1245,8 @@ F 3 "" H 11000 4250 60  0000 C CNN
 	1    11000 4250
 	1    0    0    -1  
 $EndComp
-Text Notes 14250 3250 0    39   ~ 0
-TMR capacitor, 9ms/nF\n
+Text Notes 14750 2900 0    39   ~ 0
+C29 is timer capacitor, 9ms/nF\n
 Text Label 13150 8300 0    79   ~ 0
 ~TX
 Text Label 13150 8500 0    79   ~ 0
@@ -2212,4 +2212,15 @@ Text Notes 8350 3850 0    60   ~ 0
 trips on reverse power fault\n
 Text Notes 12100 2400 0    60   ~ 0
 trips at 12V
+Wire Wire Line
+	14250 3250 14250 3650
+Connection ~ 14250 3650
+Text Label 14450 3100 1    79   ~ 0
+DISABLE
+Wire Wire Line
+	14250 3250 14450 3250
+Wire Wire Line
+	14450 3250 14450 3100
+Text Label 2400 8550 1    79   ~ 0
+DISABLE
 $EndSCHEMATC

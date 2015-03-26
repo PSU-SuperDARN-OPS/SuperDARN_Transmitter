@@ -1,0 +1,52 @@
+Cmp-Mod V01 Created by Cvpcb (2015-03-18 BZR 5525)-product   date = Wed Mar 25 16:29:23 2015
+
+BeginCmp
+TimeStamp = /55135E26;
+Reference = C1;
+ValeurCmp = C;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5511FDEC;
+Reference = P1;
+ValeurCmp = CONN_01X15;
+IdModule  = Connect:DB15M_CI;
+EndCmp
+
+BeginCmp
+TimeStamp = /55120078;
+Reference = P2;
+ValeurCmp = CONN_02X08;
+IdModule  = lib:conn_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512076D;
+Reference = P3;
+ValeurCmp = CONN_02X08;
+IdModule  = lib:conn_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5512093B;
+Reference = P4;
+ValeurCmp = CONN_02X08;
+IdModule  = lib:conn_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55120565;
+Reference = P5;
+ValeurCmp = CONN_02X08;
+IdModule  = lib:conn_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5513508C;
+Reference = U1;
+ValeurCmp = 74HC595;
+IdModule  = Housings_SSOP:TSSOP-16_4.4x5mm_Pitch0.65mm;
+EndCmp
+
+EndListe
