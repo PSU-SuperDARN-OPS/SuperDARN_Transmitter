@@ -2212,15 +2212,6 @@ Text Notes 8350 3850 0    60   ~ 0
 trips on reverse power fault\n
 Text Notes 12100 2400 0    60   ~ 0
 trips at 12V
-Wire Wire Line
-	14250 3250 14250 3650
-Connection ~ 14250 3650
-Text Label 14450 3100 1    79   ~ 0
-DISABLE
-Wire Wire Line
-	14250 3250 14450 3250
-Wire Wire Line
-	14450 3250 14450 3100
 Text Label 2400 8550 1    79   ~ 0
 DISABLE
 $EndSCHEMATC

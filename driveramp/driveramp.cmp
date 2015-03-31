@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-18 BZR 5525)-product   date = Wed 18 Mar 2015 01:33:13 PM AKDT
+Cmp-Mod V01 Created by Cvpcb (2015-03-18 BZR 5525)-product   date = Thu Mar 26 13:49:22 2015
 
 BeginCmp
 TimeStamp = /54CAA86E;
@@ -421,31 +421,45 @@ IdModule  = local:TO92SMDSENSE;
 EndCmp
 
 BeginCmp
+TimeStamp = /5516873A;
+Reference = R1;
+ValeurCmp = 1.1k 1%;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
 TimeStamp = /54AC86BF;
 Reference = R2;
 ValeurCmp = 432 1%;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AC86CA;
 Reference = R3;
 ValeurCmp = 432 1%;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
+EndCmp
+
+BeginCmp
+TimeStamp = /55169247;
+Reference = R4;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A9D5DF;
 Reference = R5;
 ValeurCmp = 10k;
-IdModule  = SMD_Packages:SM0805;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AC86D5;
 Reference = R6;
 ValeurCmp = 75 1%;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
@@ -456,66 +470,66 @@ IdModule  = SMD_Packages:SM2512;
 EndCmp
 
 BeginCmp
-TimeStamp = /54ACB501;
+TimeStamp = /55162B92;
 Reference = R8;
-ValeurCmp = 5.11k 1%;
-IdModule  = SMD_Packages:SMD-0603;
+ValeurCmp = 10k;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D56405;
 Reference = R9;
 ValeurCmp = 1.1k 1%;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54D565DF;
 Reference = R10;
 ValeurCmp = 909 1%;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AC8C0C;
 Reference = R11;
 ValeurCmp = 1.1k 1%;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ACB9C6;
 Reference = R12;
 ValeurCmp = 5.11k 1%;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ACB9D1;
 Reference = R13;
 ValeurCmp = 909 1%;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54ACB9BB;
 Reference = R14;
 ValeurCmp = 10k;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AC9D8D;
 Reference = R15;
 ValeurCmp = 5.1;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp
 TimeStamp = /54AC980C;
 Reference = R16;
 ValeurCmp = 5.1;
-IdModule  = SMD_Packages:SMD-0603;
+IdModule  = Resistors_SMD:R_0603;
 EndCmp
 
 BeginCmp

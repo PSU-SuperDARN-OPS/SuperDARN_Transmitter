@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2014-03-19 BZR 4756)-product date = Tue Mar 17 13:24:41 2015
+Cmp-Mod V01 Created by Cvpcb (2015-03-18 BZR 5525)-product   date = Tue Mar 31 11:19:31 2015
 
 BeginCmp
 TimeStamp = /52AA05B6;
@@ -71,13 +71,6 @@ IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52AA0D7B;
-Reference = C11;
-ValeurCmp = .022uF 600V;
-IdModule  = smd_capacitors:c_1210;
-EndCmp
-
-BeginCmp
 TimeStamp = /537E7131;
 Reference = C12;
 ValeurCmp = 22uF;
@@ -108,7 +101,7 @@ EndCmp
 BeginCmp
 TimeStamp = /55089B81;
 Reference = C16;
-ValeurCmp = 330 pF;
+ValeurCmp = 470 pF;
 IdModule  = smd_capacitors:c_0805;
 EndCmp
 
@@ -190,10 +183,10 @@ IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /52ABB859;
+TimeStamp = /551B9AF0;
 Reference = D1;
 ValeurCmp = ES2A;
-IdModule  = smb_diode:SMB_DO2144AA;
+IdModule  = SMD_Packages:DO-214-AA_SMB;
 EndCmp
 
 BeginCmp
@@ -270,7 +263,21 @@ BeginCmp
 TimeStamp = /54172060;
 Reference = D12;
 ValeurCmp = ES2A;
-IdModule  = smb_diode:SMB_DO2144AA;
+IdModule  = SMD_Packages:DO-214-AA_SMB;
+EndCmp
+
+BeginCmp
+TimeStamp = /551B9C28;
+Reference = D13;
+ValeurCmp = ES2A;
+IdModule  = SMD_Packages:DO-214-AA_SMB;
+EndCmp
+
+BeginCmp
+TimeStamp = /551138AC;
+Reference = D14;
+ValeurCmp = ES2A;
+IdModule  = SMD_Packages:DO-214-AA_SMB;
 EndCmp
 
 BeginCmp
@@ -379,13 +386,6 @@ IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /55089B8C;
-Reference = L2;
-ValeurCmp = 22uH;
-IdModule  = smd_capacitors:c_1210;
-EndCmp
-
-BeginCmp
 TimeStamp = /52AE3960;
 Reference = L3;
 ValeurCmp = 22uH;
@@ -477,9 +477,9 @@ IdModule  = SMD_Packages:SM1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /54FA48BD;
+TimeStamp = /551E0818;
 Reference = R4;
-ValeurCmp = 100;
+ValeurCmp = 150;
 IdModule  = smd_capacitors:c_1210;
 EndCmp
 
@@ -494,6 +494,20 @@ BeginCmp
 TimeStamp = /54FDD5A1;
 Reference = R6;
 ValeurCmp = 10k;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /551E096F;
+Reference = R7;
+ValeurCmp = 150;
+IdModule  = smd_capacitors:c_1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /551C6E04;
+Reference = R8;
+ValeurCmp = 1k;
 IdModule  = smd_capacitors:c_0805;
 EndCmp
 
@@ -568,6 +582,13 @@ IdModule  = smd_capacitors:c_0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /551C6C7E;
+Reference = R19;
+ValeurCmp = 1k;
+IdModule  = smd_capacitors:c_0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /54EE6386;
 Reference = R20;
 ValeurCmp = 10k;
@@ -577,8 +598,8 @@ EndCmp
 BeginCmp
 TimeStamp = /54EE65CE;
 Reference = R21;
-ValeurCmp = 100;
-IdModule  = smd_capacitors:c_1210;
+ValeurCmp = 150;
+IdModule  = Resistors_SMD:R_2512;
 EndCmp
 
 BeginCmp
@@ -589,17 +610,10 @@ IdModule  = smd_capacitors:c_1210;
 EndCmp
 
 BeginCmp
-TimeStamp = /54EE6854;
+TimeStamp = /551D8559;
 Reference = R23;
-ValeurCmp = 100;
-IdModule  = smd_capacitors:c_1210;
-EndCmp
-
-BeginCmp
-TimeStamp = /52AE7C16;
-Reference = R25;
 ValeurCmp = 150;
-IdModule  = smd_capacitors:c_1210;
+IdModule  = Resistors_SMD:R_2512;
 EndCmp
 
 BeginCmp
