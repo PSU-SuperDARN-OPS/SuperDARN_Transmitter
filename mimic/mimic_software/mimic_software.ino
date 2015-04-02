@@ -3,8 +3,8 @@
 // see https://github.com/LachlanGunn/Synthesis/blob/master/AD9835.cpp
 
 
-#define AUX 0
-#define TR 1
+#define AUX 1
+#define TR 0
 #define SCLK2 8
 #define SDATA2 9
 #define SCLK1 8
@@ -53,7 +53,7 @@ uint8_t cmd, channel, stat;
 uint32_t payload;
 uint32_t plen = 300; // us
 uint32_t ipp = 100000; // us q
-uint32_t pulseen = 1;
+uint32_t pulseen = 0;
 uint32_t trgap = 60; // us delay between TR high and rf pulse
 
 IntervalTimer timer; // see http://www.pjrc.com/teensy/td_timing_IntervalTimer.html
@@ -62,7 +62,7 @@ void setup()
 {
         pinMode(REFEN, OUTPUT);
         pinMode(TR, INPUT);
-        pinMode(AUX, OUTPUT);
+        pinMode(AUX, INPUT);
         
         pinMode(SCLK2, OUTPUT);
         pinMode(SDATA2, OUTPUT);
@@ -90,28 +90,6 @@ void setup()
         ad9835_syncphase();
         ad9835_enable(BOTHPORTS);
         ad9835_setphase(BOTHPORTS, 0, 0);
-        
-        set_txswitch(HIGH);
-        delay(100);
-        
-        
-        while(HIGH)
-        {
-            delay(1000);
-            //ad9835_setphase(0, 90, 0);
-            //delay(1000);
-            //ad9835_setphase(0, 0, 0);
-            /*
-            delayMicroseconds(15);
-            set_txswitch(HIGH);
-            delayMicroseconds(270);
-            set_txswitch(LOW);
-            delayMicroseconds(15);
-            digitalWrite(TX, LOW);
-            delayMicroseconds(12000);*/
-            
-        }
-
 }
 
 void tick(void)
@@ -342,8 +320,8 @@ void loop()
   }
     
   else {
-    set_txswitch(digitalRead(TR));
     //set_txswitch(HIGH);
+    set_txswitch(digitalRead(TR));
   }
   
   
