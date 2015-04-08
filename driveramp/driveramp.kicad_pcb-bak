@@ -32,7 +32,7 @@
   )
 
   (setup
-    (last_trace_width 0.5)
+    (last_trace_width 0.254)
     (user_trace_width 0.4)
     (user_trace_width 0.5)
     (user_trace_width 1)
@@ -68,7 +68,7 @@
     (grid_origin 143.637 75.438)
     (visible_elements FFFEFF7F)
     (pcbplotparams
-      (layerselection 0x00030_80000001)
+      (layerselection 0x010fe_80000001)
       (usegerberextensions true)
       (excludeedgelayer true)
       (linewidth 0.150000)
@@ -91,7 +91,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory gerbs/))
+      (outputdirectory macrofab/))
   )
 
   (net 0 "")
@@ -3155,12 +3155,12 @@
   (segment (start 97.409 80.772) (end 97.282 80.899) (width 0.5) (layer F.Cu) (net 4) (tstamp 5509FA5D))
   (segment (start 97.282 80.899) (end 89.916 80.899) (width 0.4) (layer F.Cu) (net 4) (tstamp 54ADBA04))
   (segment (start 100.457 80.772) (end 97.409 80.772) (width 0.5) (layer F.Cu) (net 4))
-  (segment (start 103.55734 130.75766) (end 105.49636 128.81864) (width 0.5) (layer F.Cu) (net 5) (tstamp 5509F078))
   (segment (start 105.49636 128.81864) (end 105.49636 123.698) (width 0.5) (layer F.Cu) (net 5) (tstamp 5509F079))
-  (segment (start 95.81114 130.75766) (end 103.55734 130.75766) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 103.505 116.586) (end 105.49636 118.57736) (width 0.5) (layer F.Cu) (net 5) (tstamp 5509F865))
   (segment (start 105.49636 118.57736) (end 105.49636 123.698) (width 0.5) (layer F.Cu) (net 5) (tstamp 5509F866))
   (segment (start 88.4555 116.586) (end 103.505 116.586) (width 0.5) (layer F.Cu) (net 5))
+  (segment (start 103.55734 130.75766) (end 105.49636 128.81864) (width 0.5) (layer F.Cu) (net 5) (tstamp 5509F078))
+  (segment (start 95.81114 130.75766) (end 103.55734 130.75766) (width 0.5) (layer F.Cu) (net 5))
   (segment (start 135.6475 114.6) (end 132.1 114.6) (width 1) (layer F.Cu) (net 6))
   (segment (start 132.1 114.6) (end 132 114.5) (width 1) (layer F.Cu) (net 6) (tstamp 54ADBC41))
   (segment (start 132.1435 115.062) (end 132 115.062) (width 1) (layer F.Cu) (net 6) (tstamp 54ADBC34))
