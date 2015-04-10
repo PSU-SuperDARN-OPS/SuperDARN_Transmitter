@@ -1,8 +1,8 @@
 (export (version D)
   (design
     (source /home/kleinjt/repos/SuperDARN_Transmitter/driveramp/driveramp.sch)
-    (date "Thu Mar 26 13:39:56 2015")
-    (tool "Eeschema (2015-03-18 BZR 5525)-product")
+    (date "Thu Apr  9 17:13:15 2015")
+    (tool "Eeschema (after 2015-mar-04 BZR unknown)-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title)
@@ -239,7 +239,7 @@
       (tstamp 53A9D5CB))
     (comp (ref R5)
       (value 10k)
-      (footprint SMD_Packages:SM0805)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG PN") ERJ-3EKF1002V)
         (field (name "Dist Name") DigiKey)
@@ -400,7 +400,7 @@
       (tstamp 54AC7574))
     (comp (ref R2)
       (value "432 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF4320V)
@@ -411,7 +411,7 @@
       (tstamp 54AC86BF))
     (comp (ref R3)
       (value "432 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF4320V)
@@ -422,7 +422,7 @@
       (tstamp 54AC86CA))
     (comp (ref R6)
       (value "75 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF75R0V)
@@ -433,7 +433,7 @@
       (tstamp 54AC86D5))
     (comp (ref R11)
       (value "1.1k 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF1101V)
@@ -477,7 +477,7 @@
       (tstamp 54AC92FA))
     (comp (ref R16)
       (value 5.1)
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF5111V)
@@ -510,7 +510,7 @@
       (tstamp 54AC9822))
     (comp (ref R15)
       (value 5.1)
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF5111V)
@@ -587,7 +587,7 @@
       (tstamp 54ACADD8))
     (comp (ref R14)
       (value 10k)
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF1002V)
@@ -598,7 +598,7 @@
       (tstamp 54ACB9BB))
     (comp (ref R12)
       (value "5.11k 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF5111V)
@@ -609,7 +609,7 @@
       (tstamp 54ACB9C6))
     (comp (ref R13)
       (value "909 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF9090V)
@@ -688,13 +688,13 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 54AF1275))
     (comp (ref U5)
-      (value GALI6+)
+      (value TQP369185)
       (footprint Housings_SOT-89:SOT89-3_Housing)
       (fields
         (field (name "MFG Name") Mini-Circuits)
-        (field (name "MFG PN") GALI6+)
-        (field (name "Dist Name") Mini-Circuits)
-        (field (name "Dist PN") GALI6+))
+        (field (name "MFG PN") TQP369185)
+        (field (name "Dist Name") Mouser)
+        (field (name "Dist PN") 772-TQP369185))
       (libsource (lib hmc475) (part HMC475))
       (sheetpath (names /) (tstamps /))
       (tstamp 54CAA438))
@@ -792,7 +792,7 @@
       (tstamp 54D4286C))
     (comp (ref R9)
       (value "1.1k 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF1101V)
@@ -803,7 +803,7 @@
       (tstamp 54D56405))
     (comp (ref R10)
       (value "909 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF9090V)
@@ -869,7 +869,7 @@
       (tstamp 5509D5BE))
     (comp (ref R8)
       (value 10k)
-      (footprint SMD_Packages:SM0805)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG PN") ERJ-3EKF1002V)
         (field (name "Dist Name") DigiKey)
@@ -879,7 +879,7 @@
       (tstamp 55162B92))
     (comp (ref R1)
       (value "1.1k 1%")
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF1101V)
@@ -890,7 +890,7 @@
       (tstamp 5516873A))
     (comp (ref R4)
       (value 10k)
-      (footprint SMD_Packages:SMD-0603)
+      (footprint Resistors_SMD:R_0603)
       (fields
         (field (name "MFG Name") "PANASONIC ELECTRONIC COMPONENTS (VA)")
         (field (name "MFG PN") ERJ-3EKF1002V)
@@ -911,6 +911,69 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part C)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name A) (type passive))
+        (pin (num 2) (name K) (type passive))))
+    (libpart (lib device) (part POT)
+      (description Potentionmetre)
+      (fields
+        (field (name Reference) RV)
+        (field (name Value) POT))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib device) (part TRANSFO4)
+      (fields
+        (field (name Reference) T)
+        (field (name Value) TRANSFO4))
+      (pins
+        (pin (num 1) (name PR1) (type passive))
+        (pin (num 2) (name PM) (type passive))
+        (pin (num 3) (name PR2) (type passive))
+        (pin (num 4) (name S1) (type passive))
+        (pin (num 5) (name S2) (type passive))))
+    (libpart (lib device) (part JUMPER3)
+      (fields
+        (field (name Reference) JP)
+        (field (name Value) JUMPER3))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
     (libpart (lib sma) (part SMA)
       (fields
         (field (name Reference) J)
@@ -951,10 +1014,14 @@
         (pin (num 4) (name NC) (type input))
         (pin (num 5) (name COM) (type input))
         (pin (num 6) (name NO) (type input))))
-    (libpart (lib mounting_hole) (part MOUNTING_HOLE)
+    (libpart (lib hmc475) (part HMC475)
       (fields
-        (field (name Reference) H)
-        (field (name Value) MOUNTING_HOLE)))
+        (field (name Reference) U)
+        (field (name Value) HMC475))
+      (pins
+        (pin (num 1) (name IN) (type input))
+        (pin (num 2) (name GND) (type input))
+        (pin (num 3) (name OUT) (type input))))
     (libpart (lib 7321mf) (part 7321MF)
       (fields
         (field (name Reference) U)
@@ -965,14 +1032,10 @@
         (pin (num 3) (name +IN) (type input))
         (pin (num 4) (name -IN) (type input))
         (pin (num 5) (name V+) (type input))))
-    (libpart (lib hmc475) (part HMC475)
+    (libpart (lib mounting_hole) (part MOUNTING_HOLE)
       (fields
-        (field (name Reference) U)
-        (field (name Value) HMC475))
-      (pins
-        (pin (num 1) (name IN) (type input))
-        (pin (num 2) (name GND) (type input))
-        (pin (num 3) (name OUT) (type input))))
+        (field (name Reference) H)
+        (field (name Value) MOUNTING_HOLE)))
     (libpart (lib ba08cc0wfp) (part BA08CC0WFP)
       (fields
         (field (name Reference) U)
@@ -1026,75 +1089,16 @@
       (pins
         (pin (num 1) (name E) (type passive))
         (pin (num 2) (name B) (type input))
-        (pin (num 3) (name C) (type passive))))
-    (libpart (lib device) (part INDUCTOR)
-      (fields
-        (field (name Reference) L)
-        (field (name Value) INDUCTOR))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part POT)
-      (description Potentionmetre)
-      (fields
-        (field (name Reference) RV)
-        (field (name Value) POT))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name A) (type passive))
-        (pin (num 2) (name K) (type passive))))
-    (libpart (lib device) (part JUMPER3)
-      (fields
-        (field (name Reference) JP)
-        (field (name Value) JUMPER3))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))))
-    (libpart (lib device) (part TRANSFO4)
-      (fields
-        (field (name Reference) T)
-        (field (name Value) TRANSFO4))
-      (pins
-        (pin (num 1) (name PR1) (type passive))
-        (pin (num 2) (name PM) (type passive))
-        (pin (num 3) (name PR2) (type passive))
-        (pin (num 4) (name S1) (type passive))
-        (pin (num 5) (name S2) (type passive))))
-    (libpart (lib device) (part C)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive)))))
+        (pin (num 3) (name C) (type passive)))))
   (libraries
-    (library (logical sma)
-      (uri /home/kleinjt/repos/SuperDARN_Transmitter/driveramp/sma.lib))
+    (library (logical 7321mf)
+      (uri /home/kleinjt/repos/SuperDARN_Transmitter/lib/7321mf.lib))
+    (library (logical device)
+      (uri /usr/local/share/kicad/library/device.lib))
     (library (logical lm317hv)
       (uri /home/kleinjt/repos/SuperDARN_Transmitter/lib/lm317hv.lib))
+    (library (logical sma)
+      (uri /home/kleinjt/repos/SuperDARN_Transmitter/driveramp/sma.lib))
     (library (logical mrfe6vp100h)
       (uri /home/kleinjt/repos/SuperDARN_Transmitter/lib/mrfe6vp100h.lib))
     (library (logical dg4599)
@@ -1106,11 +1110,7 @@
     (library (logical ba08cc0wfp)
       (uri /home/kleinjt/repos/SuperDARN_Transmitter/lib/ba08cc0wfp.lib))
     (library (logical driveramp-cache)
-      (uri /home/kleinjt/repos/SuperDARN_Transmitter/driveramp/driveramp-cache.lib))
-    (library (logical device)
-      (uri /usr/local/share/kicad/library/device.lib))
-    (library (logical 7321mf)
-      (uri /home/kleinjt/repos/SuperDARN_Transmitter/lib/7321mf.lib)))
+      (uri /home/kleinjt/repos/SuperDARN_Transmitter/driveramp/driveramp-cache.lib)))
   (nets
     (net (code 1) (name "Net-(C7-Pad2)")
       (node (ref T2) (pin 1))
