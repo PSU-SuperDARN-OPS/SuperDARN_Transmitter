@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Fri Apr 24 16:15:57 2015
+
+BeginCmp
+TimeStamp = /553ACBE6;
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_4-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553ACD5B;
+Reference = H2;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_4-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553ACE0C;
+Reference = H3;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_4-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553ACEC4;
+Reference = H4;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_4-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553ACD91;
+Reference = H5;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553ACDD3;
+Reference = H6;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_4mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553AFA59;
+Reference = H7;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_4-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553AFA5F;
+Reference = H8;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_4-5mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553ADC09;
+Reference = P1;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:0740991003;
+EndCmp
+
+EndListe
