@@ -1,0 +1,115 @@
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Mon Apr 27 14:24:25 2015
+
+BeginCmp
+TimeStamp = /553EBF3F;
+Reference = H1;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EC034;
+Reference = H2;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EBFE8;
+Reference = H3;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EC09A;
+Reference = H4;
+ValeurCmp = MOUNTING_HOLE;
+IdModule  = Mounting_Holes:MountingHole_3-7mm;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EAECD;
+Reference = P1;
+ValeurCmp = CONN_01X02;
+IdModule  = sdtransmitter:powerpole25APCBx2;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EAEF6;
+Reference = P2;
+ValeurCmp = CONN_01X02;
+IdModule  = sdtransmitter:powerpole25APCBx2;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EAE96;
+Reference = P3;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB7D6;
+Reference = P4;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB49D;
+Reference = P5;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB7F1;
+Reference = P6;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB4E0;
+Reference = P7;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB80C;
+Reference = P8;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB6A3;
+Reference = P9;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB827;
+Reference = P10;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB88E;
+Reference = P11;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+BeginCmp
+TimeStamp = /553EB8A9;
+Reference = P12;
+ValeurCmp = CONN_01X03;
+IdModule  = sdtransmitter:powerpole25APCBx3;
+EndCmp
+
+EndListe
