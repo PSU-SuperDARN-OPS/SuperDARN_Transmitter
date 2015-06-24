@@ -7,7 +7,7 @@ HEADER
 9
 $ACADVER
 1
-AC1021
+AC1018
 9
 $HANDSEED
 5
@@ -167,13 +167,13 @@ $PLIMMIN
 9
 $PLIMMAX
 10
-0.688976377953
+8.26771653543
 20
-0.974409448819
+11.6929133858
 9
 $INSUNITS
 70
-2
+1
 9
 $PSVPSCALE
 40
@@ -225,9 +225,9 @@ AcDbViewportTableRecord
 21
 1
 12
-11.3164093868
+13.997025217
 22
-4.61432909193
+7.79581151325
 13
 0
 23
@@ -253,9 +253,9 @@ AcDbViewportTableRecord
 37
 0
 40
-10.624924912
+15.9646283621
 41
-1.10638297872
+1.78037383178
 42
 50
 43
@@ -308,24 +308,6 @@ AcDbViewportTableRecord
 0
 146
 0
-348
-10020
-60
-3
-61
-5
-292
-1
-282
-1
-141
-0
-142
-0
-63
-250
-421
-3358443
 0
 ENDTAB
 0
@@ -1137,7 +1119,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
 2
-al plate
+metal plate outline
 70
 0
 62
@@ -1159,7 +1141,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
 2
-shelf mount holes_1/4-20
+1/4-20 tapped holes
 70
 0
 62
@@ -1181,7 +1163,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
 2
-comment
+comments
 70
 0
 62
@@ -1203,7 +1185,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
 2
-component_holes6-32
+6-32 tapped holes
 70
 0
 62
@@ -1227,7 +1209,7 @@ AcDbSymbolTableRecord
 100
 AcDbLayerTableRecord
 2
-transistor_holes_1-64
+1-64 tapped holes
 70
 0
 62
@@ -1514,12 +1496,6 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
 2
 *Model_Space
-70
-0
-280
-1
-281
-0
 0
 BLOCK_RECORD
 5
@@ -1532,12 +1508,6 @@ AcDbSymbolTableRecord
 AcDbBlockTableRecord
 2
 *Paper_Space
-70
-0
-280
-1
-281
-0
 0
 ENDTAB
 0
@@ -1635,7 +1605,7 @@ LINE
 100
 AcDbEntity
 8
-al plate
+metal plate outline
 6
 ByLayer
 62
@@ -1659,7 +1629,7 @@ LINE
 100
 AcDbEntity
 8
-al plate
+metal plate outline
 6
 ByLayer
 62
@@ -1683,7 +1653,7 @@ LINE
 100
 AcDbEntity
 8
-al plate
+metal plate outline
 6
 ByLayer
 62
@@ -1707,7 +1677,7 @@ CIRCLE
 100
 AcDbEntity
 8
-shelf mount holes_1/4-20
+1/4-20 tapped holes
 6
 ByLayer
 62
@@ -1729,7 +1699,7 @@ CIRCLE
 100
 AcDbEntity
 8
-shelf mount holes_1/4-20
+1/4-20 tapped holes
 6
 ByLayer
 62
@@ -1751,7 +1721,7 @@ TEXT
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -1795,7 +1765,7 @@ TEXT
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -1839,7 +1809,7 @@ TEXT
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -1883,7 +1853,7 @@ TEXT
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -1927,7 +1897,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -1949,7 +1919,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -1971,7 +1941,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -1993,7 +1963,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2015,7 +1985,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2037,7 +2007,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2059,7 +2029,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2081,7 +2051,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2103,7 +2073,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2125,7 +2095,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2147,7 +2117,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2169,7 +2139,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2191,7 +2161,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2213,7 +2183,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2235,7 +2205,7 @@ TEXT
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -2279,7 +2249,7 @@ LINE
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -2303,7 +2273,7 @@ LINE
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -2327,7 +2297,7 @@ LINE
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -2351,7 +2321,7 @@ LINE
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -2375,7 +2345,7 @@ LINE
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -2399,7 +2369,7 @@ LINE
 100
 AcDbEntity
 8
-al plate
+metal plate outline
 6
 ByLayer
 62
@@ -2423,7 +2393,7 @@ LINE
 100
 AcDbEntity
 8
-al plate
+metal plate outline
 6
 ByLayer
 62
@@ -2447,7 +2417,7 @@ LINE
 100
 AcDbEntity
 8
-al plate
+metal plate outline
 6
 ByLayer
 62
@@ -2471,7 +2441,7 @@ TEXT
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -2509,101 +2479,13 @@ standard
 100
 AcDbText
 0
-TEXT
+CIRCLE
 5
 6C
 100
 AcDbEntity
 8
-comment
-6
-ByLayer
-62
-256
-370
--1
-100
-AcDbText
-10
-0
-20
-11.4
-30
-0
-40
-0.6
-1
-tap smaller holes for 6-32 screws
-50
-0
-41
-1
-51
-0
-7
-standard
-71
-0
-210
-0
-220
-0
-230
-1
-100
-AcDbText
-0
-TEXT
-5
-6D
-100
-AcDbEntity
-8
-comment
-6
-ByLayer
-62
-256
-370
--1
-100
-AcDbText
-10
-0
-20
-10.2
-30
-0
-40
-0.6
-1
-plate size +1 inch/-.1 inchs, relative drill locations +/- .025 inches
-50
-0
-41
-1
-51
-0
-7
-standard
-71
-0
-210
-0
-220
-0
-230
-1
-100
-AcDbText
-0
-CIRCLE
-5
-6E
-100
-AcDbEntity
-8
-shelf mount holes_1/4-20
+1/4-20 tapped holes
 6
 ByLayer
 62
@@ -2621,11 +2503,11 @@ AcDbCircle
 0
 CIRCLE
 5
-6F
+6D
 100
 AcDbEntity
 8
-shelf mount holes_1/4-20
+1/4-20 tapped holes
 6
 ByLayer
 62
@@ -2643,11 +2525,11 @@ AcDbCircle
 0
 CIRCLE
 5
-70
+6E
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2665,11 +2547,11 @@ AcDbCircle
 0
 CIRCLE
 5
-71
+6F
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2687,11 +2569,11 @@ AcDbCircle
 0
 CIRCLE
 5
-72
+70
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2709,11 +2591,11 @@ AcDbCircle
 0
 CIRCLE
 5
-73
+71
 100
 AcDbEntity
 8
-transistor_holes_1-64
+1-64 tapped holes
 6
 ByLayer
 62
@@ -2731,11 +2613,11 @@ AcDbCircle
 0
 CIRCLE
 5
-74
+72
 100
 AcDbEntity
 8
-transistor_holes_1-64
+1-64 tapped holes
 6
 ByLayer
 62
@@ -2753,11 +2635,11 @@ AcDbCircle
 0
 CIRCLE
 5
-75
+73
 100
 AcDbEntity
 8
-transistor_holes_1-64
+1-64 tapped holes
 6
 ByLayer
 62
@@ -2775,11 +2657,11 @@ AcDbCircle
 0
 CIRCLE
 5
-76
+74
 100
 AcDbEntity
 8
-transistor_holes_1-64
+1-64 tapped holes
 6
 ByLayer
 62
@@ -2797,11 +2679,11 @@ AcDbCircle
 0
 LINE
 5
-77
+75
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -2814,6 +2696,54 @@ AcDbLine
 20.5
 20
 6.425
+11
+20.5
+21
+8.75
+0
+LINE
+5
+76
+100
+AcDbEntity
+8
+comments
+6
+ByLayer
+62
+256
+370
+-1
+100
+AcDbLine
+10
+17.475
+20
+8.75
+11
+17.475
+21
+6.425
+0
+LINE
+5
+77
+100
+AcDbEntity
+8
+comments
+6
+ByLayer
+62
+256
+370
+-1
+100
+AcDbLine
+10
+17.475
+20
+8.75
 11
 20.5
 21
@@ -2825,55 +2755,7 @@ LINE
 100
 AcDbEntity
 8
-comment
-6
-ByLayer
-62
-256
-370
--1
-100
-AcDbLine
-10
-17.475
-20
-8.75
-11
-17.475
-21
-6.425
-0
-LINE
-5
-79
-100
-AcDbEntity
-8
-comment
-6
-ByLayer
-62
-256
-370
--1
-100
-AcDbLine
-10
-17.475
-20
-8.75
-11
-20.5
-21
-8.75
-0
-LINE
-5
-7A
-100
-AcDbEntity
-8
-comment
+comments
 6
 ByLayer
 62
@@ -2893,11 +2775,11 @@ AcDbLine
 0
 CIRCLE
 5
-7B
+79
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2910,6 +2792,50 @@ AcDbCircle
 17.65
 20
 8.575
+40
+0.075
+0
+CIRCLE
+5
+7A
+100
+AcDbEntity
+8
+6-32 tapped holes
+6
+ByLayer
+62
+256
+370
+-1
+100
+AcDbCircle
+10
+20.325
+20
+8.575
+40
+0.075
+0
+CIRCLE
+5
+7B
+100
+AcDbEntity
+8
+6-32 tapped holes
+6
+ByLayer
+62
+256
+370
+-1
+100
+AcDbCircle
+10
+17.65
+20
+7.375
 40
 0.075
 0
@@ -2919,7 +2845,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -2931,7 +2857,7 @@ AcDbCircle
 10
 20.325
 20
-8.575
+7.375
 40
 0.075
 0
@@ -2941,51 +2867,7 @@ CIRCLE
 100
 AcDbEntity
 8
-component_holes6-32
-6
-ByLayer
-62
-256
-370
--1
-100
-AcDbCircle
-10
-17.65
-20
-7.375
-40
-0.075
-0
-CIRCLE
-5
-7E
-100
-AcDbEntity
-8
-component_holes6-32
-6
-ByLayer
-62
-256
-370
--1
-100
-AcDbCircle
-10
-20.325
-20
-7.375
-40
-0.075
-0
-CIRCLE
-5
-7F
-100
-AcDbEntity
-8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -3003,11 +2885,11 @@ AcDbCircle
 0
 CIRCLE
 5
-80
+7E
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -3025,11 +2907,11 @@ AcDbCircle
 0
 CIRCLE
 5
-81
+7F
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -3047,11 +2929,11 @@ AcDbCircle
 0
 CIRCLE
 5
-82
+80
 100
 AcDbEntity
 8
-component_holes6-32
+6-32 tapped holes
 6
 ByLayer
 62
@@ -3069,11 +2951,11 @@ AcDbCircle
 0
 TEXT
 5
-83
+81
 100
 AcDbEntity
 8
-comment
+comments
 6
 ByLayer
 62
@@ -3092,6 +2974,50 @@ AcDbText
 0.25
 1
 hptr
+50
+0
+41
+1
+51
+0
+7
+standard
+71
+0
+210
+0
+220
+0
+230
+1
+100
+AcDbText
+0
+TEXT
+5
+82
+100
+AcDbEntity
+8
+comments
+6
+ByLayer
+62
+256
+370
+-1
+100
+AcDbText
+10
+0
+20
+11
+30
+0
+40
+0.6
+1
+plate size +1 inch/-.1 inchs, relative drill locations +/- .025 inches
 50
 0
 41

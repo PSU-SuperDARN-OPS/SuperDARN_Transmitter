@@ -3,7 +3,7 @@
   (general
     (links 140)
     (no_connects 0)
-    (area 32.842999 53.289999 105.333001 112.445001)
+    (area 30.971216 49.2075 109.380501 114.48376)
     (thickness 1.6)
     (drawings 27)
     (tracks 449)
@@ -68,6 +68,7 @@
       (layerselection 0x010fc_80000001)
       (usegerberextensions true)
       (usegerberattributes true)
+      (gerberprecision 5)
       (excludeedgelayer true)
       (linewidth 0.150000)
       (plotframeref false)

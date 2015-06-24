@@ -1481,8 +1481,6 @@ F 3 "" H 15550 7800 60  0000 C CNN
 	1    15550 7800
 	0    -1   -1   0   
 $EndComp
-Text Label 15700 8350 0    79   ~ 0
-TX
 Text Label 15700 7900 0    79   ~ 0
 TX
 Text Notes 16000 8300 0    79   ~ 0
@@ -2214,4 +2212,6 @@ Text Notes 12100 2400 0    60   ~ 0
 trips at 12V
 Text Label 2400 8550 1    79   ~ 0
 DISABLE
+Text Label 15700 8350 0    79   ~ 0
+~TX
 $EndSCHEMATC

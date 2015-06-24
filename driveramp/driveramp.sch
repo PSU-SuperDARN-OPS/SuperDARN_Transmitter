@@ -2433,4 +2433,6 @@ Wire Wire Line
 	1700 4000 2000 4000
 Connection ~ 1300 4000
 Connection ~ 1850 4000
+Text Notes 3550 9500 0    60   ~ 0
+or, 7 turns primary, 5 turns secondary
 $EndSCHEMATC

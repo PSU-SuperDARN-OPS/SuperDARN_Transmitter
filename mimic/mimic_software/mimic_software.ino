@@ -1,4 +1,4 @@
-    // jon klein, jtklein@alaska.edu
+     // jon klein, jtklein@alaska.edu
 // code to control radar mimic
 // see https://github.com/LachlanGunn/Synthesis/blob/master/AD9835.cpp
 
@@ -89,7 +89,7 @@ void setup()
         ad9835_setfreqhz(BOTHPORTS, 10000000, 0);
         ad9835_syncphase();
         ad9835_enable(BOTHPORTS);
-        ad9835_setphase(BOTHPORTS, 0, 0);
+        ad9835_setphase(BOTHPORTS, 0, 90);
 }
 
 void tick(void)
