@@ -18,9 +18,11 @@ PLATE_WIDTH = 7 * IN
 PLATE_HEIGHT = .25 * IN
 
 # hole diameter for tapping, in inches
-DRILL_6D32 = 0.10650 * IN
-DRILL_1D72 = 0.05950 * IN
-DRILL_p25D20 = 0.20100 * IN
+# tapping waterjet holes directly, so setting to minor diameter
+# https://planiverse.wordpress.com/2014/04/18/accurate-holes-with-waterjet-cutting/
+DRILL_6D32 = 0.0997 * IN
+DRILL_1D72 = 0.05600 * IN
+DRILL_p25D20 = 0.2062 * IN
 
 
 # holes... 
