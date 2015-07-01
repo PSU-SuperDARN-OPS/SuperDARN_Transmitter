@@ -1,17 +1,38 @@
-Cmp-Mod V01 Created by Cvpcb (2015-03-18 BZR 5525)-product   date = Wed Mar 25 16:29:23 2015
+Cmp-Mod V01 Created by Cvpcb (after 2015-mar-04 BZR unknown)-product   date = Tue Jun 30 14:11:01 2015
 
 BeginCmp
 TimeStamp = /55135E26;
 Reference = C1;
-ValeurCmp = C;
+ValeurCmp = 22nF;
 IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /55139316;
+Reference = C2;
+ValeurCmp = 22nF;
+IdModule  = Capacitors_SMD:C_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /559330F0;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = LEDs:LED-0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /554804CD;
+Reference = J1;
+ValeurCmp = SMA;
+IdModule  = local:SMA_5-1814832-1;
 EndCmp
 
 BeginCmp
 TimeStamp = /5511FDEC;
 Reference = P1;
 ValeurCmp = CONN_01X15;
-IdModule  = Connect:DB15M_CI;
+IdModule  = sdtransmitter:182-015-113R531_dsub15;
 EndCmp
 
 BeginCmp
@@ -40,6 +61,34 @@ TimeStamp = /55120565;
 Reference = P5;
 ValeurCmp = CONN_02X08;
 IdModule  = lib:conn_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55482C4D;
+Reference = P6;
+ValeurCmp = CONN_01X02;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /55482BE4;
+Reference = P7;
+ValeurCmp = CONN_01X02;
+IdModule  = Connect:PINHEAD1-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /554810B8;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /559331E9;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = Resistors_SMD:R_0805;
 EndCmp
 
 BeginCmp
