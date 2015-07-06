@@ -1523,8 +1523,6 @@ F 3 "" H 16050 6100 60  0000 C CNN
 	1    16050 6100
 	1    0    0    -1  
 $EndComp
-Text Notes 6150 5900 0    60   ~ 0
-heatsink with 10mm metric 6061 bar, eg mcmaster-carr 9146T12\nto al plate
 $Comp
 L GND #PWR6
 U 1 1 54ADE6CF
@@ -2435,4 +2433,6 @@ Connection ~ 1300 4000
 Connection ~ 1850 4000
 Text Notes 3550 9500 0    60   ~ 0
 or, 7 turns primary, 5 turns secondary
+Text Notes 6100 5800 0    60   ~ 0
+Attach to heatsink plate with thermal pad to prevent direct contact of bottom of PCB with AL plate and shorting vias..\n\nTry non-electrically-conductive thermally-conductive pad, such as t-Global L37-5-150-150-1.0-1A or Liard A14162-27
 $EndSCHEMATC
