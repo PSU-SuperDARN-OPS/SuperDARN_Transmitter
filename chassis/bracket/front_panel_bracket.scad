@@ -3,14 +3,14 @@ T_bracket = .2;
 T_hole = .5;
 T_corner = .6;
 T_shell = .15;
-L1 = 2.5;
+L1 = 2.4;
 L2 = 1.85;
-Hu1 = .75;
-Hu2 = 1.5;
-Hl1 = 1.25;
-Hl2 = 2;
-W = .8;
-D_hole = .2;
+Hu1 = .8;
+Hu2 = 1.55;
+Hl1 = 1.35;
+Hl2 = 2.1;
+W = .85;
+D_hole = .25;
 
 
 module prism(l, w, h){
