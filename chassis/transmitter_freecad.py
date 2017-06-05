@@ -1,7 +1,7 @@
 # python script to generate transmitter plate
 # using freecad scripting
 import sys
-sys.path.append('/usr/lib/freecad')
+sys.path.append('/usr/lib64/freecad')
 
 from FreeCAD import Base
 import Part

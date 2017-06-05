@@ -10,7 +10,7 @@ Hu2 = 1.55;
 Hl1 = 1.35;
 Hl2 = 2.1;
 W = .85;
-D_hole = .25;
+D_hole = .254;
 
 
 module prism(l, w, h){

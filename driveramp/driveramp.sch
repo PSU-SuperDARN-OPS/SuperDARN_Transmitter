@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -542,7 +541,7 @@ F 5 "LS R976-NR-1" H 11650 9500 60  0001 C CNN "MFG PN"
 F 6 "DigiKey" H 11650 9500 60  0001 C CNN "Dist Name"
 F 7 "475-1278-6-ND" H 11650 9500 60  0001 C CNN "Dist PN"
 	1    11650 9500
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R5

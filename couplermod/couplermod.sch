@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -31,7 +30,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:sma
 LIBS:couplermod-cache
-EELAYER 24 0
+EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -103,7 +102,7 @@ F 3 "" H 4700 3200 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6100 3200 6200 3200
+	6050 3200 6200 3200
 $Comp
 L R R1
 U 1 1 54061A2E
@@ -127,9 +126,9 @@ F 3 "" H 5600 3550 30  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	5500 3200 5700 3200
+	5400 3200 5750 3200
 Wire Wire Line
-	5600 3300 5600 3200
+	5600 3200 5600 3400
 Connection ~ 5600 3200
 $Comp
 L GND #PWR2
@@ -143,9 +142,9 @@ F 3 "" H 5600 3900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5600 3900 5600 3800
+	5600 3700 5600 3900
 Wire Wire Line
-	4900 3200 5000 3200
+	4850 3200 5100 3200
 $Comp
 L CONN_2 P1
 U 1 1 54061A8D
@@ -158,7 +157,7 @@ F 3 "" H 3850 3300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	4200 3200 4500 3200
+	4200 3200 4550 3200
 $Comp
 L GND #PWR1
 U 1 1 54061AB9

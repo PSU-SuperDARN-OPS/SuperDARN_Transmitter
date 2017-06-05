@@ -1,4 +1,4 @@
-update=Wed 10 May 2017 01:57:56 PM AKDT
+update=Mon 05 Jun 2017 11:45:03 AM AKDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -61,3 +61,4 @@ LibName29=valves
 LibName30=/home/kleinjt/repos/SuperDARN_Transmitter/lib/cdclvc1108
 LibName31=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole
 LibName32=/home/kleinjt/repos/SuperDARN_Transmitter/driveramp/sma
+LibName33=/home/kleinjt/repos/SuperDARN_Transmitter/lib/nb3n551
