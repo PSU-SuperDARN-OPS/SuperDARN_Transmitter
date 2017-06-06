@@ -732,7 +732,7 @@ U 1 1 5931D1BA
 P 7750 2850
 F 0 "J11" H 7770 3700 50  0000 C CNN
 F 1 "DB15" H 7700 2000 50  0000 C CNN
-F 2 "Connect:DB15FC" H 7750 2850 50  0001 C CNN
+F 2 "Connect:DB15MC" H 7750 2850 50  0001 C CNN
 F 3 "" H 7750 2850 50  0000 C CNN
 	1    7750 2850
 	1    0    0    -1  
@@ -1299,5 +1299,5 @@ Wire Wire Line
 Wire Wire Line
 	3900 7150 3900 6850
 Text Notes 3850 9800 0    60   ~ 0
-so, order:\nbarrel jack\n2x NB3N551\nfemale dsub15
+so, order:\nbarrel jack\n2x NB3N551\nCS-DSDMDB15MM-010-ND\n5v wall wart\nAE10974-ND connector
 $EndSCHEMATC
