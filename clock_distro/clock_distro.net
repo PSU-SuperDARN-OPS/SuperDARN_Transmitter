@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/kleinjt/repos/SuperDARN_Transmitter/clock_distro/clock_distro.sch)
-    (date "Mon 05 Jun 2017 02:08:36 PM AKDT")
+    (date "Mon 05 Jun 2017 05:24:13 PM AKDT")
     (tool "Eeschema 4.0.4-1.fc24-product")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -185,7 +185,7 @@
       (tstamp 59141B06))
     (comp (ref J11)
       (value DB15)
-      (footprint Connect:DB15FC)
+      (footprint Connect:DB15MC)
       (libsource (lib conn) (part DB15))
       (sheetpath (names /) (tstamps /))
       (tstamp 5931D1BA))
