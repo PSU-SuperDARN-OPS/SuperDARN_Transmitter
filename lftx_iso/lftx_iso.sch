@@ -50,7 +50,7 @@ U 1 1 59681332
 P 2400 2350
 F 0 "P2" H 2400 2800 50  0000 C CNN
 F 1 "CONN_02X08" V 2400 2350 50  0000 C CNN
-F 2 "Connect:IDC_Header_Straight_16pins" H 2400 1150 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 2400 1150 50  0001 C CNN
 F 3 "" H 2400 1150 50  0000 C CNN
 	1    2400 2350
 	1    0    0    -1  
@@ -61,7 +61,7 @@ U 1 1 59681375
 P 9550 2300
 F 0 "P3" H 9550 2750 50  0000 C CNN
 F 1 "CONN_02X08" V 9550 2300 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x08" H 9550 1100 50  0001 C CNN
+F 2 "Connect:IDC_Header_Straight_16pins" H 9550 1100 50  0001 C CNN
 F 3 "" H 9550 1100 50  0000 C CNN
 	1    9550 2300
 	1    0    0    -1  
