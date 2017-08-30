@@ -10,7 +10,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -2214,4 +2213,12 @@ Text Label 2400 8550 1    79   ~ 0
 DISABLE
 Text Label 15700 8350 0    79   ~ 0
 ~TX
+Text Notes 11900 5950 0    118  ~ 24
+TODO: check polarity of RXFE TR signal (probably flip!)
+Text Notes 11900 6150 0    118  ~ 24
+TODO: add fault active LED
+Text Notes 11900 6350 0    118  ~ 24
+TODO: add IO isolation
+Text Notes 11900 5700 0    118  ~ 24
+TODO: replace all connectors with through hole!
 $EndSCHEMATC

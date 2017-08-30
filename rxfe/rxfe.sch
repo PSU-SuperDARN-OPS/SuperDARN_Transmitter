@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:rxfe-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -10,7 +11,6 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
-LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -244,7 +244,7 @@ F 3 "" H 12000 4500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L SCLF-25 U3
+L SCLF-25-RESCUE-rxfe U3
 U 1 1 53B49227
 P 13050 3950
 F 0 "U3" H 12800 4250 60  0000 C CNN
@@ -755,7 +755,7 @@ AMP2CTL
 Text Label 4750 13700 1    60   ~ 0
 AMP1CTL
 $Comp
-L LED D1
+L LED-RESCUE-rxfe D1
 U 1 1 53B876A5
 P 12000 14200
 F 0 "D1" H 12000 14300 50  0000 C CNN
@@ -2757,4 +2757,22 @@ Wire Wire Line
 	8200 12300 8400 12300
 Wire Wire Line
 	9600 12050 9600 11600
+Text Notes 6300 2950 0    118  ~ 24
+replace with HMC849?
+Text Notes 2900 2700 0    60   ~ 0
+replace with SOT89? replace with TI chip?
+Text Notes 10050 7400 0    60   ~ 0
+A402G\n
+Text Notes 10000 7300 0    118  ~ 24
+replace with TI chip?
+Text Notes 9700 11200 0    60   ~ 0
+replace with TI chip?
+Text Notes 9650 13950 0    60   ~ 0
+check power dissipation\n
+Text Notes 3050 11100 0    118  ~ 24
+switch to stocked part (see mcm rxfe)
+Text Notes 10650 1900 0    118  ~ 24
+TODO: ADD IO ISOLATION
+Text Notes 10700 2100 0    118  ~ 24
+TODO: replace all connectors with through hole!
 $EndSCHEMATC

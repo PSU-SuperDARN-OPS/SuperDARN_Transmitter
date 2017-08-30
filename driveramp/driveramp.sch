@@ -2434,4 +2434,6 @@ Text Notes 3550 9500 0    60   ~ 0
 or, 7 turns primary, 5 turns secondary
 Text Notes 6100 5800 0    60   ~ 0
 Attach to heatsink plate with thermal pad to prevent direct contact of bottom of PCB with AL plate and shorting vias..\n\nTry non-electrically-conductive thermally-conductive pad, such as t-Global L37-5-150-150-1.0-1A or Liard A14162-27
+Text Notes 8850 1450 0    118  ~ 24
+TODO: replace all connectors with sturdier version! (through hole?)
 $EndSCHEMATC
