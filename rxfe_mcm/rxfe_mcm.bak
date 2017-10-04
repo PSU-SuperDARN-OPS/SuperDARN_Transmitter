@@ -37,7 +37,6 @@ LIBS:adum7440
 LIBS:adum6404
 LIBS:74hc04_full
 LIBS:hmc595
-LIBS:hmc475
 LIBS:smp1330-005lf
 LIBS:hmc542blp4e
 LIBS:sclf-25
@@ -100,6 +99,8 @@ F4 "AUX_TR" I L 6650 5500 60
 F5 "SYNC" I L 6650 5400 60 
 F6 "AUX_IO_A" I L 6650 5600 60 
 F7 "AUX_IO_B" I L 6650 5700 60 
+F8 "TX_OUT_A" I L 6650 2250 60 
+F9 "TX_OUT_B" I L 6650 4100 60 
 $EndSheet
 Text Notes 2400 1450 0    60   ~ 0
 50 mA on 3.3V rail
@@ -166,6 +167,7 @@ F10 "PHASING_MATRIX_OUT" B R 6100 2050 60
 F11 "~TR" I L 4450 3000 60 
 F12 "~AMP1_CTRL" I L 4450 2250 60 
 F13 "~AMP2_CTRL" I L 4450 2450 60 
+F14 "TX_OUT" O R 6100 2250 60 
 $EndSheet
 Wire Wire Line
 	3800 2150 4450 2150
@@ -216,6 +218,7 @@ F10 "PHASING_MATRIX_OUT" B R 6100 3950 60
 F11 "~TR" I L 4450 4900 60 
 F12 "~AMP1_CTRL" I L 4450 4150 60 
 F13 "~AMP2_CTRL" I L 4450 4350 60 
+F14 "TX_OUT" O R 6100 4100 60 
 $EndSheet
 Wire Wire Line
 	3800 4050 4450 4050
@@ -233,4 +236,10 @@ Text Notes 6650 1450 0    60   ~ 0
 5 mA on 3.3V rail
 Text Notes 1300 950  0    60   ~ 0
 fits in V1145-ND snap-in rack\nor, break off tabs for bud EXT-9166 case
+Text Notes 8700 1750 0    60   ~ 0
+todo:\n- fix resistor network part number with MacroFab
+Wire Wire Line
+	6100 2250 6650 2250
+Wire Wire Line
+	6100 4100 6650 4100
 $EndSCHEMATC

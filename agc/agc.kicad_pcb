@@ -1,9 +1,9 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.2-2.fc24-product)
+(kicad_pcb (version 4) (host pcbnew 4.0.4-1.fc24-product)
 
   (general
     (links 140)
     (no_connects 0)
-    (area 30.971216 49.2075 107.204785 114.48376)
+    (area 31.058716 49.3825 107.117285 114.57376)
     (thickness 1.6)
     (drawings 27)
     (tracks 454)
@@ -2033,7 +2033,7 @@
   (gr_text HVMON (at 60.96 111.506) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)))
   )
-  (gr_text "kodiak control \nr2 2015.01 jon klein" (at 41.402 55.88) (layer F.SilkS)
+  (gr_text "kodiak control \nr3 2017" (at 41.402 55.88) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.25)) (justify left))
   )
   (gr_circle (center 74.422 78.74) (end 74.168 78.613) (layer F.SilkS) (width 0.2))
