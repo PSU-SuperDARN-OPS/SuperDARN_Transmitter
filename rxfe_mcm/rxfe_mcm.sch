@@ -101,6 +101,8 @@ F6 "AUX_IO_A" I L 6650 5600 60
 F7 "AUX_IO_B" I L 6650 5700 60 
 F8 "TX_OUT_A" I L 6650 2250 60 
 F9 "TX_OUT_B" I L 6650 4100 60 
+F10 "CPL_A" O L 6650 2450 59 
+F11 "CPL_B" O L 6650 4250 59 
 $EndSheet
 Text Notes 2400 1450 0    60   ~ 0
 50 mA on 3.3V rail
@@ -168,6 +170,7 @@ F11 "~TR" I L 4450 3000 60
 F12 "~AMP1_CTRL" I L 4450 2250 60 
 F13 "~AMP2_CTRL" I L 4450 2450 60 
 F14 "TX_OUT" O R 6100 2250 60 
+F15 "CPL_IN" I R 6100 2450 59 
 $EndSheet
 Wire Wire Line
 	3800 2150 4450 2150
@@ -219,6 +222,7 @@ F11 "~TR" I L 4450 4900 60
 F12 "~AMP1_CTRL" I L 4450 4150 60 
 F13 "~AMP2_CTRL" I L 4450 4350 60 
 F14 "TX_OUT" O R 6100 4100 60 
+F15 "CPL_IN" I R 6100 4250 59 
 $EndSheet
 Wire Wire Line
 	3800 4050 4450 4050
@@ -236,10 +240,14 @@ Text Notes 6650 1450 0    60   ~ 0
 5 mA on 3.3V rail
 Text Notes 1300 950  0    60   ~ 0
 fits in V1145-ND snap-in rack\nor, break off tabs for bud EXT-9166 case
-Text Notes 8700 1750 0    60   ~ 0
+Text Notes 8800 1200 0    60   ~ 0
 todo:\n- fix resistor network part number with MacroFab
 Wire Wire Line
 	6100 2250 6650 2250
 Wire Wire Line
 	6100 4100 6650 4100
+Wire Wire Line
+	6100 2450 6650 2450
+Wire Wire Line
+	6100 4250 6650 4250
 $EndSCHEMATC
