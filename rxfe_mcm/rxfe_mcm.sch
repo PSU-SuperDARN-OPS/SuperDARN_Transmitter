@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:rxfe_mcm-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +37,6 @@ LIBS:adum7440
 LIBS:adum6404
 LIBS:74hc04_full
 LIBS:hmc595
-LIBS:hmc475
 LIBS:smp1330-005lf
 LIBS:hmc542blp4e
 LIBS:sclf-25
@@ -252,4 +250,6 @@ Wire Wire Line
 	6100 2450 6650 2450
 Wire Wire Line
 	6100 4250 6650 4250
+Text Notes 8800 1400 0    60   ~ 0
+todo:\n- add buffered differential TR output
 $EndSCHEMATC

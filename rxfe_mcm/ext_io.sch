@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:rxfe_mcm-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +37,6 @@ LIBS:adum7440
 LIBS:adum6404
 LIBS:74hc04_full
 LIBS:hmc595
-LIBS:hmc475
 LIBS:smp1330-005lf
 LIBS:hmc542blp4e
 LIBS:sclf-25
