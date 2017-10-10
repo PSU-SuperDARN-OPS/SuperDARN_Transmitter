@@ -1,4 +1,4 @@
-update=Thu Oct  5 21:46:23 2017
+update=Fri 06 Oct 2017 12:38:39 PM AKDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -85,3 +85,4 @@ LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sclf-25
 LibName44=/home/kleinjt/repos/SuperDARN_Transmitter/lib/trf37b73
 LibName45=/home/kleinjt/repos/SuperDARN_Transmitter/lib/adp7158
 LibName46=/home/kleinjt/repos/SuperDARN_Transmitter/lib/pe4312
+LibName47=/home/kleinjt/repos/SuperDARN_Transmitter/lib/isl3295efhz-t

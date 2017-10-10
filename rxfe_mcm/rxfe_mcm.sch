@@ -43,6 +43,7 @@ LIBS:sclf-25
 LIBS:trf37b73
 LIBS:adp7158
 LIBS:pe4312
+LIBS:isl3295efhz-t
 LIBS:rxfe_mcm-cache
 EELAYER 25 0
 EELAYER END
@@ -59,7 +60,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text Notes 3650 950  0    60   ~ 0
-mcmurdo receiver front end\ninputs: usrp tx and rx (2x), x300 GPIO header\noutputs: multiplexed tx/rx line (2x)\nfit in bud EXT-9166 case
+mcmurdo receiver front end\ninputs: usrp tx and rx (2x), x300 GPIO header\noutputs: multiplexed tx/rx line (2x)
 $Sheet
 S 2300 1650 1500 4500
 U 597F80CC
@@ -238,10 +239,8 @@ Text Notes 4450 1450 0    60   ~ 0
 250 mA / channel on 3.3 V rail
 Text Notes 6650 1450 0    60   ~ 0
 5 mA on 3.3V rail
-Text Notes 1300 950  0    60   ~ 0
-fits in V1145-ND snap-in rack\nor, break off tabs for bud EXT-9166 case
-Text Notes 8800 1200 0    60   ~ 0
-todo:\n- fix resistor network part number with MacroFab
+Text Notes 650  1150 0    60   ~ 0
+fits in V1145-ND snap-in rack or screw on Kodiak transmitter shelves
 Wire Wire Line
 	6100 2250 6650 2250
 Wire Wire Line
@@ -250,6 +249,4 @@ Wire Wire Line
 	6100 2450 6650 2450
 Wire Wire Line
 	6100 4250 6650 4250
-Text Notes 8800 1400 0    60   ~ 0
-todo:\n- add buffered differential TR output
 $EndSCHEMATC
