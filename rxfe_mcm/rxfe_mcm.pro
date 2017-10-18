@@ -1,4 +1,4 @@
-update=Fri 06 Oct 2017 12:38:39 PM AKDT
+update=Tue 17 Oct 2017 04:59:39 PM AKDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -78,11 +78,10 @@ LibName36=/home/kleinjt/repos/SuperDARN_Transmitter/lib/adum7440
 LibName37=/home/kleinjt/repos/SuperDARN_Transmitter/lib/adum6404
 LibName38=/home/kleinjt/repos/SuperDARN_Transmitter/lib/74hc04_full
 LibName39=/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc595
-LibName40=/home/kleinjt/repos/vna/lib/hmc475
-LibName41=/home/kleinjt/repos/SuperDARN_Transmitter/lib/smp1330-005lf
-LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc542blp4e
-LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sclf-25
-LibName44=/home/kleinjt/repos/SuperDARN_Transmitter/lib/trf37b73
-LibName45=/home/kleinjt/repos/SuperDARN_Transmitter/lib/adp7158
-LibName46=/home/kleinjt/repos/SuperDARN_Transmitter/lib/pe4312
-LibName47=/home/kleinjt/repos/SuperDARN_Transmitter/lib/isl3295efhz-t
+LibName40=/home/kleinjt/repos/SuperDARN_Transmitter/lib/smp1330-005lf
+LibName41=/home/kleinjt/repos/SuperDARN_Transmitter/lib/hmc542blp4e
+LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sclf-25
+LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/trf37b73
+LibName44=/home/kleinjt/repos/SuperDARN_Transmitter/lib/adp7158
+LibName45=/home/kleinjt/repos/SuperDARN_Transmitter/lib/pe4312
+LibName46=/home/kleinjt/repos/SuperDARN_Transmitter/lib/isl3295efhz-t
