@@ -1,4 +1,4 @@
-(module Housings_DFN_QFN:QFN-20-1EP_4x4mm_Pitch0.5mm (layer F.Cu) (tedit 59E6A385)
+(module Housings_DFN_QFN:QFN-20-1EP_4x4mm_Pitch0.5mm (layer F.Cu) (tedit 59E6A90B)
   (descr "20-Lead Plastic Quad Flat, No Lead Package (ML) - 4x4x0.9 mm Body [QFN]; (see Microchip Packaging Specification 00000049BS.pdf)")
   (tags "QFN 0.5")
   (attr smd)
