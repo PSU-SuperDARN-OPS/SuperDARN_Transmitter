@@ -1,4 +1,4 @@
-update=Wed 18 Oct 2017 01:48:58 PM AKDT
+update=Thu 19 Oct 2017 04:49:38 PM AKDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -100,3 +100,13 @@ LibName40=npn_e1
 LibName41=/home/kleinjt/repos/SuperDARN_Transmitter/lib/rlm-521-2wl+
 LibName42=/home/kleinjt/repos/SuperDARN_Transmitter/lib/mounting_hole
 LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/sn75372
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

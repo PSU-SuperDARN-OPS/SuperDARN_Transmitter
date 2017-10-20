@@ -1,4 +1,4 @@
-update=Tue 17 Oct 2017 04:59:39 PM AKDT
+update=Thu 19 Oct 2017 04:47:28 PM AKDT
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,16 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=59
 [eeschema]
 version=1
 LibDir=
@@ -85,3 +75,13 @@ LibName43=/home/kleinjt/repos/SuperDARN_Transmitter/lib/trf37b73
 LibName44=/home/kleinjt/repos/SuperDARN_Transmitter/lib/adp7158
 LibName45=/home/kleinjt/repos/SuperDARN_Transmitter/lib/pe4312
 LibName46=/home/kleinjt/repos/SuperDARN_Transmitter/lib/isl3295efhz-t
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=59
